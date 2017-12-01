@@ -1,4 +1,4 @@
-﻿Log file open, 12/01/17 14:37:14
+﻿Log file open, 12/01/17 16:10:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MinutestoMidnight
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1326686380) SRandInit(1326686380).
+LogInit: Display: RandInit(1694950669) SRandInit(1694950669).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 3.944732
+LogStats: Stats thread started at 0.176489
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -191,978 +191,529 @@ LogInit: Compiled (64-bit): Nov 14 2017 02:05:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
-LogInit: Base directory: E:/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.01-19.37.27:181][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.01-19.37.27:181][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.01-19.37.27:244][  0]LogInit: Computer: STAELIAM-PC
-[2017.12.01-19.37.27:244][  0]LogInit: User: Staeliam
-[2017.12.01-19.37.27:244][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.12.01-19.37.27:244][  0]LogInit: High frequency timer resolution =3.331488 MHz
-[2017.12.01-19.37.27:245][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.12.01-19.37.27:245][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.01-19.37.27:245][  0]LogMemory: Process Physical Memory: 274.98 MB used, 274.98 MB peak
-[2017.12.01-19.37.27:245][  0]LogMemory: Process Virtual Memory: 271.63 MB used, 271.63 MB peak
-[2017.12.01-19.37.27:245][  0]LogMemory: Physical Memory: 5110.07 MB used,  3080.05 MB free, 8190.11 MB total
-[2017.12.01-19.37.27:245][  0]LogMemory: Virtual Memory: 645.67 MB used,  3080.05 MB free, 134217728.00 MB total
-[2017.12.01-19.37.30:287][  0]LogInit: Using OS detected language (en-US).
-[2017.12.01-19.37.30:287][  0]LogInit: Using OS detected locale (en-US).
-[2017.12.01-19.37.30:485][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.01-19.37.31:262][  0]LogInit: Setting process to per monitor DPI aware
-[2017.12.01-19.37.44:648][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.01-19.37.45:040][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 / HD 7900 Series' (Feature Level 11_0)
-[2017.12.01-19.37.45:040][  0]LogD3D11RHI:       3053/0/4095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.12.01-19.37.45:042][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.01-19.37.45:042][  0]LogD3D11RHI:       0/0/4095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.01-19.37.45:042][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.01-19.37.45:052][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.01-19.37.45:052][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.01-19.37.45:052][  0]LogWindows: EnumDisplayDevices:
-[2017.12.01-19.37.45:053][  0]LogWindows:    0. 'AMD Radeon R9 200 / HD 7900 Series' (P:1 D:1)
-[2017.12.01-19.37.45:053][  0]LogWindows:    1. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.12.01-19.37.45:053][  0]LogWindows:    2. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.12.01-19.37.45:053][  0]LogWindows:    3. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.12.01-19.37.45:054][  0]LogWindows:    4. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.12.01-19.37.45:054][  0]LogWindows:    5. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.12.01-19.37.45:054][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.12.01-19.37.45:054][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 / HD 7900 Series
-[2017.12.01-19.37.45:054][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
-[2017.12.01-19.37.45:054][  0]LogD3D11RHI:      Driver Date: 4-24-2017
-[2017.12.01-19.37.45:054][  0]LogRHI: Texture pool is 2137 MB (70% of 3053 MB)
-[2017.12.01-19.37.48:208][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.01-19.37.48:667][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.12.01-19.37.48:771][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Intermediate/Shaders/WorkingDirectory/10952/).
-[2017.12.01-19.37.48:771][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Staeliam/AppData/Local/Temp/UnrealShaderWorkingDir/2491B80E42503037FA2D1D9B5BBBC865/'.
-[2017.12.01-19.37.48:773][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.01-19.38.17:874][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.01-19.38.17:937][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.01-19.38.17:999][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.01-19.38.18:063][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.01-19.38.18:162][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.01-19.38.18:230][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.01-19.38.18:296][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.01-19.38.18:362][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.01-19.38.18:416][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.01-19.38.18:481][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.01-19.38.18:544][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.01-19.38.18:606][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.01-19.38.18:668][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.01-19.38.18:732][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.01-19.38.18:857][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.01-19.38.18:857][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.01-19.38.18:932][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.01-19.38.19:335][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.01-19.38.19:921][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.01-19.38.19:958][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.01-19.38.20:020][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.01-19.38.20:080][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.01-19.38.20:142][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.01-19.38.20:211][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.01-19.38.20:211][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.01-19.38.23:665][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.01-19.38.23:665][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
-[2017.12.01-19.38.23:670][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.01-19.38.23:670][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.01-19.38.23:670][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.01-19.38.23:670][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.01-19.38.23:736][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.01-19.38.23:752][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Staeliam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.01-19.38.23:824][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.01-19.38.23:849][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.01-19.38.23:904][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.01-19.38.23:907][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.01-19.38.41:409][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.01-19.38.42:395][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
-[2017.12.01-19.39.16:855][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
-[2017.12.01-19.39.19:360][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
-[2017.12.01-19.39.21:324][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2017.12.01-19.42.09:993][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.01-19.42.10:078][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.01-19.42.10:087][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.01-19.42.10:087][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.01-19.42.10:087][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.01-19.42.10:087][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.01-19.42.10:334][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
-[2017.12.01-19.42.10:735][  0]LogNetVersion: MinutestoMidnight , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2652091950)
-[2017.12.01-19.42.11:068][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
-[2017.12.01-19.42.12:661][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
-[2017.12.01-19.42.14:085][  0]LogAssetRegistry: FAssetRegistry took 0.0346 seconds to start up
-[2017.12.01-19.42.14:352][  0]LogMaterial: Missing cached shader map for material Xray, compiling. 
-[2017.12.01-19.42.14:385][  0]LogMaterial: Missing cached shader map for material Main, compiling. 
-[2017.12.01-19.42.15:751][  0]LogMaterial: Missing cached shader map for material SnapGridMaterial, compiling. 
-[2017.12.01-19.42.15:860][  0]LogMaterial: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
-[2017.12.01-19.42.15:909][  0]LogMaterial: Missing cached shader map for material TransformGizmoMaterial, compiling. 
-[2017.12.01-19.42.16:284][  0]LogMaterial: Missing cached shader map for material CineMat, compiling. 
-[2017.12.01-19.42.17:007][  0]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
-[2017.12.01-19.42.17:085][  0]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
-[2017.12.01-19.42.17:876][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2017.12.01-19.42.17:915][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2017.12.01-19.42.17:985][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2017.12.01-19.42.18:024][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2017.12.01-19.42.18:057][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2017.12.01-19.42.18:102][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2017.12.01-19.42.18:685][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
-[2017.12.01-19.42.18:741][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
-[2017.12.01-19.42.19:328][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
-[2017.12.01-19.42.19:385][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
-[2017.12.01-19.42.19:514][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
-[2017.12.01-19.42.19:692][  0]LogMaterial: Missing cached shader map for material ARKitCameraMaterial, compiling. 
-[2017.12.01-19.42.19:808][  0]LogMaterial: Missing cached shader map for material GearVRControllerMaterial, compiling. 
-[2017.12.01-19.42.20:158][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.187383 seconds
-[2017.12.01-19.42.20:190][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.12.01-19.42.20:190][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2017.12.01-19.42.20:190][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.01-19.42.20:265][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.01-19.42.32:360][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
-[2017.12.01-19.42.32:428][  0]LogMaterial: Missing cached shader map for material TeleportDirectionMaterial, compiling. 
-[2017.12.01-19.42.32:477][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
-[2017.12.01-19.42.32:513][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
-[2017.12.01-19.42.32:571][  0]LogMaterial: Missing cached shader map for material OculusControllerMaterial, compiling. 
-[2017.12.01-19.42.32:609][  0]LogMaterial: Missing cached shader map for material GridPostProcess, compiling. 
-[2017.12.01-19.42.32:695][  0]LogMaterial: Missing cached shader map for material VivePreControllerMaterial, compiling. 
-[2017.12.01-19.42.32:736][  0]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
-[2017.12.01-19.42.32:763][  0]LogMaterial: Missing cached shader map for material ArrowMaterial, compiling. 
-[2017.12.01-19.42.32:843][  0]LogMaterial: Missing cached shader map for material KeyDiskMaterial, compiling. 
-[2017.12.01-19.42.32:877][  0]LogMaterial: Missing cached shader map for material M_ContentWindow, compiling. 
-[2017.12.01-19.42.33:021][  0]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
-[2017.12.01-19.42.33:044][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
-[2017.12.01-19.42.33:112][  0]LogMaterial: Missing cached shader map for material LineMaterial, compiling. 
-[2017.12.01-19.42.33:175][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
-[2017.12.01-19.42.36:617][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
-[2017.12.01-19.42.36:683][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
-[2017.12.01-19.42.37:848][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.01-19.42.37:930][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.01-19.42.38:770][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
-[2017.12.01-19.42.40:321][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
-[2017.12.01-19.42.40:405][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
-[2017.12.01-19.42.40:488][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.01-19.42.40:499][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
-[2017.12.01-19.42.40:517][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
-[2017.12.01-19.42.40:545][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
-[2017.12.01-19.42.40:569][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
-[2017.12.01-19.42.40:593][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
-[2017.12.01-19.42.40:616][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
-[2017.12.01-19.42.40:640][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
-[2017.12.01-19.42.40:670][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
-[2017.12.01-19.42.40:699][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
-[2017.12.01-19.42.40:743][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
-[2017.12.01-19.42.40:778][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
-[2017.12.01-19.42.40:805][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
-[2017.12.01-19.42.40:828][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
-[2017.12.01-19.42.40:857][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
-[2017.12.01-19.42.40:895][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
-[2017.12.01-19.42.40:953][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
-[2017.12.01-19.42.40:983][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
-[2017.12.01-19.42.41:009][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
-[2017.12.01-19.42.41:026][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
-[2017.12.01-19.42.41:850][  0]SourceControl: Source control is disabled
-[2017.12.01-19.42.41:851][  0]SourceControl: Source control is disabled
-[2017.12.01-19.42.42:048][  0]SourceControl: Source control is disabled
-[2017.12.01-19.42.42:151][  0]SourceControl: Source control is disabled
-[2017.12.01-19.42.43:882][  0]LogMaterial: Missing cached shader map for material DefaultMediaPlaneMaterial, compiling. 
-[2017.12.01-19.42.44:431][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.01-19.42.44:986][  0]LogOcInput: OculusInput pre-init called
-[2017.12.01-19.42.45:619][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
-[2017.12.01-19.42.45:649][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
-[2017.12.01-19.42.45:682][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
-[2017.12.01-19.42.46:167][  0]LogEngine: Initializing Engine...
-[2017.12.01-19.42.46:486][  0]LogHMD: Failed to initialize OpenVR with code 100
-[2017.12.01-19.42.46:513][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
-[2017.12.01-19.42.47:081][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
-[2017.12.01-19.42.48:175][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
-[2017.12.01-19.42.48:524][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
-[2017.12.01-19.42.49:660][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
-[2017.12.01-19.42.50:764][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
-[2017.12.01-19.42.51:101][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
-[2017.12.01-19.42.51:267][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
-[2017.12.01-19.42.51:317][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
-[2017.12.01-19.42.51:349][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
-[2017.12.01-19.42.51:402][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
-[2017.12.01-19.42.51:449][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
-[2017.12.01-19.42.51:485][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
-[2017.12.01-19.42.51:517][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
-[2017.12.01-19.42.51:567][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
-[2017.12.01-19.42.51:718][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
-[2017.12.01-19.42.51:765][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
-[2017.12.01-19.42.51:817][  0]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
-[2017.12.01-19.42.51:846][  0]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
-[2017.12.01-19.42.51:875][  0]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
-[2017.12.01-19.42.52:052][  0]LogMaterial: Missing cached shader map for material ClothMaterial, compiling. 
-[2017.12.01-19.42.52:080][  0]LogMaterial: Missing cached shader map for material ClothMaterial_WF, compiling. 
-[2017.12.01-19.42.52:119][  0]LogMaterial: Missing cached shader map for material DebugEditorMaterial, compiling. 
-[2017.12.01-19.42.52:157][  0]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
-[2017.12.01-19.42.52:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.01-19.42.52:845][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.01-19.42.53:414][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.01-19.42.54:055][  0]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.01-19.42.54:785][  0]LogInit: FAudioDevice initialized.
-[2017.12.01-19.42.59:293][  0]LogDerivedDataCache: Saved boot cache 4.49s 69MB C:/Users/Staeliam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.01-19.42.59:319][  0]LogInit: Texture streaming: Enabled
-[2017.12.01-19.42.59:493][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.01-19.42.59:835][  0]LogInit: Transaction tracking system initialized
-[2017.12.01-19.43.00:599][  0]BlueprintLog: New page: Editor Load
-[2017.12.01-19.43.03:120][  0]LocalizationService: Localization service is disabled
-[2017.12.01-19.43.05:046][  0]LogConsoleResponse: Display: 
-[2017.12.01-19.43.05:490][  0]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
-[2017.12.01-19.43.05:611][  0]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
-[2017.12.01-19.43.05:645][  0]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
-[2017.12.01-19.43.05:673][  0]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
-[2017.12.01-19.43.05:698][  0]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
-[2017.12.01-19.43.05:769][  0]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
-[2017.12.01-19.43.05:847][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
-[2017.12.01-19.43.05:895][  0]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
-[2017.12.01-19.43.05:931][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
-[2017.12.01-19.43.05:962][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
-[2017.12.01-19.43.06:000][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
-[2017.12.01-19.43.06:039][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
-[2017.12.01-19.43.06:080][  0]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
-[2017.12.01-19.43.06:210][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
-[2017.12.01-19.43.06:388][  0]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
-[2017.12.01-19.43.06:691][  0]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
-[2017.12.01-19.43.06:852][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/' took 0.03s
-[2017.12.01-19.43.06:852][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.01-19.43.06:858][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.01-19.43.06:862][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.01-19.43.10:254][  0]SourceControl: Source control is disabled
-[2017.12.01-19.43.10:268][  0]Cmd: MAP LOAD FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.01-19.43.10:536][  0]LightingResults: New page: Lighting Build
-[2017.12.01-19.43.10:847][  0]MapCheck: New page: Map Check
-[2017.12.01-19.43.10:848][  0]LightingResults: New page: Lighting Build
-[2017.12.01-19.43.30:293][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
-[2017.12.01-19.43.30:294][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
-[2017.12.01-19.43.30:302][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
-[2017.12.01-19.43.30:315][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
-[2017.12.01-19.43.30:315][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
-[2017.12.01-19.43.30:315][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
-[2017.12.01-19.43.30:802][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
-[2017.12.01-19.43.30:802][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
-[2017.12.01-19.43.30:802][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
-[2017.12.01-19.43.30:802][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
-[2017.12.01-19.43.30:907][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
-[2017.12.01-19.43.30:907][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2017.12.01-19.43.30:907][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
-[2017.12.01-19.43.30:907][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2017.12.01-19.43.38:601][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2017.12.01-19.43.38:650][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2017.12.01-19.43.38:904][  0]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
-[2017.12.01-19.43.39:267][  0]LogMaterial: Missing cached shader map for material M_FPGun, compiling. 
-[2017.12.01-19.43.39:635][  0]LogMaterial: Missing cached shader map for material AntiAliasedTextMaterialTranslucent, compiling. 
-[2017.12.01-19.43.39:705][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
-[2017.12.01-19.43.39:793][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.12.01-19.43.40:411][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.01-19.43.48:864][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.01-19.43.48:989][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 118.471ms to complete.
-[2017.12.01-19.43.48:989][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 38.730
-[2017.12.01-19.43.50:984][  0]LogCollectionManager: Loaded 0 collections in 0.001469 seconds
-[2017.12.01-19.43.52:394][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Collections/' took 0.01s
-[2017.12.01-19.43.52:394][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Developers/Staeliam/Collections/' took 0.06s
-[2017.12.01-19.43.52:394][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Collections/' took 0.02s
-[2017.12.01-19.43.52:394][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.12.01-19.43.52:430][  0]LogContentBrowser: Native class hierarchy populated in 0.0265 seconds. Added 2363 classes and 519 folders.
-[2017.12.01-19.43.52:618][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.12.01-19.43.57:466][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.12.01-19.43.57:596][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.12.01-19.43.58:685][  0]LogSlate: Took 0.019403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.01-19.43.58:707][  0]LogSlate: Took 0.015850 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.01-19.43.58:796][  0]LogSlate: Took 0.018387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.01-19.44.00:539][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
-[2017.12.01-19.44.00:949][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.12.01-19.44.06:455][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.12.01-19.44.06:455][  0]LogLoad: (Engine Initialization) Total time: 430.14 seconds
-[2017.12.01-19.44.06:455][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.01-19.44.06:470][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.12.01-19.44.07:210][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.01-19.44.11:965][ 12]LogSlate: Took 0.011864 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.01-19.45.03:125][628]LogSlate: Took 0.002690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.01-19.45.12:251][653]LogAssetRegistry: Asset discovery search completed in 178.1897 seconds
-[2017.12.01-19.45.12:265][653]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.12.01-19.45.12:265][653]LogCollectionManager: Fixed up redirectors for 0 collections in 0.002638 seconds (updated 0 objects)
-[2017.12.01-19.47.52:557][387]LogSlate: Took 0.007739 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.01-19.47.54:271][387]LogSlate: Took 0.008307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.01-19.47.57:300][387]LogLinker: Warning: Can't find file '/Game/Level/FirstLevel_BuiltData'
-[2017.12.01-19.47.57:300][387]LogLinker: Warning: Can't find file for asset '/Game/Level/FirstLevel_BuiltData' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap.
-[2017.12.01-19.47.57:300][387]LoadErrors: Error: /Game/Level/FirstLevel : Can't find file for asset. /Game/Level/FirstLevel_BuiltData
-[2017.12.01-19.47.58:267][387]LogLinker: Warning: Can't find file '/Game/Level/FirstLevel_BuiltData'
-[2017.12.01-19.47.58:267][387]LogLinker: Warning: Can't find file for asset '/Game/Level/FirstLevel_BuiltData' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap.
-[2017.12.01-19.47.58:701][387]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
-[2017.12.01-19.47.58:702][387]LogLinker: Warning: Can't find file '/Game/Level/FirstLevel_BuiltData'
-[2017.12.01-19.47.58:702][387]LoadErrors: Failed to load /Game/Level/FirstLevel_BuiltData.FirstLevel_BuiltData Referenced by PersistentLevel
-[2017.12.01-19.47.58:703][387]LogLinker: Warning: Can't find file for asset '/Game/Level/FirstLevel_BuiltData' while loading NULL.
-[2017.12.01-19.48.02:041][387]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
-[2017.12.01-19.48.02:041][387]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
-[2017.12.01-19.48.02:041][387]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
-[2017.12.01-19.48.02:041][387]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
-[2017.12.01-19.48.02:041][387]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
-[2017.12.01-19.48.02:096][387]LogMaterial: Missing cached shader map for material M_Rock_Slate, compiling. 
-[2017.12.01-19.48.03:749][387]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
-[2017.12.01-19.48.03:749][387]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
-[2017.12.01-19.48.03:759][387]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2017.12.01-19.48.03:958][387]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2017.12.01-19.48.04:325][387]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
-[2017.12.01-19.48.04:413][387]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
-[2017.12.01-19.48.04:472][387]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
-[2017.12.01-19.48.04:520][387]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.01-19.48.04:673][387]Cmd: MAP LOAD FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.01-19.48.04:673][387]LightingResults: New page: Lighting Build
-[2017.12.01-19.48.04:675][387]LoadErrors: New page: Loading map: FirstLevel.umap
-[2017.12.01-19.48.04:698][387]MapCheck: New page: Map Check
-[2017.12.01-19.48.04:698][387]LightingResults: New page: Lighting Build
-[2017.12.01-19.48.05:019][387]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.01-19.48.05:129][387]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.01-19.48.05:239][387]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 110.133ms to complete.
-[2017.12.01-19.48.05:245][387]LogFileHelpers: Loading map 'FirstLevel' took 0.611
-[2017.12.01-19.48.20:415][112]Cmd: DUPLICATE
-[2017.12.01-19.48.20:415][112]Cmd: ACTOR DUPLICATE
-[2017.12.01-19.48.21:987][237]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
-[2017.12.01-19.48.24:722][400]LogEditorViewport: Clicking Background
-[2017.12.01-19.48.30:452][763]LogSlate: Took 0.106085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.12.01-19.51.47:905][219]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.12.01-19.51.48:880][219]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0106 seconds. Added 116 classes and 0 folders.
-[2017.12.01-19.51.50:253][219]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
-[2017.12.01-19.51.50:350][219]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
-[2017.12.01-19.51.50:728][219]LogSlate: Took 0.022436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.12.01-19.53.42:713][795]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.12.01-19.58.41:010][729]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2017.12.01-19.58.41:139][730]LogMaterial: Missing cached shader map for material Material_1, compiling. 
-[2017.12.01-19.58.41:368][732]LogMaterial: Missing cached shader map for material Material_2, compiling. 
-[2017.12.01-19.58.41:472][733]LogMaterial: Missing cached shader map for material Material_3, compiling. 
-[2017.12.01-19.58.41:879][735]LogMaterial: Missing cached shader map for material Material_4, compiling. 
-[2017.12.01-19.58.41:980][736]LogMaterial: Missing cached shader map for material Material_5, compiling. 
-[2017.12.01-19.58.42:082][737]LogMaterial: Missing cached shader map for material Material_6, compiling. 
-[2017.12.01-19.58.42:347][742]LogMaterial: Missing cached shader map for material Material_7, compiling. 
-[2017.12.01-19.58.48:808][943]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.12.01-20.03.32:037][107]LogSlate: Took 0.013049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2017.12.01-20.11.12:207][600]LogSavePackage: Save=251.44ms
-[2017.12.01-20.11.12:207][600]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacter494875104308D41BD6D26182B4494683.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
-[2017.12.01-20.11.12:241][600]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
-[2017.12.01-20.19.11:536][303]LogSavePackage: Save=113.48ms
-[2017.12.01-20.19.11:536][303]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonProjectile994C47BB4EE1A44D6BA9B184837E8FE3.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
-[2017.12.01-20.19.11:568][303]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
-[2017.12.01-20.19.25:457][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/EnemyCharacter" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset" SILENT=true
-[2017.12.01-20.19.25:568][811]LogSavePackage: Save=92.61ms
-[2017.12.01-20.19.25:568][811]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyCharacter6947A5E3490E18EFC0F2C5808AC23DF3.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset'
-[2017.12.01-20.19.25:575][811]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset
-[2017.12.01-20.19.41:730][342]LogSavePackage: Save=44.28ms
-[2017.12.01-20.19.41:731][342]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonProjectileB14C9CF34A88BFCC9D79438130A9A074.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
-[2017.12.01-20.19.41:735][342]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
-[2017.12.01-20.19.57:628][111]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.01-20.20.57:470][111]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.12.01-20.20.57:514][111]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
-[2017.12.01-20.21.00:931][111]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
-[2017.12.01-20.21.01:648][111]LogPlayLevel: [PlayLevel] Compiling EnemyCharacter before play...
-[2017.12.01-20.21.04:126][111]LogPlayLevel: PlayLevel: Blueprint regeneration took 6656 ms (3 blueprints)
-[2017.12.01-20.21.04:220][111]PIE: New page: PIE session: FirstLevel (Dec 1, 2017, 10:21:04 AM)
-[2017.12.01-20.21.04:227][111]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
-[2017.12.01-20.21.12:592][111]LogPlayLevel: PIE: StaticDuplicateObject took: (8.364710s)
-[2017.12.01-20.21.12:593][111]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.01-20.21.12:600][111]LogPlayLevel: PIE: World Init took: (0.007734s)
-[2017.12.01-20.21.12:610][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (8.382481s)
-[2017.12.01-20.21.12:718][111]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.01-20.21.12:751][111]LogInit: FAudioDevice initialized.
-[2017.12.01-20.21.12:837][111]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.01-20.21.12:962][111]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 3) at 2017.12.01-15.21.12
-[2017.12.01-20.21.13:008][111]LogWorld: Bringing up level for play took: 0.067997
-[2017.12.01-20.21.14:159][111]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
-[2017.12.01-20.21.14:213][111]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 16.545
-[2017.12.01-20.24.27:676][384]LogSavePackage: Save=41.86ms
-[2017.12.01-20.24.27:676][384]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonProjectile90F99210488A962168313E99A6312D0E.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
-[2017.12.01-20.24.27:680][384]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
-[2017.12.01-20.24.35:377][757]BlueprintLog: New page: Compile EnemyCharacter
-[2017.12.01-20.24.41:296][920]BlueprintLog: New page: Compile FirstPersonProjectile
-[2017.12.01-20.24.43:538][991]LogSavePackage: Save=42.02ms
-[2017.12.01-20.24.43:538][991]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonProjectile085FDB1449709B838E699EB2A17151DB.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
-[2017.12.01-20.24.43:539][991]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
-[2017.12.01-20.26.25:346][513]BlueprintLog: New page: Compile FirstPersonProjectile
-[2017.12.01-20.26.26:875][542]LogSavePackage: Save=41.10ms
-[2017.12.01-20.26.26:875][542]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonProjectileE9524C9F48E85B8393D169BBFA393189.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
-[2017.12.01-20.26.26:879][542]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
-[2017.12.01-20.26.31:016][686]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.01-20.26.31:060][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.01-20.26.31:060][686]PIE: New page: PIE session: FirstLevel (Dec 1, 2017, 10:26:31 AM)
-[2017.12.01-20.26.31:060][686]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
-[2017.12.01-20.26.31:128][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067820s)
-[2017.12.01-20.26.31:129][686]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.01-20.26.31:129][686]LogPlayLevel: PIE: World Init took: (0.001398s)
-[2017.12.01-20.26.31:130][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.069938s)
-[2017.12.01-20.26.31:185][686]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.01-20.26.31:197][686]LogInit: FAudioDevice initialized.
-[2017.12.01-20.26.31:231][686]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.01-20.26.31:243][686]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.01-15.26.31
-[2017.12.01-20.26.31:247][686]LogWorld: Bringing up level for play took: 0.014555
-[2017.12.01-20.26.31:252][686]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel -0.416
-[2017.12.01-20.26.33:283][851]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_0
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.33:284][851]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.34:254][931]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_1
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.34:254][931]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.35:041][997]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_2
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.35:041][997]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.35:775][ 58]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_3
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.35:775][ 58]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.45:087][567]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_4
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.45:087][567]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.46:632][690]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_5
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.46:633][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.47:686][778]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_6
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.47:686][778]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.48:629][855]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_7
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.48:629][855]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.49:714][947]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_8
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.49:715][947]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.50:597][ 17]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_9
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.50:597][ 17]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.53:156][215]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_10
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.53:156][215]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.53:897][277]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_11
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.53:897][277]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.54:435][323]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_12
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.54:435][323]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.54:943][362]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_13
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.54:943][362]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.56:988][432]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_14
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.56:988][432]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.58:205][521]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_15
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.58:205][521]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.58:536][545]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_16
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.58:537][545]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.26.59:201][590]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_17
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.26.59:201][590]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.00:083][663]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_18
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.00:084][663]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.00:728][715]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_19
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.00:729][715]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.01:477][774]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_20
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.01:477][774]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.01:947][813]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_21
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.01:947][813]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.02:250][839]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_22
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.02:250][839]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.02:494][859]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_23
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.02:494][859]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.02:683][871]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_24
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.02:684][871]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.02:869][886]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_25
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.02:870][886]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.03:073][903]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_26
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.03:073][903]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.03:269][920]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_27
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.03:270][920]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.03:436][934]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_28
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.03:436][934]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.03:638][948]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_29
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.03:639][948]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.03:816][961]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_30
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.03:816][961]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.04:159][990]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_31
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.04:160][990]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.04:657][ 31]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_32
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.04:657][ 31]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.05:008][ 58]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_33
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.05:008][ 58]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.05:295][ 82]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_34
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.05:296][ 82]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.05:632][109]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_35
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.05:632][109]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.05:941][134]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_36
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.05:941][134]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.06:247][158]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_37
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.06:247][158]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.06:531][178]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_38
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.06:532][178]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.06:825][201]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_39
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.06:825][201]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.07:110][225]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_40
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.07:110][225]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.07:347][245]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_41
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.07:347][245]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.07:658][270]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_42
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.07:658][270]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.07:928][293]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_43
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.07:928][293]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.08:173][314]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_44
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.08:173][314]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.08:459][336]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_45
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.08:459][336]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.27.08:717][356]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_46
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.27.08:718][356]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.28.41:049][ 52]BlueprintLog: New page: Compile FirstPersonProjectile
-[2017.12.01-20.28.43:244][126]LogSavePackage: Save=40.35ms
-[2017.12.01-20.28.43:244][126]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonProjectile4D6EEC8F4E73DB7885039D8BDA8227B6.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
-[2017.12.01-20.28.43:248][126]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
-[2017.12.01-20.29.59:069][587]LogSavePackage: Save=603.91ms
-[2017.12.01-20.29.59:069][587]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel_Auto1D0D42C4A4CF98F078A05CA91627FC1D7.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/FirstLevel_Auto1.umap'
-[2017.12.01-20.29.59:071][587]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/FirstLevel_Auto1.umap
-[2017.12.01-20.29.59:116][587]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 1.166
-[2017.12.01-20.29.59:116][587]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.166
-[2017.12.01-20.29.59:119][587]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile] ([1] browsable assets)...
-[2017.12.01-20.29.59:144][587]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile]
-[2017.12.01-20.29.59:145][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile]
-[2017.12.01-20.29.59:200][587]LogSavePackage: Save=39.70ms
-[2017.12.01-20.29.59:200][587]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonProjectile_Auto1CD24A4C44051AA065157FA844233F841.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonProjectile_Auto1.uasset'
-[2017.12.01-20.29.59:201][587]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonProjectile_Auto1.uasset
-[2017.12.01-20.29.59:201][587]LogFileHelpers: Auto-saving content packages took 0.084
-[2017.12.01-20.30.25:143][757]LogSavePackage: Save=30.47ms
-[2017.12.01-20.30.25:144][757]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonProjectileFD3AB59242A7662032DDCBBB63CD7629.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
-[2017.12.01-20.30.25:151][757]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
-[2017.12.01-20.30.26:799][824]BlueprintLog: New page: Compile FirstPersonProjectile
-[2017.12.01-20.30.31:979][ 19]LogSavePackage: Save=40.67ms
-[2017.12.01-20.30.31:979][ 19]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonProjectile347645C541BA4DA7FAED4C90E7DE8DAC.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
-[2017.12.01-20.30.31:983][ 19]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
-[2017.12.01-20.30.37:296][277]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.01-20.30.37:334][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.01-20.30.37:334][277]PIE: New page: PIE session: FirstLevel (Dec 1, 2017, 10:30:37 AM)
-[2017.12.01-20.30.37:334][277]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
-[2017.12.01-20.30.37:397][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061973s)
-[2017.12.01-20.30.37:398][277]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.01-20.30.37:399][277]LogPlayLevel: PIE: World Init took: (0.002207s)
-[2017.12.01-20.30.37:399][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.064740s)
-[2017.12.01-20.30.37:441][277]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.01-20.30.37:451][277]LogInit: FAudioDevice initialized.
-[2017.12.01-20.30.37:488][277]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.01-20.30.37:499][277]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.01-15.30.37
-[2017.12.01-20.30.37:503][277]LogWorld: Bringing up level for play took: 0.014170
-[2017.12.01-20.30.37:507][277]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel -0.161
-[2017.12.01-20.30.39:008][390]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_0
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.39:008][390]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.39:688][446]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_1
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.39:688][446]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.40:401][506]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_2
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.40:401][506]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.41:804][620]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_3
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.41:804][620]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.42:507][680]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_4
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.42:507][680]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.43:105][727]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_5
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.43:105][727]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.43:698][777]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_6
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.43:698][777]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.44:102][811]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_7
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.44:102][811]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.44:305][828]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_8
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.44:305][828]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.44:686][859]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_9
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.44:687][859]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.46:185][983]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_10
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.46:185][983]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.48:220][151]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_11
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.48:220][151]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.49:186][229]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_12
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.49:186][229]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.50:176][309]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_13
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.50:176][309]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.51:079][382]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_14
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.51:079][382]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.51:936][454]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_15
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.51:936][454]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.53:384][574]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_16
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.53:385][574]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.53:758][605]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_17
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.53:758][605]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.55:012][707]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_18
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.55:012][707]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.55:371][737]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_19
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.55:371][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.55:824][774]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_20
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.55:824][774]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.56:463][828]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_21
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.56:463][828]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.57:281][894]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_22
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.57:282][894]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.57:975][920]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_23
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.57:975][920]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.30.58:744][982]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_24
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.30.58:744][982]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.01:105][169]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_25
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.01:105][169]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.01:878][234]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_26
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.01:878][234]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.02:447][278]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_27
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.02:447][278]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.04:631][450]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_28
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.04:631][450]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.05:153][493]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_29
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.05:153][493]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.05:791][546]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_30
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.05:791][546]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.06:284][587]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_31
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.06:284][587]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.06:733][623]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_32
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.06:733][623]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.07:102][654]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_33
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.07:102][654]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.07:431][682]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_34
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.07:431][682]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.07:787][712]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_35
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.07:787][712]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.11:036][972]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_36
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.11:036][972]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.11:464][  7]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_37
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.11:465][  7]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.11:893][ 41]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_38
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.11:894][ 41]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.12:364][ 79]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_39
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.12:364][ 79]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.13:728][189]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_40
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.13:728][189]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.14:089][219]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_41
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.14:089][219]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.14:387][243]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_42
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.14:387][243]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.14:689][268]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_43
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.14:690][268]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.15:085][298]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_44
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.15:085][298]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.15:446][328]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_45
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.15:446][328]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.16:175][388]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_46
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.16:175][388]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.16:606][420]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_47
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.16:606][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.16:933][447]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_48
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.16:933][447]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.17:403][486]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_49
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.17:403][486]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.17:826][519]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_50
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.17:826][519]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.18:131][542]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_51
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.18:131][542]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.19:359][633]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_52
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.19:359][633]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.19:384][635]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_53
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.19:384][635]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.19:652][656]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_54
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.19:652][656]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.19:993][684]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_55
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.19:993][684]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.20:548][726]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_56
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.20:548][726]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.21:179][772]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_58
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.21:179][772]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.21:527][798]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_59
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.21:528][798]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.21:823][822]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_57
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.21:823][822]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.21:946][832]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_60
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.21:946][832]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.50:256][457]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.01-20.31.50:294][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.01-20.31.50:294][457]PIE: New page: PIE session: FirstLevel (Dec 1, 2017, 10:31:50 AM)
-[2017.12.01-20.31.50:295][457]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
-[2017.12.01-20.31.50:356][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060950s)
-[2017.12.01-20.31.50:357][457]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.01-20.31.50:357][457]LogPlayLevel: PIE: World Init took: (0.001286s)
-[2017.12.01-20.31.50:357][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.062844s)
-[2017.12.01-20.31.50:397][457]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.01-20.31.50:406][457]LogInit: FAudioDevice initialized.
-[2017.12.01-20.31.50:442][457]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.01-20.31.50:454][457]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.01-15.31.50
-[2017.12.01-20.31.50:457][457]LogWorld: Bringing up level for play took: 0.013882
-[2017.12.01-20.31.50:462][457]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 0.794
-[2017.12.01-20.31.51:469][546]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_0
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.51:469][546]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.31.52:861][670]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_1
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.31.52:861][670]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.35.30:467][386]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.01-20.35.30:509][386]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.12.01-20.35.30:518][386]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
-[2017.12.01-20.35.31:063][386]LogPlayLevel: PlayLevel: Blueprint regeneration took 554 ms (1 blueprints)
-[2017.12.01-20.35.31:063][386]PIE: New page: PIE session: FirstLevel (Dec 1, 2017, 10:35:31 AM)
-[2017.12.01-20.35.31:063][386]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
-[2017.12.01-20.35.31:126][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062420s)
-[2017.12.01-20.35.31:127][386]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.01-20.35.31:127][386]LogPlayLevel: PIE: World Init took: (0.001374s)
-[2017.12.01-20.35.31:128][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.064319s)
-[2017.12.01-20.35.31:168][386]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.01-20.35.31:178][386]LogInit: FAudioDevice initialized.
-[2017.12.01-20.35.31:219][386]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.01-20.35.31:231][386]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.01-15.35.31
-[2017.12.01-20.35.31:235][386]LogWorld: Bringing up level for play took: 0.014515
-[2017.12.01-20.35.31:239][386]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 1.571
-[2017.12.01-20.35.40:412][902]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.01-20.35.40:449][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.01-20.35.40:450][902]PIE: New page: PIE session: FirstLevel (Dec 1, 2017, 10:35:40 AM)
-[2017.12.01-20.35.40:450][902]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
-[2017.12.01-20.35.40:515][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064386s)
-[2017.12.01-20.35.40:516][902]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.01-20.35.40:516][902]LogPlayLevel: PIE: World Init took: (0.001338s)
-[2017.12.01-20.35.40:516][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.066383s)
-[2017.12.01-20.35.40:584][902]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.01-20.35.40:593][902]LogInit: FAudioDevice initialized.
-[2017.12.01-20.35.40:633][902]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.01-20.35.40:645][902]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.01-15.35.40
-[2017.12.01-20.35.40:648][902]LogWorld: Bringing up level for play took: 0.014045
-[2017.12.01-20.35.40:653][902]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 0.985
-[2017.12.01-20.35.47:652][138]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_0
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.35.47:653][138]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.36.02:023][100]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.01-20.36.02:060][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.01-20.36.02:061][100]PIE: New page: PIE session: FirstLevel (Dec 1, 2017, 10:36:02 AM)
-[2017.12.01-20.36.02:061][100]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
-[2017.12.01-20.36.02:123][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061796s)
-[2017.12.01-20.36.02:123][100]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.01-20.36.02:124][100]LogPlayLevel: PIE: World Init took: (0.001122s)
-[2017.12.01-20.36.02:124][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.063385s)
-[2017.12.01-20.36.02:162][100]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.01-20.36.02:171][100]LogInit: FAudioDevice initialized.
-[2017.12.01-20.36.02:211][100]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.01-20.36.02:222][100]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.01-15.36.02
-[2017.12.01-20.36.02:225][100]LogWorld: Bringing up level for play took: 0.013720
-[2017.12.01-20.36.02:230][100]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 0.562
-[2017.12.01-20.36.16:926][418]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_0
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.36.16:927][418]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.36.17:801][496]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_1
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.36.17:801][496]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.36.18:280][539]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_2
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.36.18:280][539]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.36.18:770][583]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_3
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.36.18:771][583]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.36.20:896][769]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_4
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.36.20:897][769]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.36.21:104][787]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_5
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.36.21:104][787]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.36.21:264][802]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_6
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.36.21:265][802]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.36.21:436][818]LogScript: Warning: Accessed None trying to read property K2Node_Event_Other
-	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_7
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0020
-[2017.12.01-20.36.21:437][818]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_Event_Other
-[2017.12.01-20.36.39:138][116]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.12.01-20.36.39:258][116]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.01-21.10.24:528][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.01-21.10.24:528][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.01-21.10.24:543][  0]LogInit: Computer: DESKTOP-M1RKDDP
+[2017.12.01-21.10.24:543][  0]LogInit: User: Matthew
+[2017.12.01-21.10.24:543][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.01-21.10.24:543][  0]LogInit: High frequency timer resolution =2.531247 MHz
+[2017.12.01-21.10.24:543][  0]LogMemory: Memory total: Physical=15.6GB (16GB approx)
+[2017.12.01-21.10.24:543][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.01-21.10.24:543][  0]LogMemory: Process Physical Memory: 274.12 MB used, 274.12 MB peak
+[2017.12.01-21.10.24:543][  0]LogMemory: Process Virtual Memory: 269.79 MB used, 269.79 MB peak
+[2017.12.01-21.10.24:543][  0]LogMemory: Physical Memory: 5303.16 MB used,  10672.93 MB free, 15976.09 MB total
+[2017.12.01-21.10.24:543][  0]LogMemory: Virtual Memory: 677.87 MB used,  10672.93 MB free, 134217728.00 MB total
+[2017.12.01-21.10.24:713][  0]LogInit: Using OS detected language (en-US).
+[2017.12.01-21.10.24:713][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.01-21.10.24:715][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.01-21.10.25:122][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.01-21.10.25:369][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.01-21.10.25:412][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.12.01-21.10.25:412][  0]LogD3D11RHI:       2019/0/7988 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.01-21.10.25:417][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.12.01-21.10.25:417][  0]LogD3D11RHI:       128/0/7988 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.01-21.10.25:419][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.01-21.10.25:420][  0]LogD3D11RHI:       0/0/7988 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.01-21.10.25:420][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.01-21.10.25:425][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.01-21.10.25:425][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.12.01-21.10.25:425][  0]LogWindows: EnumDisplayDevices:
+[2017.12.01-21.10.25:425][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.12.01-21.10.25:425][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.01-21.10.25:425][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.01-21.10.25:425][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.01-21.10.25:425][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.12.01-21.10.25:425][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.01-21.10.25:425][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.01-21.10.25:425][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2017.12.01-21.10.25:448][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.01-21.10.25:486][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.01-21.10.25:487][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Intermediate/Shaders/WorkingDirectory/14160/).
+[2017.12.01-21.10.25:487][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matthew/AppData/Local/Temp/UnrealShaderWorkingDir/C16C0FD14E42EA82893FF7B808FEDD12/'.
+[2017.12.01-21.10.25:487][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.01-21.10.26:482][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.01-21.10.26:541][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.01-21.10.26:601][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.01-21.10.26:656][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.01-21.10.26:714][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.01-21.10.26:773][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.01-21.10.26:829][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.01-21.10.26:887][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.01-21.10.26:935][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.01-21.10.26:991][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.01-21.10.27:044][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.01-21.10.27:099][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.01-21.10.27:154][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.01-21.10.27:211][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.01-21.10.27:321][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.01-21.10.27:321][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.01-21.10.27:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.01-21.10.27:420][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.01-21.10.27:517][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.01-21.10.27:548][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.01-21.10.27:600][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.01-21.10.27:654][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.01-21.10.27:709][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.01-21.10.27:764][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.01-21.10.27:764][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.01-21.10.28:275][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.01-21.10.28:335][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.01-21.10.28:335][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Matthew/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.01-21.10.28:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.01-21.10.28:335][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.01-21.10.28:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.01-21.10.28:335][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.01-21.10.28:350][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.01-21.10.28:363][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matthew/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.01-21.10.28:372][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.01-21.10.28:372][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.01-21.10.28:373][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.01-21.10.28:373][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.01-21.10.28:733][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.01-21.10.29:095][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.01-21.10.29:139][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.01-21.10.29:140][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.01-21.10.29:140][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.01-21.10.29:140][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.01-21.10.29:140][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.01-21.10.29:172][  0]LogNetVersion: MinutestoMidnight , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2652091950)
+[2017.12.01-21.10.29:351][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.12.01-21.10.29:920][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.079048 seconds
+[2017.12.01-21.10.29:926][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.01-21.10.29:926][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2017.12.01-21.10.29:926][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.01-21.10.29:991][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.01-21.10.33:019][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.01-21.10.33:064][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.01-21.10.33:812][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.01-21.10.34:286][  0]SourceControl: Source control is disabled
+[2017.12.01-21.10.34:286][  0]SourceControl: Source control is disabled
+[2017.12.01-21.10.34:349][  0]SourceControl: Source control is disabled
+[2017.12.01-21.10.34:408][  0]SourceControl: Source control is disabled
+[2017.12.01-21.10.35:325][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.01-21.10.35:625][  0]LogOcInput: OculusInput pre-init called
+[2017.12.01-21.10.35:952][  0]LogEngine: Initializing Engine...
+[2017.12.01-21.10.35:955][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.01-21.10.36:175][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.01-21.10.36:175][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.01-21.10.36:327][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.01-21.10.36:335][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.01-21.10.36:481][  0]LogInit: FAudioDevice initialized.
+[2017.12.01-21.10.36:535][  0]LogDerivedDataCache: Saved boot cache 0.05s 78MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.01-21.10.36:546][  0]LogInit: Texture streaming: Enabled
+[2017.12.01-21.10.36:668][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.01-21.10.36:827][  0]LogInit: Transaction tracking system initialized
+[2017.12.01-21.10.37:211][  0]BlueprintLog: New page: Editor Load
+[2017.12.01-21.10.38:287][  0]LocalizationService: Localization service is disabled
+[2017.12.01-21.10.39:357][  0]LogConsoleResponse: Display: 
+[2017.12.01-21.10.39:550][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.01-21.10.39:550][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.01-21.10.39:550][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.01-21.10.40:248][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/' took 0.02s
+[2017.12.01-21.10.40:857][  0]SourceControl: Source control is disabled
+[2017.12.01-21.10.40:918][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.10.40:918][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.10.40:947][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.01-21.10.51:943][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.10.51:943][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.10.51:946][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.10.51:946][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.10.55:157][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.10.55:158][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.10.55:162][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.10.55:162][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.10.55:179][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.01-21.10.55:180][  0]LightingResults: New page: Lighting Build
+[2017.12.01-21.10.55:232][  0]MapCheck: New page: Map Check
+[2017.12.01-21.10.55:232][  0]LightingResults: New page: Lighting Build
+[2017.12.01-21.10.55:542][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2017.12.01-21.10.55:542][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2017.12.01-21.10.55:542][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2017.12.01-21.10.55:549][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2017.12.01-21.10.55:549][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2017.12.01-21.10.55:549][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2017.12.01-21.10.55:553][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2017.12.01-21.10.55:553][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2017.12.01-21.10.55:554][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2017.12.01-21.10.55:554][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2017.12.01-21.10.55:579][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2017.12.01-21.10.55:580][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2017.12.01-21.10.55:580][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2017.12.01-21.10.55:580][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2017.12.01-21.10.55:902][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.12.01-21.10.55:918][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.01-21.10.55:930][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.01-21.10.55:992][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.148ms to complete.
+[2017.12.01-21.10.55:992][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.813
+[2017.12.01-21.10.56:133][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_235c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_1460_0///####STATCAT_Advanced####
+[2017.12.01-21.10.56:133][  0]LogCollectionManager: Loaded 0 collections in 0.001651 seconds
+[2017.12.01-21.10.56:236][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Saved/Collections/' took 0.01s
+[2017.12.01-21.10.56:236][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/Developers/Matthew/Collections/' took 0.01s
+[2017.12.01-21.10.56:236][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/Collections/' took 0.01s
+[2017.12.01-21.10.56:236][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.01-21.10.56:246][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2363 classes and 519 folders.
+[2017.12.01-21.10.56:321][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.12.01-21.10.56:684][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.01-21.10.56:738][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.12.01-21.10.56:787][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.01-21.10.56:800][  0]LogSlate: Took 0.005497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.01-21.10.56:961][  0]LogRenderer: Reallocating scene render targets to support 840x436 Format 9 NumSamples 1 (Frame:1).
+[2017.12.01-21.10.57:178][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.12.01-21.10.57:178][  0]LogLoad: (Engine Initialization) Total time: 35.09 seconds
+[2017.12.01-21.10.57:178][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.01-21.10.57:178][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.01-21.10.57:220][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.12.01-21.10.57:267][  0]LogSlate: Took 0.005220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.01-21.10.57:303][  1]LogAssetRegistry: Asset discovery search completed in 27.9731 seconds
+[2017.12.01-21.10.57:304][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.01-21.10.57:304][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.12.01-21.11.03:901][188]Cmd: MAP LOAD FILE="../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.01-21.11.03:991][188]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.01-21.11.04:088][188]LightingResults: New page: Lighting Build
+[2017.12.01-21.11.04:089][188]LoadErrors: New page: Loading map: FirstLevel.umap
+[2017.12.01-21.11.04:120][188]MapCheck: New page: Map Check
+[2017.12.01-21.11.04:120][188]LightingResults: New page: Lighting Build
+[2017.12.01-21.11.04:962][188]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.01-21.11.04:967][188]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.01-21.11.04:992][188]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.01-21.11.05:067][188]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.01-21.11.05:132][188]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.407ms to complete.
+[2017.12.01-21.11.05:132][188]LogFileHelpers: Loading map 'FirstLevel' took 1.231
+[2017.12.01-21.11.29:662][254]Cmd: EDIT COPY
+[2017.12.01-21.11.31:145][343]Cmd: EDIT PASTE
+[2017.12.01-21.12.43:880][821]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.01-21.12.46:222][847]LogEditorViewport: Clicking Background
+[2017.12.01-21.13.48:450][942]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush103)
+[2017.12.01-21.13.50:263][ 37]Cmd: EDIT COPY
+[2017.12.01-21.13.51:047][ 84]Cmd: EDIT PASTE
+[2017.12.01-21.14.10:038][536]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.01-21.14.56:877][961]LogEditorViewport: Clicking Background
+[2017.12.01-21.14.57:714][  6]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.12.01-21.16.51:418][203]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush100)
+[2017.12.01-21.16.52:268][246]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush100)
+[2017.12.01-21.16.52:514][259]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush100)
+[2017.12.01-21.17.50:418][981]Cmd: TRANSACTION UNDO
+[2017.12.01-21.17.50:418][981]LogEditorTransaction: Undo Move Actors
+[2017.12.01-21.17.50:437][981]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.BoxBrush4_44.BrushComponent0) Component already registered.
+[2017.12.01-21.17.50:444][981]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2017.12.01-21.17.50:448][981]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.BoxBrush55.BrushComponent0) Component already registered.
+[2017.12.01-21.17.50:513][981]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.01-21.17.51:384][ 11]Cmd: TRANSACTION UNDO
+[2017.12.01-21.17.51:384][ 11]LogEditorTransaction: Undo Move Actors
+[2017.12.01-21.17.51:436][ 11]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2017.12.01-21.17.51:441][ 11]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.12.01-21.17.51:445][ 11]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.BoxBrush70_86.BrushComponent0) Component already registered.
+[2017.12.01-21.18.37:546][368]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.12.01-21.21.52:846][439]Cmd: EDIT COPY
+[2017.12.01-21.21.53:482][477]Cmd: EDIT PASTE
+[2017.12.01-21.22.32:194][ 54]LogSavePackage: Save=1030.54ms
+[2017.12.01-21.22.32:194][ 54]LogSavePackage: Moving '../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Saved/FirstLevel532D4B7A452689E9F0B33CABF8CB0FF8.tmp' to '../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.01-21.22.32:203][ 54]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.01-21.23.39:300][406]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.12.01-21.24.16:204][996]Cmd: EDIT COPY
+[2017.12.01-21.25.30:168][536]Cmd: EDIT COPY
+[2017.12.01-21.25.30:852][540]Cmd: EDIT PASTE
+[2017.12.01-21.27.04:909][299]LogSavePackage: Save=870.07ms
+[2017.12.01-21.27.04:909][299]LogSavePackage: Moving '../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Saved/FirstLevel784B8A0F4241C25BC4A7668689E24165.tmp' to '../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.01-21.27.04:919][299]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.01-21.27.07:349][361]Cmd: QUIT_EDITOR
+[2017.12.01-21.27.07:371][361]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.27.07:371][361]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-21.27.07:389][361]LogExit: Preparing to exit.
+[2017.12.01-21.27.08:440][361]LogDirectoryWatcher: A directory notification for 'C:/Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/' was aborted.
+[2017.12.01-21.27.08:461][361]LogExit: Editor shut down
+[2017.12.01-21.27.08:464][361]LogExit: Transaction tracking system shut down
+[2017.12.01-21.27.08:588][361]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.01-21.27.08:588][361]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/' was aborted.
+[2017.12.01-21.27.08:588][361]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.01-21.27.08:588][361]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.12.01-21.27.08:588][361]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.12.01-21.27.08:588][361]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.01-21.27.08:588][361]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.01-21.27.08:627][361]LogExit: Object subsystem successfully closed.
+[2017.12.01-21.27.08:651][361]LogD3D11RHI: Shutdown
+[2017.12.01-21.27.08:651][361]LogD3D11RHI: CleanupD3DDevice
+[2017.12.01-21.27.08:654][361]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.01-21.27.08:670][361]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2017.12.01-21.27.08:670][361]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2017.12.01-21.27.08:670][361]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2017.12.01-21.27.08:671][361]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.12.01-21.27.08:672][361]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2017.12.01-21.27.08:672][361]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2017.12.01-21.27.08:672][361]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2017.12.01-21.27.08:672][361]LogDirectoryWatcher: A directory notification for 'C:/Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/Collections/' was aborted.
+[2017.12.01-21.27.08:672][361]LogDirectoryWatcher: A directory notification for 'C:/Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Content/Developers/Matthew/Collections/' was aborted.
+[2017.12.01-21.27.08:672][361]LogDirectoryWatcher: A directory notification for 'C:/Users/Matthew/Desktop/MinutesToMidnight/gamedev1_4/MinutestoMidnight/Saved/Collections/' was aborted.
+[2017.12.01-21.27.08:672][361]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2017.12.01-21.27.08:672][361]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2017.12.01-21.27.08:672][361]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2017.12.01-21.27.08:672][361]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2017.12.01-21.27.08:672][361]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2017.12.01-21.27.08:673][361]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2017.12.01-21.27.08:674][361]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2017.12.01-21.27.08:674][361]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2017.12.01-21.27.08:674][361]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2017.12.01-21.27.08:674][361]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2017.12.01-21.27.08:674][361]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2017.12.01-21.27.08:674][361]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2017.12.01-21.27.08:674][361]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2017.12.01-21.27.08:674][361]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2017.12.01-21.27.08:674][361]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2017.12.01-21.27.09:102][361]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2017.12.01-21.27.09:157][361]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2017.12.01-21.27.09:157][361]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2017.12.01-21.27.09:157][361]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2017.12.01-21.27.09:157][361]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2017.12.01-21.27.09:157][361]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2017.12.01-21.27.09:157][361]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2017.12.01-21.27.09:157][361]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2017.12.01-21.27.09:157][361]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2017.12.01-21.27.09:157][361]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2017.12.01-21.27.09:157][361]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2017.12.01-21.27.09:158][361]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2017.12.01-21.27.09:158][361]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2017.12.01-21.27.09:158][361]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2017.12.01-21.27.09:158][361]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2017.12.01-21.27.09:158][361]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2017.12.01-21.27.09:159][361]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2017.12.01-21.27.09:229][361]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2017.12.01-21.27.09:230][361]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2017.12.01-21.27.09:231][361]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2017.12.01-21.27.09:332][361]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2017.12.01-21.27.09:433][361]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2017.12.01-21.27.09:433][361]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2017.12.01-21.27.09:433][361]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2017.12.01-21.27.09:433][361]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2017.12.01-21.27.09:433][361]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2017.12.01-21.27.09:433][361]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2017.12.01-21.27.09:434][361]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2017.12.01-21.27.09:434][361]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2017.12.01-21.27.09:434][361]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2017.12.01-21.27.09:434][361]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2017.12.01-21.27.09:436][361]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2017.12.01-21.27.09:436][361]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2017.12.01-21.27.09:436][361]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2017.12.01-21.27.09:436][361]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2017.12.01-21.27.09:436][361]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2017.12.01-21.27.09:436][361]LogModuleManager: Shutting down and abandoning module Media (221)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2017.12.01-21.27.09:442][361]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2017.12.01-21.27.09:444][361]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2017.12.01-21.27.09:444][361]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2017.12.01-21.27.09:444][361]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2017.12.01-21.27.09:444][361]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2017.12.01-21.27.09:444][361]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2017.12.01-21.27.09:444][361]LogModuleManager: Shutting down and abandoning module Core (172)
+[2017.12.01-21.27.09:444][361]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2017.12.01-21.27.09:444][361]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2017.12.01-21.27.09:445][361]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.01-21.27.09:445][361]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.12.01-21.27.09:445][361]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.12.01-21.27.09:445][361]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.12.01-21.27.09:445][361]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.12.01-21.27.09:445][361]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.12.01-21.27.09:445][361]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.12.01-21.27.09:445][361]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.12.01-21.27.09:445][361]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2017.12.01-21.27.09:513][361]LogDerivedDataCache: Shutdown
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2017.12.01-21.27.09:513][361]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.01-21.27.09:514][361]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.01-21.27.09:514][361]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.01-21.27.09:514][361]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDDD5DF32-4131-9B60-54F8-969925841E9B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=92ce24f84a23c5fd233304ab955cb720%7C59d3ef93b53b484194b8cef7d13278a3%7C8943e186-6bc4-4a0f-b5b2-fa898cead342&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.01-21.27.09:526][361]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.01-21.27.09:527][361]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.01-21.27.09:527][361]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.01-21.27.09:527][361]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.01-21.27.09:527][361]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.01-21.27.09:527][361]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.01-21.27.09:527][361]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.01-21.27.09:527][361]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.01-21.27.09:528][361]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.01-21.27.09:532][361]LogExit: Exiting.
+[2017.12.01-21.27.09:547][361]Log file closed, 12/01/17 16:27:09
