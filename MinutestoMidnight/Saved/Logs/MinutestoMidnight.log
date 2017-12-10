@@ -965,3 +965,534 @@ Script call stack:
 [2017.12.10-17.05.42:784][894]LogBlueprintUserMessages: [EnemyAI_C_7] Hello
 [2017.12.10-17.05.59:539][316]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
 [2017.12.10-17.05.59:618][316]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-17.07.24:378][353]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-17.07.24:448][353]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-17.07.24:449][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-17.07.24:449][353]PIE: New page: PIE session: FirstLevel (Dec 10, 2017, 7:07:24 AM)
+[2017.12.10-17.07.24:449][353]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.10-17.07.24:514][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065393s)
+[2017.12.10-17.07.24:515][353]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.10-17.07.24:516][353]LogPlayLevel: PIE: World Init took: (0.001276s)
+[2017.12.10-17.07.24:516][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.067191s)
+[2017.12.10-17.07.24:570][353]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-17.07.24:580][353]LogInit: FAudioDevice initialized.
+[2017.12.10-17.07.24:620][353]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-17.07.24:631][353]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.10-12.07.24
+[2017.12.10-17.07.24:635][353]LogWorld: Bringing up level for play took: 0.014203
+[2017.12.10-17.07.24:640][353]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel -0.144
+[2017.12.10-17.07.24:652][353]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-17.07.36:652][254]LogBlueprintUserMessages: [EnemyAI_C_7] Hello
+[2017.12.10-17.08.05:522][442]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
+[2017.12.10-17.08.05:523][442]LogBlueprintUserMessages: [EnemyAI_C_1] Hello
+[2017.12.10-17.08.07:514][594]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
+[2017.12.10-17.08.08:520][667]LogBlueprintUserMessages: [EnemyAI_C_1] Hello
+[2017.12.10-17.08.09:515][741]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
+[2017.12.10-17.08.47:003][680]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-17.08.47:091][680]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-19.47.08:444][505]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0153 seconds. Added 2 classes and 3 folders.
+[2017.12.10-19.47.32:162][855]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.10-19.47.32:752][855]Cmd: MAP LOAD FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.10-19.47.32:756][855]LightingResults: New page: Lighting Build
+[2017.12.10-19.47.32:909][855]LoadErrors: New page: Loading map: SecondLevel.umap
+[2017.12.10-19.47.33:798][855]MapCheck: New page: Map Check
+[2017.12.10-19.47.33:798][855]LightingResults: New page: Lighting Build
+[2017.12.10-19.47.34:693][855]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.10-19.47.35:075][855]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.10-19.47.35:404][855]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 313.041ms to complete.
+[2017.12.10-19.47.35:409][855]LogFileHelpers: Loading map 'SecondLevel' took 2.938
+[2017.12.10-19.48.00:852][721]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume8)
+[2017.12.10-19.48.04:240][961]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume2)
+[2017.12.10-19.48.55:016][316]LogActorFactory: Actor Factory created Cube
+[2017.12.10-19.48.55:198][316]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.10-19.48.56:637][371]LogActorFactory: Actor Factory created Cube
+[2017.12.10-19.48.57:488][412]LogActorFactory: Actor Factory created Cube
+[2017.12.10-19.49.24:310][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.12.10-19.49.25:047][ 62]Cmd: DELETE
+[2017.12.10-19.49.25:048][ 62]Cmd: ACTOR DELETE
+[2017.12.10-19.49.25:302][ 62]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.10-19.49.25:352][ 62]LogEditorActor: Deleted 1 Actors (0.109 secs)
+[2017.12.10-19.50.03:395][522]LogEditorViewport: Clicking Background
+[2017.12.10-19.51.43:492][ 14]LogEditorViewport: Clicking Background
+[2017.12.10-19.51.54:201][890]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2017.12.10-19.51.54:286][890]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2017.12.10-19.51.54:537][890]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.12.10-19.51.54:567][890]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.12.10-19.51.54:645][890]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.12.10-19.51.54:668][890]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.12.10-19.51.54:875][890]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.12.10-19.51.54:951][890]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.12.10-19.51.54:976][890]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.12.10-19.51.55:091][890]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2017.12.10-19.51.55:109][890]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2017.12.10-19.51.55:365][890]LogMaterial: Missing cached shader map for material MirrorPlaneMaterial, compiling. 
+[2017.12.10-19.51.55:486][890]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.12.10-19.51.55:510][890]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.12.10-19.51.55:538][890]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.12.10-19.51.55:603][890]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.12.10-19.51.55:654][890]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.12.10-19.51.55:679][890]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.12.10-19.51.55:730][890]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.12.10-19.51.55:755][890]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.12.10-19.51.55:841][890]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2017.12.10-19.51.55:865][890]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2017.12.10-19.51.55:948][890]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.12.10-19.51.56:026][890]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.12.10-19.51.56:120][890]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.12.10-19.51.56:148][890]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.12.10-19.51.57:337][890]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.12.10-19.52.01:386][ 87]LogMaterial: Missing cached shader map for material FoliageBrushSphereMaterial, compiling. 
+[2017.12.10-19.52.03:529][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.12.10-19.52.13:153][ 52]LogEditorViewport: Clicking Background
+[2017.12.10-19.53.46:766][ 81]Cmd: EDIT COPY
+[2017.12.10-19.53.47:535][125]Cmd: EDIT PASTE
+[2017.12.10-19.53.52:564][339]Cmd: TRANSACTION UNDO
+[2017.12.10-19.53.52:564][339]LogEditorTransaction: Undo Paste
+[2017.12.10-19.53.52:647][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush54_36.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:647][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush73.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:648][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush70_62.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:649][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.Wall6.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:650][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:651][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush114.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:652][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.Wall19.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:653][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush117.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:653][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush83_78.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:654][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.Wall14_80.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:655][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush93.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:656][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush28_31.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:657][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush31.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:658][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush36.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:666][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.Wall2.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:666][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush102.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:667][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.Ceiling2_6.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:668][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:669][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush58.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:670][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:670][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush67.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:673][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush139.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:674][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush151.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:675][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush130.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:676][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush124.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:677][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush133.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:680][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush161.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:681][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush158.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:681][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush167.BrushComponent0) Component already registered.
+[2017.12.10-19.53.52:682][339]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.BoxBrush170.BrushComponent0) Component already registered.
+[2017.12.10-19.55.05:047][971]Cmd: EDIT COPY
+[2017.12.10-19.55.07:134][121]Cmd: EDIT PASTE
+[2017.12.10-19.57.12:946][ 84]LogEditorActor: Deleted Actor: Brush
+[2017.12.10-19.57.13:138][ 84]LogEditorActor: Deleted 1 Actors (0.212 secs)
+[2017.12.10-19.57.13:594][111]LogEditorViewport: Clicking Background
+[2017.12.10-19.57.20:969][724]LogActorFactory: Actor Factory created Cube
+[2017.12.10-19.57.21:496][767]LogActorFactory: Actor Factory created Cube
+[2017.12.10-19.59.01:467][876]LogSavePackage: Save=1001.45ms
+[2017.12.10-19.59.01:467][876]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/SecondLevel_Auto649996BE64B2C10B953FB0482E8255ED0.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/SecondLevel_Auto6.umap'
+[2017.12.10-19.59.01:469][876]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/SecondLevel_Auto6.umap
+[2017.12.10-19.59.01:479][876]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/SecondLevel' took 1.097
+[2017.12.10-19.59.01:479][876]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.097
+[2017.12.10-19.59.01:481][876]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/NewBlueprint] ([1] browsable assets)...
+[2017.12.10-19.59.01:481][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/NewBlueprint]
+[2017.12.10-19.59.01:501][876]LogSavePackage: Save=17.90ms
+[2017.12.10-19.59.01:501][876]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/NewBlueprint_Auto67A00ABA64014ABCF82303B978BC8299D.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/NewBlueprint_Auto6.uasset'
+[2017.12.10-19.59.01:503][876]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/NewBlueprint_Auto6.uasset
+[2017.12.10-19.59.01:503][876]LogFileHelpers: Auto-saving content packages took 0.023
+[2017.12.10-19.59.08:511][278]SourceControl: On branch master
+[2017.12.10-19.59.08:511][278]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.12.10-19.59.08:511][278]SourceControl: Changes not staged for commit:
+[2017.12.10-19.59.08:535][278]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.12.10-19.59.08:535][278]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.10-19.59.08:535][278]SourceControl: 	modified:   MinutestoMidnight/Saved/Autosaves/PackageRestoreData.json
+[2017.12.10-19.59.08:535][278]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.10-19.59.08:535][278]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/WorldState/4138618965.json
+[2017.12.10-19.59.08:535][278]SourceControl: 	modified:   MinutestoMidnight/Saved/Logs/MinutestoMidnight.log
+[2017.12.10-19.59.08:536][278]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.12.10-19.59.09:179][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2017.12.10-19.59.09:179][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/TriggeredDoor.SKEL_TriggeredDoor_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2017.12.10-19.59.09:179][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2017.12.10-19.59.09:179][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2017.12.10-19.59.09:179][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2017.12.10-19.59.09:179][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewBlueprint.PackageMetaData'
+[2017.12.10-19.59.09:243][278]LogSavePackage: Save=17.23ms
+[2017.12.10-19.59.09:243][278]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/TriggeredDoor0E0062C446F1F2432C7C3E8FF01A97A1.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset'
+[2017.12.10-19.59.09:263][278]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset
+[2017.12.10-19.59.14:783][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.12.10-19.59.15:814][591]Cmd: DELETE
+[2017.12.10-19.59.15:814][591]Cmd: ACTOR DELETE
+[2017.12.10-19.59.15:832][591]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.10-19.59.15:881][591]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2017.12.10-20.02.23:986][ 30]BlueprintLog: New page: Compile TriggeredDoor
+[2017.12.10-20.03.30:688][728]BlueprintLog: New page: Compile TriggeredDoor
+[2017.12.10-20.08.46:484][618]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_TriggeredDoor_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2017.12.10-20.13.27:871][776]LogSavePackage: Save=1019.92ms
+[2017.12.10-20.13.27:871][776]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/SecondLevel_Auto7FC83556043BB271B22D35AB3CFCF8D5F.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/SecondLevel_Auto7.umap'
+[2017.12.10-20.13.27:875][776]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/SecondLevel_Auto7.umap
+[2017.12.10-20.13.27:880][776]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/SecondLevel' took 1.116
+[2017.12.10-20.13.27:901][776]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.116
+[2017.12.10-20.13.27:904][776]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TriggeredDoor] ([1] browsable assets)...
+[2017.12.10-20.13.27:931][776]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor]
+[2017.12.10-20.13.27:931][776]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TriggeredDoor]
+[2017.12.10-20.13.28:021][776]LogSavePackage: Save=44.09ms
+[2017.12.10-20.13.28:021][776]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/TriggeredDoor_Auto7174B9D2248DFED95B3558B92F633922A.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TriggeredDoor_Auto7.uasset'
+[2017.12.10-20.13.28:023][776]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TriggeredDoor_Auto7.uasset
+[2017.12.10-20.13.28:023][776]LogFileHelpers: Auto-saving content packages took 0.120
+[2017.12.10-20.23.51:891][863]LogSavePackage: Save=57.88ms
+[2017.12.10-20.23.51:891][863]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/TriggeredDoor545641C54C194E2ED742B1B1B04701EA.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset'
+[2017.12.10-20.23.51:901][863]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset
+[2017.12.10-20.23.53:631][948]BlueprintLog: New page: Compile TriggeredDoor
+[2017.12.10-20.23.53:654][948]LogBlueprint: Warning: [Compiler TriggeredDoor] Can't parse default value '0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000' for  <None> . Property: MoveTime.
+[2017.12.10-20.23.54:270][948]LogBlueprint: Warning: [Compiler TriggeredDoor] [4261.60] Compile of TriggeredDoor successful, but with 1 Warning(s) [in 626 ms] (/Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor)
+[2017.12.10-20.27.43:234][ 44]LogEditorTransaction: Undo Move Node
+[2017.12.10-20.27.44:689][105]LogEditorTransaction: Undo Create Pin Link
+[2017.12.10-20.27.45:356][132]LogEditorTransaction: Undo Delete current selection
+[2017.12.10-20.30.30:877][184]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/SecondLevel' took 0.072
+[2017.12.10-20.30.30:882][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.12.10-20.30.30:911][184]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.12.10-20.30.30:911][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.12.10-20.30.31:218][184]LogSavePackage: Save=255.12ms
+[2017.12.10-20.30.31:218][184]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacter_Auto8CE4400894814AF504DD7EA9C54FC3A40.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto8.uasset'
+[2017.12.10-20.30.31:221][184]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto8.uasset
+[2017.12.10-20.30.31:222][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TriggeredDoor] ([1] browsable assets)...
+[2017.12.10-20.30.31:247][184]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor]
+[2017.12.10-20.30.31:270][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TriggeredDoor]
+[2017.12.10-20.30.31:371][184]LogSavePackage: Save=79.00ms
+[2017.12.10-20.30.31:371][184]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/TriggeredDoor_Auto82F23919542F9766B9EAE2DBB380A29F1.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TriggeredDoor_Auto8.uasset'
+[2017.12.10-20.30.31:373][184]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TriggeredDoor_Auto8.uasset
+[2017.12.10-20.30.31:373][184]LogFileHelpers: Auto-saving content packages took 0.493
+[2017.12.10-20.37.31:736][215]BlueprintLog: New page: Compile TriggeredDoor
+[2017.12.10-20.37.33:902][266]LogSavePackage: Save=82.66ms
+[2017.12.10-20.37.33:902][266]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/TriggeredDoor2A00996D4C28B29DCEDC15A56767EDC0.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset'
+[2017.12.10-20.37.33:910][266]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset
+[2017.12.10-20.37.49:417][142]LogEditorViewport: Clicking Background
+[2017.12.10-20.37.54:238][506]LogEditorViewport: Clicking on Actor (LMB): TriggeredDoor_C (TriggeredDoor)
+[2017.12.10-20.38.44:293][804]LogEditorViewport: Clicking Background
+[2017.12.10-20.38.57:131][846]LogEditorViewport: Clicking Background
+[2017.12.10-20.39.39:134][526]LogEditorViewport: Clicking Background
+[2017.12.10-20.39.46:273][998]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.12.10-20.40.57:049][103]LogSavePackage: Save=1011.84ms
+[2017.12.10-20.40.57:049][103]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/SecondLevel_Auto9D0655F7D43F53E6BBA5E68864144B6FA.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/SecondLevel_Auto9.umap'
+[2017.12.10-20.40.57:053][103]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/SecondLevel_Auto9.umap
+[2017.12.10-20.40.57:058][103]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/SecondLevel' took 1.105
+[2017.12.10-20.40.57:058][103]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.105
+[2017.12.10-20.44.53:053][593]LogEditorViewport: Clicking on Actor (LMB): TriggeredDoor_C (TriggeredDoor)
+[2017.12.10-20.46.47:409][152]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-20.46.47:493][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.46.47:494][152]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.10-20.46.47:497][152]LogPlayLevel: [PlayLevel] Compiling SecondLevel before play...
+[2017.12.10-20.46.47:566][152]LogPlayLevel: PlayLevel: Blueprint regeneration took 72 ms (1 blueprints)
+[2017.12.10-20.46.47:567][152]PIE: New page: PIE session: SecondLevel (Dec 10, 2017, 10:46:47 AM)
+[2017.12.10-20.46.47:567][152]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
+[2017.12.10-20.46.47:703][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135858s)
+[2017.12.10-20.46.47:704][152]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.10-20.46.47:704][152]LogPlayLevel: PIE: World Init took: (0.001521s)
+[2017.12.10-20.46.47:713][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.146432s)
+[2017.12.10-20.46.47:770][152]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-20.46.47:781][152]LogInit: FAudioDevice initialized.
+[2017.12.10-20.46.47:818][152]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-20.46.47:827][152]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 0) at 2017.12.10-15.46.47
+[2017.12.10-20.46.47:828][152]LogWorld: Bringing up level for play took: 0.008720
+[2017.12.10-20.46.47:844][152]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel 1.06
+[2017.12.10-20.46.47:844][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.48.30:043][129]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.48.30:106][129]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.49.19:372][496]LogClass: Warning: Property GoalTransform of GoalTransform has a struct type mismatch (tag Transform != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.12.10-20.50.50:616][689]LogSavePackage: Save=78.76ms
+[2017.12.10-20.50.50:616][689]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/TriggeredDoorFDB6871E48EEE7971D57FA8C11E7B19A.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset'
+[2017.12.10-20.50.50:622][689]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset
+[2017.12.10-20.51.14:329][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/SecondLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.10-20.51.15:630][786]LogSavePackage: Save=1224.75ms
+[2017.12.10-20.51.15:631][786]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/SecondLevel86411EA342E353FAD92C8EB14B0CE9BF.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap'
+[2017.12.10-20.51.15:661][786]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap
+[2017.12.10-20.51.16:685][828]BlueprintLog: New page: Compile TriggeredDoor
+[2017.12.10-20.51.16:727][828]LogClass: Warning: Property GoalSlide of GoalSlide has a struct type mismatch (tag Transform != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.12.10-20.51.16:727][828]LogBlueprint: Warning: [Compiler TriggeredDoor] Can't parse default value '0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000' for  Goal Slide . Property: GoalSlide.
+[2017.12.10-20.51.16:732][828]LogClass: Warning: Property GoalSlide of GoalSlide has a struct type mismatch (tag Transform != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.12.10-20.51.17:580][828]LogBlueprint: Warning: [Compiler TriggeredDoor] [5904.92] Compile of TriggeredDoor successful, but with 1 Warning(s) [in 895 ms] (/Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor)
+[2017.12.10-20.51.22:792][119]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-20.51.22:908][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.51.22:908][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-20.51.22:908][119]PIE: New page: PIE session: SecondLevel (Dec 10, 2017, 10:51:22 AM)
+[2017.12.10-20.51.22:909][119]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
+[2017.12.10-20.51.23:005][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096422s)
+[2017.12.10-20.51.23:006][119]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.10-20.51.23:006][119]LogPlayLevel: PIE: World Init took: (0.001318s)
+[2017.12.10-20.51.23:007][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.098290s)
+[2017.12.10-20.51.23:059][119]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-20.51.23:068][119]LogInit: FAudioDevice initialized.
+[2017.12.10-20.51.23:103][119]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-20.51.23:111][119]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 0) at 2017.12.10-15.51.23
+[2017.12.10-20.51.23:112][119]LogWorld: Bringing up level for play took: 0.007943
+[2017.12.10-20.51.23:117][119]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel 0.334
+[2017.12.10-20.51.23:117][119]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.51.40:943][629]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 2
+[2017.12.10-20.51.40:943][629]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Level/SecondLevel.SecondLevel_C:BndEvt__TriggerBox_1_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/Level/SecondLevel.SecondLevel_C:ExecuteUbergraph_SecondLevel
+	Function /Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor_C:Trigger
+
+[2017.12.10-20.51.40:977][629]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_16.Screen_UI_C_39.WidgetTree_93.HealthBar.FloatBinding_30 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.51.47:127][629]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_16.Screen_UI_C_39.WidgetTree_93.HealthBar.FloatBinding_30 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.51.49:314][629]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_16.Screen_UI_C_39.WidgetTree_93.HealthBar.FloatBinding_30 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.52.02:058][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.52.02:143][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.52.17:464][552]LogEditorViewport: Clicking Background
+[2017.12.10-20.52.18:088][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/SecondLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.10-20.52.19:268][585]LogSavePackage: Save=1116.31ms
+[2017.12.10-20.52.19:268][585]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/SecondLevel9AF1F8544EA9DC594D31FFB39E93E09B.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap'
+[2017.12.10-20.52.19:273][585]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap
+[2017.12.10-20.52.22:210][830]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-20.52.22:284][830]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.52.22:285][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-20.52.22:285][830]PIE: New page: PIE session: SecondLevel (Dec 10, 2017, 10:52:22 AM)
+[2017.12.10-20.52.22:285][830]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
+[2017.12.10-20.52.22:379][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094466s)
+[2017.12.10-20.52.22:380][830]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.10-20.52.22:381][830]LogPlayLevel: PIE: World Init took: (0.001221s)
+[2017.12.10-20.52.22:381][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.096237s)
+[2017.12.10-20.52.22:441][830]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-20.52.22:451][830]LogInit: FAudioDevice initialized.
+[2017.12.10-20.52.22:488][830]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-20.52.22:496][830]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 0) at 2017.12.10-15.52.22
+[2017.12.10-20.52.22:497][830]LogWorld: Bringing up level for play took: 0.007903
+[2017.12.10-20.52.22:502][830]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel -0.281
+[2017.12.10-20.52.22:503][830]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.52.40:518][400]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 2
+[2017.12.10-20.52.40:518][400]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Level/SecondLevel.SecondLevel_C:BndEvt__TriggerBox_1_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/Level/SecondLevel.SecondLevel_C:ExecuteUbergraph_SecondLevel
+	Function /Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor_C:Trigger
+
+[2017.12.10-20.52.40:581][400]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_17.Screen_UI_C_43.WidgetTree_97.HealthBar.FloatBinding_34 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.52.40:581][400]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_17.Screen_UI_C_43.WidgetTree_97.HealthBar.FloatBinding_34 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.52.51:788][400]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_17.Screen_UI_C_43.WidgetTree_97.HealthBar.FloatBinding_34 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.52.52:976][400]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_17.Screen_UI_C_43.WidgetTree_97.HealthBar.FloatBinding_34 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.52.53:857][400]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_17.Screen_UI_C_43.WidgetTree_97.HealthBar.FloatBinding_34 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.55.00:991][279]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.55.01:079][279]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.55.03:106][439]LogEditorViewport: Clicking on Actor (LMB): TriggeredDoor_C (TriggeredDoor)
+[2017.12.10-20.55.26:112][420]BlueprintLog: New page: Compile TriggeredDoor
+[2017.12.10-20.56.03:230][910]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-20.56.03:336][910]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.56.03:336][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-20.56.03:336][910]PIE: New page: PIE session: SecondLevel (Dec 10, 2017, 10:56:03 AM)
+[2017.12.10-20.56.03:336][910]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
+[2017.12.10-20.56.03:431][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094483s)
+[2017.12.10-20.56.03:432][910]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.10-20.56.03:432][910]LogPlayLevel: PIE: World Init took: (0.001216s)
+[2017.12.10-20.56.03:433][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.096399s)
+[2017.12.10-20.56.03:488][910]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-20.56.03:497][910]LogInit: FAudioDevice initialized.
+[2017.12.10-20.56.03:540][910]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-20.56.03:548][910]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 0) at 2017.12.10-15.56.03
+[2017.12.10-20.56.03:549][910]LogWorld: Bringing up level for play took: 0.008089
+[2017.12.10-20.56.03:554][910]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel 0.771
+[2017.12.10-20.56.03:555][910]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.56.29:516][782]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 2
+[2017.12.10-20.56.29:516][782]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Level/SecondLevel.SecondLevel_C:BndEvt__TriggerBox_1_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/Level/SecondLevel.SecondLevel_C:ExecuteUbergraph_SecondLevel
+	Function /Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor_C:Trigger
+
+[2017.12.10-20.56.29:577][782]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_18.Screen_UI_C_49.WidgetTree_103.HealthBar.FloatBinding_40 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.56.29:577][782]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_18.Screen_UI_C_49.WidgetTree_103.HealthBar.FloatBinding_40 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.56.54:607][782]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_18.Screen_UI_C_49.WidgetTree_103.HealthBar.FloatBinding_40 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.56.56:823][782]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_18.Screen_UI_C_49.WidgetTree_103.HealthBar.FloatBinding_40 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.57.15:828][782]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_18.Screen_UI_C_49.WidgetTree_103.HealthBar.FloatBinding_40 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.57.25:105][817]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 2
+[2017.12.10-20.57.25:105][817]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Level/SecondLevel.SecondLevel_C:BndEvt__TriggerBox_1_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/Level/SecondLevel.SecondLevel_C:ExecuteUbergraph_SecondLevel
+	Function /Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor_C:Trigger
+
+[2017.12.10-20.57.25:147][817]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_18.Screen_UI_C_49.WidgetTree_103.HealthBar.FloatBinding_40 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.57.35:474][818]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 2
+[2017.12.10-20.57.35:474][818]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Level/SecondLevel.SecondLevel_C:BndEvt__TriggerBox_1_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/Level/SecondLevel.SecondLevel_C:ExecuteUbergraph_SecondLevel
+	Function /Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor_C:Trigger
+
+[2017.12.10-20.57.35:517][818]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_18.Screen_UI_C_49.WidgetTree_103.HealthBar.FloatBinding_40 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-20.58.28:863][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.58.28:942][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.59.09:613][635]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.10-20.59.11:311][703]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.10-20.59.17:873][ 38]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-20.59.17:950][ 38]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.59.17:950][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-20.59.17:951][ 38]PIE: New page: PIE session: SecondLevel (Dec 10, 2017, 10:59:17 AM)
+[2017.12.10-20.59.17:951][ 38]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
+[2017.12.10-20.59.18:043][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092019s)
+[2017.12.10-20.59.18:044][ 38]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.10-20.59.18:044][ 38]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2017.12.10-20.59.18:044][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.093867s)
+[2017.12.10-20.59.18:117][ 38]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-20.59.18:126][ 38]LogInit: FAudioDevice initialized.
+[2017.12.10-20.59.18:164][ 38]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-20.59.18:171][ 38]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 0) at 2017.12.10-15.59.18
+[2017.12.10-20.59.18:172][ 38]LogWorld: Bringing up level for play took: 0.008027
+[2017.12.10-20.59.18:177][ 38]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel -0.606
+[2017.12.10-20.59.18:178][ 38]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-20.59.35:756][545]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 2
+[2017.12.10-20.59.35:756][545]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Level/SecondLevel.SecondLevel_C:BndEvt__TriggerBox_1_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/Level/SecondLevel.SecondLevel_C:ExecuteUbergraph_SecondLevel
+	Function /Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor_C:Trigger
+
+[2017.12.10-20.59.35:822][545]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_19.Screen_UI_C_55.WidgetTree_109.HealthBar.FloatBinding_46 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-21.00.08:564][545]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_19.Screen_UI_C_55.WidgetTree_109.HealthBar.FloatBinding_46 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-21.00.11:475][545]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_19.Screen_UI_C_55.WidgetTree_109.HealthBar.FloatBinding_46 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-21.00.21:759][545]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_19.Screen_UI_C_55.WidgetTree_109.HealthBar.FloatBinding_46 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-21.01.56:812][977]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 2
+[2017.12.10-21.01.56:812][977]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Level/SecondLevel.SecondLevel_C:BndEvt__TriggerBox_1_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/Level/SecondLevel.SecondLevel_C:ExecuteUbergraph_SecondLevel
+	Function /Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor_C:Trigger
+
+[2017.12.10-21.01.56:878][977]LogScriptCore: Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_19.Screen_UI_C_55.WidgetTree_109.HealthBar.FloatBinding_46 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.10-21.02.34:136][444]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.02.34:230][444]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.04.36:196][228]LogSavePackage: Save=77.25ms
+[2017.12.10-21.04.36:196][228]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/TriggeredDoor8EAAC5EA47F6AB01576A66AEFFD4E8B3.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset'
+[2017.12.10-21.04.36:202][228]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset
+[2017.12.10-21.06.39:062][224]LogSavePackage: Save=78.13ms
+[2017.12.10-21.06.39:062][224]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/TriggeredDoor438293F84AB4848E6120A8A24384CD98.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset'
+[2017.12.10-21.06.39:066][224]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/TriggeredDoor.uasset
+[2017.12.10-21.06.54:169][988]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-21.06.54:246][988]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.06.54:246][988]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.10-21.06.54:261][988]LogPlayLevel: [PlayLevel] Compiling TriggeredDoor before play...
+[2017.12.10-21.06.55:052][988]LogPlayLevel: PlayLevel: Blueprint regeneration took 806 ms (1 blueprints)
+[2017.12.10-21.06.55:053][988]PIE: New page: PIE session: SecondLevel (Dec 10, 2017, 11:06:55 AM)
+[2017.12.10-21.06.55:053][988]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
+[2017.12.10-21.06.55:151][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097987s)
+[2017.12.10-21.06.55:153][988]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.10-21.06.55:153][988]LogPlayLevel: PIE: World Init took: (0.001608s)
+[2017.12.10-21.06.55:153][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.100350s)
+[2017.12.10-21.06.55:214][988]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-21.06.55:223][988]LogInit: FAudioDevice initialized.
+[2017.12.10-21.06.55:261][988]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-21.06.55:269][988]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 0) at 2017.12.10-16.06.55
+[2017.12.10-21.06.55:270][988]LogWorld: Bringing up level for play took: 0.008016
+[2017.12.10-21.06.55:275][988]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel 0.492
+[2017.12.10-21.06.55:276][988]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.07.20:335][ 79]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-24.15 Y=-3.33 Z=0.00 Location: X=244.97 Y=-63.44 Z=198.15 Normal: X=0.07 Y=-1.00 Z=0.00 PenetrationDepth:29.215 Actor:TriggeredDoor_404 Component:Cube BoneName:None (0 other events since notify)
+[2017.12.10-21.07.26:858][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.07.26:910][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.09.02:398][140]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-21.09.02:525][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.09.02:526][140]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.10-21.09.02:541][140]LogPlayLevel: [PlayLevel] Compiling TriggeredDoor before play...
+[2017.12.10-21.09.02:598][140]LogBlueprint: Error: [Compiler TriggeredDoor] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.12.10-21.09.02:603][140]LogBlueprint: Warning: [Compiler TriggeredDoor] [6969.95] Compile of TriggeredDoor failed. 1 Fatal Issue(s) 0 Warning(s) [in 63 ms] (/Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor)
+[2017.12.10-21.09.02:945][140]LogPlayLevel: PlayLevel: Blueprint regeneration took 419 ms (1 blueprints)
+[2017.12.10-21.09.02:945][140]BlueprintLog: Blueprint TriggeredDoor failed to compile
+[2017.12.10-21.09.05:719][183]BlueprintLog: New page: Compile TriggeredDoor
+[2017.12.10-21.09.05:753][183]LogBlueprint: Error: [Compiler TriggeredDoor] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.12.10-21.09.05:993][183]LogBlueprint: Warning: [Compiler TriggeredDoor] [6973.34] Compile of TriggeredDoor failed. 1 Fatal Issue(s) 0 Warning(s) [in 272 ms] (/Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor)
+[2017.12.10-21.09.17:848][749]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-21.09.17:943][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.09.17:943][749]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.10-21.09.17:958][749]LogPlayLevel: [PlayLevel] Compiling TriggeredDoor before play...
+[2017.12.10-21.09.18:220][749]LogPlayLevel: PlayLevel: Blueprint regeneration took 276 ms (1 blueprints)
+[2017.12.10-21.09.18:220][749]PIE: New page: PIE session: SecondLevel (Dec 10, 2017, 11:09:18 AM)
+[2017.12.10-21.09.18:251][749]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
+[2017.12.10-21.09.18:371][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119816s)
+[2017.12.10-21.09.18:372][749]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.10-21.09.18:373][749]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2017.12.10-21.09.18:373][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.121577s)
+[2017.12.10-21.09.18:428][749]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-21.09.18:438][749]LogInit: FAudioDevice initialized.
+[2017.12.10-21.09.18:480][749]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-21.09.18:489][749]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 0) at 2017.12.10-16.09.18
+[2017.12.10-21.09.18:490][749]LogWorld: Bringing up level for play took: 0.008385
+[2017.12.10-21.09.18:495][749]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel -0.288
+[2017.12.10-21.09.18:496][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.10.02:695][242]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.10.02:746][242]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.13.48:709][269]BlueprintLog: New page: Compile DoorSingleTrigger
+[2017.12.10-21.15.05:187][599]LogBlueprint: Warning: [Compiler PersistentLevel.SecondLevel] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2017.12.10-21.15.05:188][599]LogBlueprint: Error: [Compiler PersistentLevel.SecondLevel] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2017.12.10-21.15.05:189][599]LogBlueprint: Warning: [Compiler PersistentLevel.SecondLevel] [7332.53] Compile of PersistentLevel.SecondLevel failed. 1 Fatal Issue(s) 1 Warning(s) [in 18 ms] (/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel)
+[2017.12.10-21.15.06:315][599]LogSavePackage: Save=1148.48ms
+[2017.12.10-21.15.06:315][599]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/SecondLevel_Auto0B7AC680B4ADD13ADE071B1BA1E440A88.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/SecondLevel_Auto0.umap'
+[2017.12.10-21.15.06:319][599]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/SecondLevel_Auto0.umap
+[2017.12.10-21.15.06:325][599]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/SecondLevel' took 1.367
+[2017.12.10-21.15.06:325][599]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.367
+[2017.12.10-21.15.06:329][599]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TriggeredDoor] ([1] browsable assets)...
+[2017.12.10-21.15.06:351][599]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TriggeredDoor.TriggeredDoor]
+[2017.12.10-21.15.06:351][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TriggeredDoor]
+[2017.12.10-21.15.06:482][599]LogSavePackage: Save=107.27ms
+[2017.12.10-21.15.06:482][599]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/TriggeredDoor_Auto0F771553F4A6AE6D8C93C929C446C29ED.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TriggeredDoor_Auto0.uasset'
+[2017.12.10-21.15.06:484][599]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TriggeredDoor_Auto0.uasset
+[2017.12.10-21.15.06:485][599]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/DoorSingleTrigger] ([1] browsable assets)...
+[2017.12.10-21.15.06:485][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/DoorSingleTrigger]
+[2017.12.10-21.15.06:536][599]LogSavePackage: Save=48.84ms
+[2017.12.10-21.15.06:540][599]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/DoorSingleTrigger_Auto0BE8264404D7B1810558C5E86E3FC2B0E.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/DoorSingleTrigger_Auto0.uasset'
+[2017.12.10-21.15.06:542][599]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/DoorSingleTrigger_Auto0.uasset
+[2017.12.10-21.15.06:542][599]LogFileHelpers: Auto-saving content packages took 0.214
+[2017.12.10-21.15.52:704][567]BlueprintLog: New page: Compile DoorSingleTrigger
+[2017.12.10-21.17.11:796][ 65]LogEditorViewport: Clicking on Actor (LMB): TriggeredDoor_C (TriggeredDoor)
+[2017.12.10-21.17.14:299][219]Cmd: EDIT COPY
+[2017.12.10-21.17.14:979][261]Cmd: EDIT PASTE
+[2017.12.10-21.17.29:517][ 83]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2017.12.10-21.17.29:543][ 83]LogEditorActor: No worlds found in edactSelectMatchingStaticMesh
+[2017.12.10-21.17.48:705][225]LogEditorViewport: Clicking Background
+[2017.12.10-21.17.49:818][308]LogEditorViewport: Clicking on Actor (LMB): TriggeredDoor_C (TriggeredDoor2)
+[2017.12.10-21.19.49:661][621]BlueprintLog: New page: Compile SecondLevel
+[2017.12.10-21.19.57:035][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/SecondLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.10-21.19.58:272][933]LogSavePackage: Save=1162.84ms
+[2017.12.10-21.19.58:272][933]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/SecondLevel5C8FE83F48C6E7B911A213A3EB744C17.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap'
+[2017.12.10-21.19.58:293][933]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap
+[2017.12.10-21.19.58:362][933]LogFileHelpers: Saving map 'SecondLevel' took 1.503
+[2017.12.10-21.20.00:974][ 65]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-21.20.01:063][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.20.01:063][ 65]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.10-21.20.01:069][ 65]LogPlayLevel: [PlayLevel] Compiling DoorSingleTrigger before play...
+[2017.12.10-21.20.01:691][ 65]LogPlayLevel: PlayLevel: Blueprint regeneration took 627 ms (1 blueprints)
+[2017.12.10-21.20.01:691][ 65]PIE: New page: PIE session: SecondLevel (Dec 10, 2017, 11:20:01 AM)
+[2017.12.10-21.20.01:701][ 65]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
+[2017.12.10-21.20.01:798][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096699s)
+[2017.12.10-21.20.01:799][ 65]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.10-21.20.01:799][ 65]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2017.12.10-21.20.01:800][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.098394s)
+[2017.12.10-21.20.01:862][ 65]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-21.20.01:871][ 65]LogInit: FAudioDevice initialized.
+[2017.12.10-21.20.01:905][ 65]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-21.20.01:913][ 65]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 0) at 2017.12.10-16.20.01
+[2017.12.10-21.20.01:914][ 65]LogWorld: Bringing up level for play took: 0.008311
+[2017.12.10-21.20.01:919][ 65]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel 1.136
+[2017.12.10-21.20.01:920][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.20.19:348][431]LogScript: Warning: Accessed None trying to read property Controlled Door
+	DoorSingleTrigger_C /Game/Level/UEDPIE_0_SecondLevel.SecondLevel:PersistentLevel.DoorSingleTrigger
+	Function /Game/FirstPersonBP/Blueprints/DoorSingleTrigger.DoorSingleTrigger_C:ExecuteUbergraph_DoorSingleTrigger:008C
+[2017.12.10-21.20.19:349][431]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Controlled Door from function: 'ExecuteUbergraph_DoorSingleTrigger' from node: Trigger in graph: EventGraph in object: DoorSingleTrigger with description: Accessed None trying to read property Controlled Door
+[2017.12.10-21.21.20:796][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.21.20:861][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.21.32:984][101]LogEditorViewport: Clicking on Actor (LMB): DoorSingleTrigger_C (DoorSingleTrigger)
+[2017.12.10-21.21.37:208][343]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-21.21.37:289][343]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.21.37:290][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-21.21.37:290][343]PIE: New page: PIE session: SecondLevel (Dec 10, 2017, 11:21:37 AM)
+[2017.12.10-21.21.37:290][343]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
+[2017.12.10-21.21.37:386][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095194s)
+[2017.12.10-21.21.37:387][343]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.10-21.21.37:387][343]LogPlayLevel: PIE: World Init took: (0.001176s)
+[2017.12.10-21.21.37:387][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.096988s)
+[2017.12.10-21.21.37:444][343]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-21.21.37:453][343]LogInit: FAudioDevice initialized.
+[2017.12.10-21.21.37:489][343]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-21.21.37:497][343]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 0) at 2017.12.10-16.21.37
+[2017.12.10-21.21.37:498][343]LogWorld: Bringing up level for play took: 0.008246
+[2017.12.10-21.21.37:503][343]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel 0.72
+[2017.12.10-21.21.37:503][343]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.22.06:535][635]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.22.06:591][635]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
+[2017.12.10-21.22.21:407][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/SecondLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.10-21.22.22:621][749]LogSavePackage: Save=1134.05ms
+[2017.12.10-21.22.22:621][749]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/SecondLevelBF6CB6224992C1020073A39C5CFA3A08.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap'
+[2017.12.10-21.22.22:627][749]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap
