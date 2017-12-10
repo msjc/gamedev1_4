@@ -785,3 +785,183 @@ Script call stack:
 [2017.12.10-14.53.48:123][941]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/EditorPerProjectUserSettings.ini
 [2017.12.10-14.53.48:123][941]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/Engine.ini
 [2017.12.10-14.53.48:123][941]SourceControl: 	modified:   MinutestoMidnight/Saved/Logs/MinutestoMidnight.log
+[2017.12.10-14.57.03:768][868]SourceControl: On branch master
+[2017.12.10-14.57.03:768][868]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.12.10-14.57.03:768][868]SourceControl: nothing to commit, working tree clean
+[2017.12.10-14.57.08:031][250]SourceControl: On branch master
+[2017.12.10-14.57.08:031][250]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.12.10-14.57.08:031][250]SourceControl: nothing to commit, working tree clean
+[2017.12.10-16.27.21:801][ 10]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-16.27.21:883][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-16.27.21:884][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-16.27.21:884][ 10]PIE: New page: PIE session: FirstLevel (Dec 10, 2017, 6:27:21 AM)
+[2017.12.10-16.27.21:884][ 10]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.10-16.27.21:975][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090469s)
+[2017.12.10-16.27.21:976][ 10]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.10-16.27.21:978][ 10]LogPlayLevel: PIE: World Init took: (0.003270s)
+[2017.12.10-16.27.21:978][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.094299s)
+[2017.12.10-16.27.22:094][ 10]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-16.27.22:105][ 10]LogInit: FAudioDevice initialized.
+[2017.12.10-16.27.22:141][ 10]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-16.27.22:155][ 10]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.10-11.27.22
+[2017.12.10-16.27.22:159][ 10]LogWorld: Bringing up level for play took: 0.016673
+[2017.12.10-16.27.22:165][ 10]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel -0.619
+[2017.12.10-16.27.22:166][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-16.27.32:084][883]LogBlueprintUserMessages: [EnemyAI_C_7] Hello
+[2017.12.10-16.27.34:080][ 61]LogBlueprintUserMessages: [EnemyAI_C_7] Hello
+[2017.12.10-16.27.38:087][403]LogBlueprintUserMessages: [EnemyAI_C_7] Hello
+[2017.12.10-16.28.02:997][630]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
+[2017.12.10-16.28.03:997][719]LogBlueprintUserMessages: [EnemyAI_C_1] Hello
+[2017.12.10-16.28.04:443][758]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+	EnemyProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyProjectile_C_4
+	Function /Game/FirstPersonBP/Blueprints/EnemyProjectile.EnemyProjectile_C:ExecuteUbergraph_EnemyProjectile:0035
+[2017.12.10-16.28.04:444][758]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill from function: 'ExecuteUbergraph_EnemyProjectile' from node: Branch in graph: EventGraph in object: EnemyProjectile with description: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+[2017.12.10-16.28.07:994][ 66]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
+[2017.12.10-16.28.08:997][154]LogBlueprintUserMessages: [EnemyAI_C_1] Hello
+[2017.12.10-16.28.09:339][182]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+	EnemyProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyProjectile_C_6
+	Function /Game/FirstPersonBP/Blueprints/EnemyProjectile.EnemyProjectile_C:ExecuteUbergraph_EnemyProjectile:0035
+[2017.12.10-16.28.09:340][182]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill from function: 'ExecuteUbergraph_EnemyProjectile' from node: Branch in graph: EventGraph in object: EnemyProjectile with description: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+[2017.12.10-16.28.09:994][240]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
+[2017.12.10-16.28.10:345][270]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+	EnemyProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyProjectile_C_7
+	Function /Game/FirstPersonBP/Blueprints/EnemyProjectile.EnemyProjectile_C:ExecuteUbergraph_EnemyProjectile:0035
+[2017.12.10-16.28.10:345][270]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill from function: 'ExecuteUbergraph_EnemyProjectile' from node: Branch in graph: EventGraph in object: EnemyProjectile with description: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+[2017.12.10-16.28.11:997][418]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
+[2017.12.10-16.28.24:471][559]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-16.28.24:533][559]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-16.29.21:599][742]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-16.29.21:672][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-16.29.21:672][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-16.29.21:672][742]PIE: New page: PIE session: FirstLevel (Dec 10, 2017, 6:29:21 AM)
+[2017.12.10-16.29.21:673][742]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.10-16.29.21:739][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066237s)
+[2017.12.10-16.29.21:740][742]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.10-16.29.21:740][742]LogPlayLevel: PIE: World Init took: (0.001163s)
+[2017.12.10-16.29.21:740][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.067877s)
+[2017.12.10-16.29.21:788][742]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-16.29.21:798][742]LogInit: FAudioDevice initialized.
+[2017.12.10-16.29.21:834][742]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-16.29.21:845][742]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.10-11.29.21
+[2017.12.10-16.29.21:849][742]LogWorld: Bringing up level for play took: 0.014462
+[2017.12.10-16.29.21:854][742]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 1.07
+[2017.12.10-16.29.21:854][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-16.30.39:271][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-16.30.39:346][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-16.35.03:816][828]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 0.055
+[2017.12.10-16.35.03:819][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.12.10-16.35.03:843][828]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.12.10-16.35.03:843][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.12.10-16.35.04:088][828]LogSavePackage: Save=214.09ms
+[2017.12.10-16.35.04:088][828]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacter_Auto3923CDBF541416A18E792A793305A65B2.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2017.12.10-16.35.04:091][828]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset
+[2017.12.10-16.35.04:091][828]LogFileHelpers: Auto-saving content packages took 0.273
+[2017.12.10-16.35.08:497][ 59]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.10-16.35.24:444][827]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.12.10-16.39.06:148][ 21]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.12.10-16.47.24:347][483]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 0.058
+[2017.12.10-16.47.24:350][483]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.12.10-16.47.24:377][483]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.12.10-16.47.24:378][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.12.10-16.47.24:640][483]LogSavePackage: Save=234.27ms
+[2017.12.10-16.47.24:640][483]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacter_Auto45745CADB44111386FA70639FAE689ED9.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset'
+[2017.12.10-16.47.24:644][483]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset
+[2017.12.10-16.47.24:644][483]LogFileHelpers: Auto-saving content packages took 0.295
+[2017.12.10-16.57.33:126][937]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 0.053
+[2017.12.10-16.57.33:129][937]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.12.10-16.57.33:157][937]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.12.10-16.57.33:157][937]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.12.10-16.57.33:423][937]LogSavePackage: Save=238.29ms
+[2017.12.10-16.57.33:423][937]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacter_Auto591BCD9894F1C169EF81795904FB70EA8.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset'
+[2017.12.10-16.57.33:426][937]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset
+[2017.12.10-16.57.33:426][937]LogFileHelpers: Auto-saving content packages took 0.298
+[2017.12.10-16.59.03:160][282]LogSavePackage: Save=232.47ms
+[2017.12.10-16.59.03:160][282]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacter8F64D4AC497217842371008F4003090C.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.12.10-16.59.03:168][282]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.12.10-16.59.09:938][653]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.12.10-17.00.06:120][687]SourceControl: On branch master
+[2017.12.10-17.00.06:120][687]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.12.10-17.00.06:120][687]SourceControl: Changes not staged for commit:
+[2017.12.10-17.00.06:120][687]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.12.10-17.00.06:120][687]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.10-17.00.06:120][687]SourceControl: 	modified:   MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.12.10-17.00.06:120][687]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.10-17.00.06:120][687]SourceControl: 	modified:   MinutestoMidnight/Saved/Logs/MinutestoMidnight.log
+[2017.12.10-17.00.06:120][687]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.12.10-17.00.07:825][687]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Screen_UI.SKEL_Screen_UI_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/Ammo_UI.PackageMetaData'
+[2017.12.10-17.00.07:825][687]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Screen_UI.Screen_UI_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/Ammo_UI.PackageMetaData'
+[2017.12.10-17.00.07:825][687]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Screen_UI.Screen_UI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/Ammo_UI.PackageMetaData'
+[2017.12.10-17.00.07:825][687]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Screen_UI.Screen_UI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/Ammo_UI.PackageMetaData'
+[2017.12.10-17.00.07:825][687]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Screen_UI.Screen_UI:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Blueprints/Ammo_UI.PackageMetaData'
+[2017.12.10-17.00.07:825][687]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Screen_UI.Screen_UI:Get_AmmoCounter_Text_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/Ammo_UI.PackageMetaData'
+[2017.12.10-17.00.07:825][687]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Screen_UI.Screen_UI:Get_AmmoCounter_Text_0.K2Node_FunctionResult_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/Ammo_UI.PackageMetaData'
+[2017.12.10-17.00.07:923][687]LogSavePackage: Save=43.51ms
+[2017.12.10-17.00.07:923][687]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Screen_UIDEF298AB42E75F7FCE212C8C48544CFE.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/Screen_UI.uasset'
+[2017.12.10-17.00.07:926][687]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/Screen_UI.uasset
+[2017.12.10-17.00.08:392][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Ammo_UI" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/Ammo_UI.uasset" SILENT=true
+[2017.12.10-17.00.08:419][687]LogSavePackage: Save=6.65ms
+[2017.12.10-17.00.08:419][687]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Ammo_UI6B6B39274892489761AB13B9580DA34D.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/Ammo_UI.uasset'
+[2017.12.10-17.00.08:423][687]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/Ammo_UI.uasset
+[2017.12.10-17.01.14:926][607]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_96' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.14:928][607]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_98' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.14:931][607]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_100' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.14:959][608]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_102' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.14:963][608]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_104' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.14:991][609]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_106' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:020][610]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_108' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:048][611]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_110' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:078][612]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_112' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:107][613]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_114' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:137][614]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_116' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:166][615]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_118' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:196][616]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_120' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:225][617]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_122' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:253][618]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_124' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:282][619]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_126' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:285][619]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_128' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:315][620]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_130' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:343][621]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_132' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:373][622]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_134' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:402][623]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_136' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:431][624]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_138' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:459][625]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_140' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:488][626]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_142' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:516][627]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_144' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:545][628]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_146' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:574][629]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_148' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:602][630]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_150' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:631][631]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_152' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:659][632]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_154' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:688][633]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_156' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:717][634]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_158' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.01.15:746][635]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_160' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.10-17.04.53:563][801]LogSavePackage: Save=49.06ms
+[2017.12.10-17.04.53:563][801]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Screen_UI786FE0A54A12685CD744CFBE74B70CCC.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/Screen_UI.uasset'
+[2017.12.10-17.04.53:566][801]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/Screen_UI.uasset
+[2017.12.10-17.05.12:550][748]LogSavePackage: Save=237.95ms
+[2017.12.10-17.05.12:550][748]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacterFE3DADCF41C2315A4C2693AAB947E2B5.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.12.10-17.05.12:555][748]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.12.10-17.05.14:013][815]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.12.10-17.05.18:380][997]BlueprintLog: New page: Compile Screen_UI
+[2017.12.10-17.05.21:584][201]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-17.05.21:675][201]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-17.05.21:676][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-17.05.21:676][201]PIE: New page: PIE session: FirstLevel (Dec 10, 2017, 7:05:21 AM)
+[2017.12.10-17.05.21:676][201]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.10-17.05.21:764][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087533s)
+[2017.12.10-17.05.21:765][201]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.10-17.05.21:765][201]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2017.12.10-17.05.21:766][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.089510s)
+[2017.12.10-17.05.21:818][201]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-17.05.21:831][201]LogInit: FAudioDevice initialized.
+[2017.12.10-17.05.21:866][201]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.10-17.05.21:878][201]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.10-12.05.21
+[2017.12.10-17.05.21:882][201]LogWorld: Bringing up level for play took: 0.015464
+[2017.12.10-17.05.21:888][201]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 1.104
+[2017.12.10-17.05.21:888][201]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-17.05.34:784][254]LogBlueprintUserMessages: [EnemyAI_C_7] Hello
+[2017.12.10-17.05.36:782][417]LogBlueprintUserMessages: [EnemyAI_C_7] Hello
+[2017.12.10-17.05.39:778][657]LogBlueprintUserMessages: [EnemyAI_C_7] Hello
+[2017.12.10-17.05.42:784][894]LogBlueprintUserMessages: [EnemyAI_C_7] Hello
+[2017.12.10-17.05.59:539][316]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.10-17.05.59:618][316]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
