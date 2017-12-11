@@ -12128,3 +12128,7 @@ Script call stack:
 [2017.12.11-23.56.09:287][527]Cmd: MAP CHECKDEP NOCLEARLOG
 [2017.12.11-23.56.09:402][527]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106.98ms to complete.
 [2017.12.11-23.56.09:402][527]LogFileHelpers: Loading map 'SecondLevel' took 2.933
+[2017.12.11-23.58.00:195][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.11-23.58.02:233][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.11-23.58.07:990][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.11-23.58.08:169][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
