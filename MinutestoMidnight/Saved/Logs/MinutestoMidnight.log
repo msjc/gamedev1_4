@@ -11679,3 +11679,135 @@ Script call stack:
 [2017.12.11-21.40.45:903][566]LogSavePackage: Save=67.15ms
 [2017.12.11-21.40.45:903][566]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyProjectile6A17237F426F3F2C7AA810AF67221A46.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/EnemyProjectile.uasset'
 [2017.12.11-21.40.45:908][566]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/EnemyProjectile.uasset
+[2017.12.11-21.41.44:230][903]AssetReimport: New page: Outstanding source content changes 11:41:44 AM
+[2017.12.11-21.41.44:320][904]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level Assets/Celling_Decoration.fbx)
+[2017.12.11-21.41.44:449][904]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.11-21.41.44:449][904]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.12.11-21.41.44:449][904]LogFbx: ItemName: Material, ItemCount : 1
+[2017.12.11-21.41.44:449][904]LogFbx: ItemName: Model, ItemCount : 1
+[2017.12.11-21.41.44:474][904]LogFbx: Loading FBX Scene from C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level Assets/Celling_Decoration.fbx
+[2017.12.11-21.41.44:490][904]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.11-21.41.49:363][904]LogFbx: Loading FBX Scene from C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level Assets/Celling_Decoration.fbx
+[2017.12.11-21.41.49:372][904]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.11-21.41.49:374][904]LogLinker: Can't find file '/Game/Level/Level_Assets/lambert5'
+[2017.12.11-21.41.49:374][904]LogLinker: Can't find file '/Game/Level/Level_Assets/lambert5'
+[2017.12.11-21.41.49:427][904]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2017.12.11-21.41.49:488][904]LogStaticMesh: Building static mesh Celling_Decoration...
+[2017.12.11-21.41.49:528][904]LogStaticMesh: Built static mesh [0.04s] /Game/Level/Level_Assets/Celling_Decoration.Celling_Decoration
+[2017.12.11-21.41.49:682][905]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level Assets/Light.fbx)
+[2017.12.11-21.41.49:685][905]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.11-21.41.49:685][905]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.12.11-21.41.49:685][905]LogFbx: ItemName: Material, ItemCount : 2
+[2017.12.11-21.41.49:685][905]LogFbx: ItemName: Model, ItemCount : 1
+[2017.12.11-21.41.49:693][905]LogFbx: Loading FBX Scene from C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level Assets/Light.fbx
+[2017.12.11-21.41.49:702][905]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.11-21.41.51:522][906]LogSavePackage: Save=18.40ms
+[2017.12.11-21.41.51:522][906]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Celling_Decoration27A583C449D28B7D9BBAE6A314A5AB55.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level_Assets/Celling_Decoration.uasset'
+[2017.12.11-21.41.51:526][906]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level_Assets/Celling_Decoration.uasset
+[2017.12.11-21.41.55:389][135]AssetReimport: Importing new asset /Game/Level/Level_Assets/Celling_Decoration.
+[2017.12.11-21.41.55:389][135]AssetReimport: Importing new asset /Game/Level/Level_Assets/Light.
+[2017.12.11-21.41.55:389][135]AssetReimport: Failed to import file C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level Assets/Light.fbx.
+[2017.12.11-21.46.56:286][118]LogSavePackage: Save=104.73ms
+[2017.12.11-21.46.56:286][118]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/iStunDamage56FC46FB44885BC9E4FA248FE80FA362.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/iStunDamage.uasset'
+[2017.12.11-21.46.56:289][118]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/iStunDamage.uasset
+[2017.12.11-21.46.58:053][186]LogSavePackage: Save=10.44ms
+[2017.12.11-21.46.58:053][186]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/iStunDamage9BDD6151421D5062D3C47B8FA878E9B8.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/iStunDamage.uasset'
+[2017.12.11-21.46.58:056][186]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/iStunDamage.uasset
+[2017.12.11-21.46.58:468][215]BlueprintLog: New page: Compile iStunDamage
+[2017.12.11-21.51.18:997][749]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 0.046
+[2017.12.11-21.51.19:001][749]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/EnemyCharacter] ([1] browsable assets)...
+[2017.12.11-21.51.19:028][749]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/EnemyCharacter.EnemyCharacter]
+[2017.12.11-21.51.19:028][749]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/EnemyCharacter]
+[2017.12.11-21.51.19:131][749]LogSavePackage: Save=72.77ms
+[2017.12.11-21.51.19:131][749]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyCharacter_Auto20370829B49868B5050DDC8A9DB323777.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyCharacter_Auto2.uasset'
+[2017.12.11-21.51.19:133][749]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyCharacter_Auto2.uasset
+[2017.12.11-21.51.19:134][749]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Level_Assets/lambert5] ([1] browsable assets)...
+[2017.12.11-21.51.19:168][749]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Level/Level_Assets/lambert5.lambert5]
+[2017.12.11-21.51.19:168][749]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Level_Assets/lambert5]
+[2017.12.11-21.51.19:289][749]LogSavePackage: Save=117.69ms
+[2017.12.11-21.51.19:290][749]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/lambert5_Auto26C954ED643A14EA1D9A8E5927A636B97.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/Level_Assets/lambert5_Auto2.uasset'
+[2017.12.11-21.51.19:292][749]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/Level_Assets/lambert5_Auto2.uasset
+[2017.12.11-21.51.19:292][749]LogFileHelpers: Auto-saving content packages took 0.293
+[2017.12.11-21.51.27:976][ 48]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.11-21.53.22:900][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/EnemyCharacter" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset" SILENT=true
+[2017.12.11-21.53.22:986][697]LogSavePackage: Save=71.63ms
+[2017.12.11-21.53.22:986][697]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyCharacter0285CC794888D9ED88D472B81C428AE0.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset'
+[2017.12.11-21.53.22:994][697]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset
+[2017.12.11-21.53.23:996][752]BlueprintLog: New page: Compile EnemyCharacter
+[2017.12.11-22.01.23:415][170]LogSavePackage: Save=1296.72ms
+[2017.12.11-22.01.23:415][170]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel_Auto3227E7C064F664522414F9E8934BAD683.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/FirstLevel_Auto3.umap'
+[2017.12.11-22.01.23:418][170]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/FirstLevel_Auto3.umap
+[2017.12.11-22.01.23:423][170]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 3.827
+[2017.12.11-22.01.23:423][170]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.827
+[2017.12.11-22.01.23:554][170]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/EnemyCharacter] ([1] browsable assets)...
+[2017.12.11-22.01.23:690][170]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/EnemyCharacter.EnemyCharacter]
+[2017.12.11-22.01.23:690][170]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/EnemyCharacter]
+[2017.12.11-22.01.24:169][170]LogSavePackage: Save=121.15ms
+[2017.12.11-22.01.24:169][170]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyCharacter_Auto30BD717C549175795A75170BFA7D42872.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyCharacter_Auto3.uasset'
+[2017.12.11-22.01.24:171][170]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyCharacter_Auto3.uasset
+[2017.12.11-22.01.24:171][170]LogFileHelpers: Auto-saving content packages took 0.701
+[2017.12.11-23.06.01:275][689]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 0.119
+[2017.12.11-23.06.01:283][689]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/EnemyCharacter] ([1] browsable assets)...
+[2017.12.11-23.06.01:314][689]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/EnemyCharacter.EnemyCharacter]
+[2017.12.11-23.06.01:314][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/EnemyCharacter]
+[2017.12.11-23.06.01:591][689]LogSavePackage: Save=171.57ms
+[2017.12.11-23.06.01:591][689]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyCharacter_Auto455AF9EA243BC38BBAA3D16A8AE653C9B.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyCharacter_Auto4.uasset'
+[2017.12.11-23.06.01:595][689]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyCharacter_Auto4.uasset
+[2017.12.11-23.06.01:595][689]LogFileHelpers: Auto-saving content packages took 0.317
+[2017.12.11-23.07.11:040][515]BlueprintLog: New page: Compile EnemyCharacter
+[2017.12.11-23.07.11:165][515]LogBlueprint: Error: [Compiler EnemyCharacter] This blueprint (self) is not a CharacterMovementComponent, therefore ' Target ' must have a connection.
+[2017.12.11-23.07.11:165][515]LogBlueprint: Error: [Compiler EnemyCharacter] This blueprint (self) is not a CharacterMovementComponent, therefore ' Target ' must have a connection.
+[2017.12.11-23.07.13:243][515]LogBlueprint: Warning: [Compiler EnemyCharacter] [7915.12] Compile of EnemyCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 2,202 ms] (/Game/Characters/EnemyCharacter.EnemyCharacter)
+[2017.12.11-23.07.15:307][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/EnemyCharacter" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset" SILENT=true
+[2017.12.11-23.07.15:427][546]LogSavePackage: Save=104.80ms
+[2017.12.11-23.07.15:427][546]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyCharacter267FCCC14436A339A27E0CA03C6499EF.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset'
+[2017.12.11-23.07.15:437][546]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset
+[2017.12.11-23.07.46:726][946]BlueprintLog: New page: Compile EnemyCharacter
+[2017.12.11-23.07.50:391][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/EnemyCharacter" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset" SILENT=true
+[2017.12.11-23.07.50:567][  0]LogSavePackage: Save=161.77ms
+[2017.12.11-23.07.50:569][  0]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyCharacter13B609364DA41CF3A62A29A474BAF057.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset'
+[2017.12.11-23.07.50:573][  0]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset
+[2017.12.11-23.09.13:578][615]BlueprintLog: New page: Compile EnemyAI
+[2017.12.11-23.16.03:985][637]LogSavePackage: Save=1172.71ms
+[2017.12.11-23.16.04:118][637]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel_Auto533C394CC4286289CDE1AA8BFF3989417.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/FirstLevel_Auto5.umap'
+[2017.12.11-23.16.04:135][637]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/FirstLevel_Auto5.umap
+[2017.12.11-23.16.04:198][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 1.992
+[2017.12.11-23.16.04:198][637]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.992
+[2017.12.11-23.16.04:217][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/EnemyCharacter] ([1] browsable assets)...
+[2017.12.11-23.16.04:278][637]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/EnemyCharacter.EnemyCharacter]
+[2017.12.11-23.16.04:278][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/EnemyCharacter]
+[2017.12.11-23.16.04:573][637]LogSavePackage: Save=189.01ms
+[2017.12.11-23.16.04:573][637]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyCharacter_Auto56E81861549DECD45656C47B10A575654.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyCharacter_Auto5.uasset'
+[2017.12.11-23.16.04:582][637]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyCharacter_Auto5.uasset
+[2017.12.11-23.16.04:584][637]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/EnemyAI] ([1] browsable assets)...
+[2017.12.11-23.16.04:584][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/EnemyAI]
+[2017.12.11-23.16.04:849][637]LogSavePackage: Save=128.68ms
+[2017.12.11-23.16.04:849][637]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyAI_Auto5709896864F59B4DA569F0582EC94BDD5.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyAI_Auto5.uasset'
+[2017.12.11-23.16.04:851][637]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyAI_Auto5.uasset
+[2017.12.11-23.16.04:851][637]LogFileHelpers: Auto-saving content packages took 0.642
+[2017.12.11-23.19.01:566][452]LogEditorTransaction: Undo Move Node
+[2017.12.11-23.19.04:274][453]LogEditorTransaction: Undo Delete current selection
+[2017.12.11-23.19.04:445][453]LogEditorTransaction: Undo Create Pin Link
+[2017.12.11-23.19.05:546][500]LogEditorTransaction: Undo Add Node
+[2017.12.11-23.19.06:209][521]LogEditorTransaction: Undo Move Node
+[2017.12.11-23.19.06:743][543]LogEditorTransaction: Undo Move Node
+[2017.12.11-23.19.07:366][565]LogEditorTransaction: Undo Move Node
+[2017.12.11-23.19.08:085][590]LogEditorTransaction: Undo Create Pin Link
+[2017.12.11-23.19.08:708][612]LogEditorTransaction: Undo Add Node
+[2017.12.11-23.19.09:344][634]LogEditorTransaction: Undo Edit Active
+[2017.12.11-23.19.09:875][656]LogEditorTransaction: Undo Create Pin Link
+[2017.12.11-23.26.06:455][446]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 0.321
+[2017.12.11-23.26.06:753][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/EnemyAI] ([1] browsable assets)...
+[2017.12.11-23.26.06:784][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/EnemyAI]
+[2017.12.11-23.26.09:263][446]LogSavePackage: Save=481.70ms
+[2017.12.11-23.26.09:263][446]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyAI_Auto655862B404CB19FA06E08F5B56ADFBB97.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyAI_Auto6.uasset'
+[2017.12.11-23.26.09:305][446]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Characters/EnemyAI_Auto6.uasset
+[2017.12.11-23.26.09:305][446]LogFileHelpers: Auto-saving content packages took 2.669
+[2017.12.11-23.33.07:340][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/EnemyAI" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyAI.uasset" SILENT=true
+[2017.12.11-23.33.07:628][519]LogSavePackage: Save=259.82ms
+[2017.12.11-23.33.07:628][519]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyAI8820A949490EBB31599FF2A33C23D768.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyAI.uasset'
+[2017.12.11-23.33.07:640][519]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyAI.uasset
+[2017.12.11-23.33.09:878][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/EnemyCharacter" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset" SILENT=true
+[2017.12.11-23.33.10:067][602]LogSavePackage: Save=74.15ms
+[2017.12.11-23.33.10:067][602]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyCharacterECA37E0641255E396B6EE1BEBDCC03BB.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset'
+[2017.12.11-23.33.10:077][602]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset
