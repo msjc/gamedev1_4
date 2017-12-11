@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 12/11/17 16:10:36
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
@@ -9779,6 +9780,8 @@ Make sure 'AgentBot_C' has been compiled for  Get GunOffset
 [2017.12.11-22.42.09:400][ 28]LogExit: Exiting.
 [2017.12.11-22.42.09:518][ 28]Log file closed, 12/11/17 17:42:09
 =======
+=======
+>>>>>>> 4b39a1f53684062af6c956c1bff4af21011d6dde
 ﻿Log file open, 12/11/17 15:55:20
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
@@ -21460,4 +21463,7 @@ Script call stack:
 [2017.12.11-21.40.45:903][566]LogSavePackage: Save=67.15ms
 [2017.12.11-21.40.45:903][566]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyProjectile6A17237F426F3F2C7AA810AF67221A46.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/EnemyProjectile.uasset'
 [2017.12.11-21.40.45:908][566]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/EnemyProjectile.uasset
+<<<<<<< HEAD
+>>>>>>> 4b39a1f53684062af6c956c1bff4af21011d6dde
+=======
 >>>>>>> 4b39a1f53684062af6c956c1bff4af21011d6dde
