@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Log file open, 12/11/17 18:17:12
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
@@ -2475,3 +2476,5 @@ LogInit: Object subsystem initialized
 [2017.12.12-03.50.09:583][821]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.12.12-03.50.09:625][821]LogExit: Exiting.
 [2017.12.12-03.50.09:707][821]Log file closed, 12/11/17 22:50:09
+=======
+>>>>>>> 35315641fdf44e6aaa7fd390bfcacdc4221b252a
