@@ -1,18 +1,20 @@
-﻿Log file open, 12/12/17 20:45:14
+﻿Log file open, 12/12/17 23:25:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MinutestoMidnight
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1604782866) SRandInit(-1604782866).
+LogInit: Display: RandInit(527928931) SRandInit(527928931).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.337602
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.203899
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -189,260 +191,331 @@ LogInit: Compiled (64-bit): Nov 14 2017 02:05:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
-LogInit: Base directory: D:/unreal/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.13-01.45.17:799][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.13-01.45.17:799][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.13-01.45.17:867][  0]LogInit: Computer: PAAT450S
-[2017.12.13-01.45.17:867][  0]LogInit: User: paa
-[2017.12.13-01.45.17:867][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.12.13-01.45.17:867][  0]LogInit: High frequency timer resolution =2.533196 MHz
-[2017.12.13-01.45.17:867][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2017.12.13-01.45.17:867][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.13-01.45.17:867][  0]LogMemory: Process Physical Memory: 269.80 MB used, 269.80 MB peak
-[2017.12.13-01.45.17:867][  0]LogMemory: Process Virtual Memory: 269.20 MB used, 269.20 MB peak
-[2017.12.13-01.45.17:867][  0]LogMemory: Physical Memory: 5066.70 MB used,  2821.52 MB free, 7888.21 MB total
-[2017.12.13-01.45.17:867][  0]LogMemory: Virtual Memory: 623.51 MB used,  2821.52 MB free, 134217728.00 MB total
-[2017.12.13-01.45.18:214][  0]LogInit: Using OS detected language (en-US).
-[2017.12.13-01.45.18:214][  0]LogInit: Using OS detected locale (en-US).
-[2017.12.13-01.45.18:315][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.13-01.45.19:089][  0]LogInit: Setting process to per monitor DPI aware
-[2017.12.13-01.45.21:727][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.13-01.45.21:733][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2017.12.13-01.45.21:733][  0]LogD3D11RHI:       128/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.12.13-01.45.21:736][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.13-01.45.21:736][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.13-01.45.21:736][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.13-01.45.21:741][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.13-01.45.21:741][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.13-01.45.21:741][  0]LogWindows: EnumDisplayDevices:
-[2017.12.13-01.45.21:742][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2017.12.13-01.45.21:742][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2017.12.13-01.45.21:742][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2017.12.13-01.45.21:742][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.12.13-01.45.21:742][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
-[2017.12.13-01.45.21:742][  0]LogD3D11RHI:   Driver Version: 10.18.15.4285 (internal:10.18.15.4285, unified:10.18.15.4285)
-[2017.12.13-01.45.21:742][  0]LogD3D11RHI:      Driver Date: 9-11-2015
-[2017.12.13-01.45.21:742][  0]LogRHI: Texture pool is 1433 MB (70% of 2048 MB)
-[2017.12.13-01.45.21:746][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.13-01.45.21:750][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2017.12.13-01.45.21:751][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../gamedev1_4/MinutestoMidnight/Intermediate/Shaders/WorkingDirectory/7784/).
-[2017.12.13-01.45.21:751][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/paa/AppData/Local/Temp/UnrealShaderWorkingDir/A325EDAC44ADA53727BABCA330B04159/'.
-[2017.12.13-01.45.21:751][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.13-01.45.25:655][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.13-01.45.25:709][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.13-01.45.25:748][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.13-01.45.25:794][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.13-01.45.25:849][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.13-01.45.25:925][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.13-01.45.25:966][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.13-01.45.26:007][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.13-01.45.26:039][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.13-01.45.26:090][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.13-01.45.26:134][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.13-01.45.26:187][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.13-01.45.26:239][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.13-01.45.26:291][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.13-01.45.26:439][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.13-01.45.26:439][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.13-01.45.26:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.13-01.45.26:611][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.13-01.45.26:929][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.13-01.45.26:992][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.13-01.45.27:066][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.13-01.45.27:133][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.13-01.45.27:189][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.13-01.45.27:259][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.13-01.45.27:259][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.13-01.45.28:192][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.13-01.45.28:536][  0]LogDerivedDataCache: Loaded boot cache 0.34s 78MB C:/Users/paa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.13-01.45.28:536][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/paa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.12.13-01.45.28:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../gamedev1_4/MinutestoMidnight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.13-01.45.28:536][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.13-01.45.28:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../gamedev1_4/MinutestoMidnight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.13-01.45.28:536][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.13-01.45.28:560][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.13-01.45.28:572][  0]LogDerivedDataCache: Using Local data cache path C:/Users/paa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.13-01.45.28:585][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.13-01.45.28:585][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.13-01.45.28:657][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.13-01.45.28:657][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.13-01.45.33:452][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.13-01.45.34:006][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.13-01.45.34:039][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.13-01.45.34:039][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.13-01.45.34:039][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.13-01.45.34:039][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.13-01.45.34:039][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.13-01.45.34:066][  0]LogNetVersion: MinutestoMidnight , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2652091950)
-[2017.12.13-01.45.34:255][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
-[2017.12.13-01.45.35:239][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.364416 seconds
-[2017.12.13-01.45.35:249][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.12.13-01.45.35:249][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2017.12.13-01.45.35:249][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.13-01.45.35:310][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.13-01.45.52:950][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.13-01.45.53:015][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.13-01.45.54:111][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.13-01.45.54:731][  0]SourceControl: Source control is disabled
-[2017.12.13-01.45.56:520][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.13-01.45.56:840][  0]LogOcInput: OculusInput pre-init called
-[2017.12.13-01.45.57:377][  0]LogEngine: Initializing Engine...
-[2017.12.13-01.45.57:380][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.12.13-01.45.57:642][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.13-01.45.57:642][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.13-01.45.57:809][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.13-01.45.57:816][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-01.45.57:902][  0]LogInit: FAudioDevice initialized.
-[2017.12.13-01.45.57:982][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/paa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.13-01.45.57:998][  0]LogInit: Texture streaming: Enabled
-[2017.12.13-01.45.58:199][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.13-01.45.58:328][  0]LogInit: Transaction tracking system initialized
-[2017.12.13-01.45.58:642][  0]BlueprintLog: New page: Editor Load
-[2017.12.13-01.46.00:058][  0]LocalizationService: Localization service is disabled
-[2017.12.13-01.46.01:382][  0]LogConsoleResponse: Display: 
-[2017.12.13-01.46.02:023][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.13-01.46.02:023][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.13-01.46.02:023][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.13-01.46.03:155][  0]LogFileCache: Scanning file cache for directory 'D:/unreal/gamedev1_4/MinutestoMidnight/Content/' took 0.02s
-[2017.12.13-01.46.04:023][  0]Cmd: MAP LOAD FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.13-01.46.04:023][  0]LightingResults: New page: Lighting Build
-[2017.12.13-01.46.04:051][  0]MapCheck: New page: Map Check
-[2017.12.13-01.46.04:051][  0]LightingResults: New page: Lighting Build
-[2017.12.13-01.46.04:840][  0]LogStaticMesh: Building static mesh Level_1...
-[2017.12.13-01.46.05:325][  0]LogStaticMesh: Built static mesh [0.51s] /Game/Geometry/Import/Level_1.Level_1
-[2017.12.13-01.46.05:417][  0]LogMaterial: Missing cached shader map for material Light_Metal, compiling. 
-[2017.12.13-01.46.05:765][  0]LogMaterial: Missing cached shader map for material Glass1, compiling. 
-[2017.12.13-01.46.05:795][  0]LogMaterial: Missing cached shader map for material blinn1, compiling. 
-[2017.12.13-01.46.06:080][  0]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.13-01.46.06:147][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.13-01.46.06:169][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.13-01.46.06:221][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.493ms to complete.
-[2017.12.13-01.46.06:221][  0]LogFileHelpers: Loading map 'FirstLevel' took 2.200
-[2017.12.13-01.46.06:531][  0]LogCollectionManager: Loaded 0 collections in 0.002299 seconds
-[2017.12.13-01.46.06:618][  0]LogFileCache: Scanning file cache for directory 'D:/unreal/gamedev1_4/MinutestoMidnight/Saved/Collections/' took 0.01s
-[2017.12.13-01.46.06:618][  0]LogFileCache: Scanning file cache for directory 'D:/unreal/gamedev1_4/MinutestoMidnight/Content/Developers/paa/Collections/' took 0.01s
-[2017.12.13-01.46.06:618][  0]LogFileCache: Scanning file cache for directory 'D:/unreal/gamedev1_4/MinutestoMidnight/Content/Collections/' took 0.01s
-[2017.12.13-01.46.06:618][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.12.13-01.46.06:629][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2363 classes and 519 folders.
-[2017.12.13-01.46.06:688][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2017.12.13-01.46.10:864][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2017.12.13-01.46.10:958][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2017.12.13-01.46.11:003][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.13-01.46.11:042][  0]LogSlate: Took 0.035989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.13-01.46.11:072][  0]LogSlate: Took 0.023104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.13-01.46.11:237][  0]LogRenderer: Reallocating scene render targets to support 964x356 Format 10 NumSamples 1 (Frame:1).
-[2017.12.13-01.46.12:448][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.12.13-01.46.12:448][  0]LogLoad: (Engine Initialization) Total time: 64.19 seconds
-[2017.12.13-01.46.12:448][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.13-01.46.12:449][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.12.13-01.46.12:449][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.12.13-01.46.12:875][  0]SourceControl: On branch level_1_work_branch
-[2017.12.13-01.46.12:875][  0]SourceControl: Your branch is up-to-date with 'origin/level_1_work_branch'.
-[2017.12.13-01.46.12:875][  0]SourceControl: Changes not staged for commit:
-[2017.12.13-01.46.12:875][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.12.13-01.46.12:875][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.12.13-01.46.12:875][  0]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/Engine.ini
-[2017.12.13-01.46.12:875][  0]SourceControl: 	modified:   MinutestoMidnight/Saved/Logs/MinutestoMidnight.log
-[2017.12.13-01.46.12:875][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.12.13-01.46.12:876][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.13-01.46.13:016][  0]LogSlate: Took 0.083887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.13-01.46.13:123][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/unreal/gamedev1_4/MinutestoMidnight/Content/' took 0.32s
-[2017.12.13-01.46.13:470][  2]LogAssetRegistry: Asset discovery search completed in 39.2385 seconds
-[2017.12.13-01.46.13:476][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.12.13-01.46.13:476][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
-[2017.12.13-01.46.15:898][  9]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.13-01.48.42:755][263]LogEditorViewport: Clicking Background
-[2017.12.13-01.48.42:838][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_1)
-[2017.12.13-01.48.53:531][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_1)
-[2017.12.13-01.49.09:564][896]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.12.13-01.49.13:214][991]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.12.13-01.50.27:573][881]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_1)
-[2017.12.13-01.52.17:883][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_1)
-[2017.12.13-01.52.18:862][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_1)
-[2017.12.13-01.52.32:379][702]LogEditorViewport: Clicking Background
-[2017.12.13-01.52.34:477][752]LogEditorActor: Deleted Actor: PlayerStart
-[2017.12.13-01.52.34:492][752]LogEditorActor: Deleted 1 Actors (0.128 secs)
-[2017.12.13-01.52.39:008][864]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Level_1)
-[2017.12.13-01.52.43:470][962]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
-[2017.12.13-01.52.45:477][  7]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.12.13-01.52.46:039][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_1)
-[2017.12.13-01.53.15:469][703]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.13-01.53.15:560][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.53.15:560][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.13-01.53.15:560][703]PIE: New page: PIE session: FirstLevel (Dec 12, 2017, 3:53:15 PM)
-[2017.12.13-01.53.15:560][703]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
-[2017.12.13-01.53.15:602][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041724s)
-[2017.12.13-01.53.15:603][703]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.13-01.53.15:603][703]LogPlayLevel: PIE: World Init took: (0.000760s)
-[2017.12.13-01.53.15:603][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.042871s)
-[2017.12.13-01.53.15:620][703]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-01.53.15:627][703]LogInit: FAudioDevice initialized.
-[2017.12.13-01.53.15:983][703]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.13-01.53.15:992][703]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2017.12.12-20.53.15
-[2017.12.13-01.53.16:029][703]LogWorld: Bringing up level for play took: 0.044706
-[2017.12.13-01.53.16:057][703]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2017.12.13-01.53.16:070][703]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 0.784
-[2017.12.13-01.53.16:071][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.53.25:484][981]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.53.25:556][981]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.53.34:293][195]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
-[2017.12.13-01.53.36:235][240]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.12.13-01.53.39:832][322]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.12.13-01.53.40:853][346]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.13-01.53.40:915][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.53.40:916][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.13-01.53.40:916][346]PIE: New page: PIE session: FirstLevel (Dec 12, 2017, 3:53:40 PM)
-[2017.12.13-01.53.40:917][346]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
-[2017.12.13-01.53.40:972][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055250s)
-[2017.12.13-01.53.40:973][346]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.13-01.53.40:973][346]LogPlayLevel: PIE: World Init took: (0.000890s)
-[2017.12.13-01.53.40:973][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.056552s)
-[2017.12.13-01.53.40:989][346]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-01.53.40:997][346]LogInit: FAudioDevice initialized.
-[2017.12.13-01.53.41:033][346]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.13-01.53.41:040][346]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2017.12.12-20.53.41
-[2017.12.13-01.53.41:042][346]LogWorld: Bringing up level for play took: 0.008637
-[2017.12.13-01.53.41:046][346]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel -0.24
-[2017.12.13-01.53.41:047][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.54.10:002][199]LogBlueprintUserMessages: [EnemyAI_C_1] Hello
-[2017.12.13-01.54.10:609][219]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
-[2017.12.13-01.54.11:819][255]LogBlueprintUserMessages: [EnemyAI_C_1] Hello
-[2017.12.13-01.54.13:848][316]LogBlueprintUserMessages: [EnemyAI_C_1] Hello
-[2017.12.13-01.54.15:617][369]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
-[2017.12.13-01.54.16:841][405]LogBlueprintUserMessages: [EnemyAI_C_1] Hello
-[2017.12.13-01.54.18:596][458]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
-[2017.12.13-01.54.18:830][465]LogBlueprintUserMessages: [EnemyAI_C_1] Hello
-[2017.12.13-01.54.20:276][508]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.54.20:345][508]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.54.35:947][960]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.13-01.54.36:003][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.54.36:003][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.13-01.54.36:004][960]PIE: New page: PIE session: FirstLevel (Dec 12, 2017, 3:54:36 PM)
-[2017.12.13-01.54.36:004][960]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
-[2017.12.13-01.54.36:056][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051851s)
-[2017.12.13-01.54.36:057][960]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.13-01.54.36:057][960]LogPlayLevel: PIE: World Init took: (0.000734s)
-[2017.12.13-01.54.36:057][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.053005s)
-[2017.12.13-01.54.36:073][960]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-01.54.36:081][960]LogInit: FAudioDevice initialized.
-[2017.12.13-01.54.36:115][960]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.13-01.54.36:122][960]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2017.12.12-20.54.36
-[2017.12.13-01.54.36:124][960]LogWorld: Bringing up level for play took: 0.008436
-[2017.12.13-01.54.36:128][960]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 0.843
-[2017.12.13-01.54.36:128][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.55.04:911][820]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
-[2017.12.13-01.55.06:917][882]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
-[2017.12.13-01.55.09:131][949]LogBlueprintUserMessages: [EnemyAI_C_1] Hello
-[2017.12.13-01.55.09:921][973]LogBlueprintUserMessages: [EnemyAI_C_0] Hello
-[2017.12.13-01.55.10:182][981]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.55.10:255][981]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2017.12.13-01.55.18:079][179]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.13-01.55.18:119][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/FirstLevel" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.12.13-01.55.19:082][179]LogSavePackage: Save=758.63ms
-[2017.12.13-01.55.19:082][179]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/FirstLevelCC57987845A79271666B2EBE1B6C4D1C.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
-[2017.12.13-01.55.19:092][179]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
-[2017.12.13-01.55.19:198][179]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.13-04.25.09:055][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.13-04.25.09:055][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.13-04.25.09:075][  0]LogInit: Computer: STAELIAM-PC
+[2017.12.13-04.25.09:075][  0]LogInit: User: Staeliam
+[2017.12.13-04.25.09:075][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.13-04.25.09:075][  0]LogInit: High frequency timer resolution =3.331488 MHz
+[2017.12.13-04.25.09:075][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.12.13-04.25.09:075][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.13-04.25.09:075][  0]LogMemory: Process Physical Memory: 271.92 MB used, 271.92 MB peak
+[2017.12.13-04.25.09:075][  0]LogMemory: Process Virtual Memory: 263.58 MB used, 263.58 MB peak
+[2017.12.13-04.25.09:075][  0]LogMemory: Physical Memory: 5195.83 MB used,  2994.29 MB free, 8190.11 MB total
+[2017.12.13-04.25.09:075][  0]LogMemory: Virtual Memory: 637.18 MB used,  2994.29 MB free, 134217728.00 MB total
+[2017.12.13-04.25.09:253][  0]LogInit: Using OS detected language (en-US).
+[2017.12.13-04.25.09:253][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.13-04.25.09:257][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.13-04.25.09:852][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.13-04.25.10:182][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.13-04.25.10:204][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 / HD 7900 Series' (Feature Level 11_0)
+[2017.12.13-04.25.10:204][  0]LogD3D11RHI:       3053/0/4095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.12.13-04.25.10:206][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.13-04.25.10:206][  0]LogD3D11RHI:       0/0/4095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.13-04.25.10:206][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.13-04.25.10:215][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.13-04.25.10:215][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.13-04.25.10:215][  0]LogWindows: EnumDisplayDevices:
+[2017.12.13-04.25.10:215][  0]LogWindows:    0. 'AMD Radeon R9 200 / HD 7900 Series' (P:1 D:1)
+[2017.12.13-04.25.10:216][  0]LogWindows:    1. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.12.13-04.25.10:216][  0]LogWindows:    2. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.12.13-04.25.10:217][  0]LogWindows:    3. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.12.13-04.25.10:217][  0]LogWindows:    4. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.12.13-04.25.10:217][  0]LogWindows:    5. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.12.13-04.25.10:218][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.12.13-04.25.10:218][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 / HD 7900 Series
+[2017.12.13-04.25.10:218][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.12.13-04.25.10:218][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.12.13-04.25.10:218][  0]LogRHI: Texture pool is 2137 MB (70% of 3053 MB)
+[2017.12.13-04.25.10:293][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.13-04.25.10:305][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.12.13-04.25.10:306][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Intermediate/Shaders/WorkingDirectory/13972/).
+[2017.12.13-04.25.10:307][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Staeliam/AppData/Local/Temp/UnrealShaderWorkingDir/14E2E67842E9077606A6549258477EF3/'.
+[2017.12.13-04.25.10:307][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.13-04.25.12:403][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.13-04.25.12:483][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.13-04.25.12:558][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.13-04.25.12:627][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.13-04.25.12:697][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.13-04.25.12:765][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.13-04.25.12:833][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.13-04.25.12:900][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.13-04.25.12:955][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.13-04.25.13:022][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.13-04.25.13:087][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.13-04.25.13:150][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.13-04.25.13:214][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.13-04.25.13:278][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.13-04.25.13:406][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.13-04.25.13:406][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.13-04.25.13:470][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.13-04.25.13:514][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.13-04.25.13:635][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.13-04.25.13:675][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.13-04.25.13:773][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.13-04.25.13:845][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.13-04.25.13:909][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.13-04.25.13:972][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.13-04.25.13:973][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.13-04.25.14:523][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.13-04.25.14:696][  0]LogDerivedDataCache: Loaded boot cache 0.17s 78MB C:/Users/Staeliam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.13-04.25.14:696][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Staeliam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.13-04.25.14:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.13-04.25.14:696][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.13-04.25.14:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.13-04.25.14:696][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.13-04.25.14:722][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.13-04.25.14:735][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Staeliam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.13-04.25.14:753][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.13-04.25.14:754][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.13-04.25.14:755][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.13-04.25.14:755][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.13-04.25.15:397][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.13-04.25.15:810][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.13-04.25.15:861][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.13-04.25.15:861][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.13-04.25.15:861][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.13-04.25.15:861][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.13-04.25.15:861][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.13-04.25.15:895][  0]LogNetVersion: MinutestoMidnight , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2652091950)
+[2017.12.13-04.25.16:107][  0]LogAssetRegistry: FAssetRegistry took 0.0294 seconds to start up
+[2017.12.13-04.25.16:939][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.118156 seconds
+[2017.12.13-04.25.16:953][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.13-04.25.16:953][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2017.12.13-04.25.16:953][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.13-04.25.17:020][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.13-04.25.21:162][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.13-04.25.21:212][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.13-04.25.22:212][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.13-04.25.22:779][  0]SourceControl: Source control is disabled
+[2017.12.13-04.25.26:070][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.13-04.25.26:414][  0]LogOcInput: OculusInput pre-init called
+[2017.12.13-04.25.26:775][  0]LogEngine: Initializing Engine...
+[2017.12.13-04.25.26:779][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.12.13-04.25.27:133][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.13-04.25.27:133][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.13-04.25.27:414][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.13-04.25.27:428][  0]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-04.25.27:457][  0]LogInit: FAudioDevice initialized.
+[2017.12.13-04.25.27:645][  0]LogDerivedDataCache: Saved boot cache 0.19s 78MB C:/Users/Staeliam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.13-04.25.27:673][  0]LogInit: Texture streaming: Enabled
+[2017.12.13-04.25.27:813][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.13-04.25.27:965][  0]LogInit: Transaction tracking system initialized
+[2017.12.13-04.25.28:340][  0]BlueprintLog: New page: Editor Load
+[2017.12.13-04.25.29:493][  0]LocalizationService: Localization service is disabled
+[2017.12.13-04.25.30:495][  0]LogConsoleResponse: Display: 
+[2017.12.13-04.25.30:733][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.13-04.25.30:734][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.13-04.25.30:734][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.13-04.25.31:831][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/' took 0.02s
+[2017.12.13-04.25.32:292][  0]Cmd: MAP LOAD FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.13-04.25.32:292][  0]LightingResults: New page: Lighting Build
+[2017.12.13-04.25.32:343][  0]MapCheck: New page: Map Check
+[2017.12.13-04.25.32:343][  0]LightingResults: New page: Lighting Build
+[2017.12.13-04.25.33:345][  0]LogStaticMesh: Building static mesh Level_2...
+[2017.12.13-04.25.33:512][  0]LogStaticMesh: Built static mesh [0.17s] /Game/Geometry/Import/Level_2.Level_2
+[2017.12.13-04.25.33:562][  0]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2017.12.13-04.25.33:714][  0]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.13-04.25.33:746][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.13-04.25.33:774][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.13-04.25.33:853][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.093ms to complete.
+[2017.12.13-04.25.33:853][  0]LogFileHelpers: Loading map 'FirstLevel' took 1.561
+[2017.12.13-04.25.34:331][  0]LogCollectionManager: Loaded 0 collections in 0.001805 seconds
+[2017.12.13-04.25.34:442][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Collections/' took 0.01s
+[2017.12.13-04.25.34:442][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Developers/Staeliam/Collections/' took 0.01s
+[2017.12.13-04.25.34:442][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Collections/' took 0.01s
+[2017.12.13-04.25.34:442][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.13-04.25.34:459][  0]LogContentBrowser: Native class hierarchy populated in 0.0173 seconds. Added 2363 classes and 519 folders.
+[2017.12.13-04.25.34:560][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.12.13-04.25.35:226][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.12.13-04.25.35:339][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.13-04.25.35:404][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.13-04.25.35:408][  0]LogSlate: Took 0.000420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.13-04.25.35:436][  0]LogSlate: Took 0.020263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.13-04.25.35:765][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.13-04.25.36:113][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.13-04.25.36:113][  0]LogLoad: (Engine Initialization) Total time: 30.29 seconds
+[2017.12.13-04.25.36:113][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.13-04.25.36:113][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.13-04.25.36:533][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.13-04.25.37:030][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/' took 0.53s
+[2017.12.13-04.25.37:086][  1]LogSlate: Took 0.000766 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-04.25.37:705][  3]LogAssetRegistry: Asset discovery search completed in 21.6199 seconds
+[2017.12.13-04.25.37:709][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.13-04.25.37:709][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000152 seconds (updated 0 objects)
+[2017.12.13-04.25.37:728][  3]LogSlate: Took 0.000448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-04.25.49:349][ 63]SourceControl: On branch level_2_work_branch
+[2017.12.13-04.25.49:349][ 63]SourceControl: Your branch is up to date with 'origin/level_2_work_branch'.
+[2017.12.13-04.25.49:349][ 63]SourceControl: Changes not staged for commit:
+[2017.12.13-04.25.49:349][ 63]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.12.13-04.25.49:349][ 63]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.13-04.25.49:349][ 63]SourceControl: 	modified:   MinutestoMidnight/Intermediate/CachedAssetRegistry.bin
+[2017.12.13-04.25.49:349][ 63]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.13-04.25.49:349][ 63]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/SourceControlSettings.ini
+[2017.12.13-04.25.49:349][ 63]SourceControl: 	modified:   MinutestoMidnight/Saved/Logs/MinutestoMidnight.log
+[2017.12.13-04.25.49:349][ 63]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.12.13-04.29.32:218][189]Cmd: EDIT COPY
+[2017.12.13-04.29.34:565][348]Cmd: EDIT PASTE
+[2017.12.13-04.29.51:951][425]Cmd: EDIT PASTE
+[2017.12.13-04.30.02:728][135]Cmd: EDIT COPY
+[2017.12.13-04.30.03:138][162]Cmd: EDIT PASTE
+[2017.12.13-04.30.08:929][529]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2017.12.13-04.30.28:490][824]Cmd: EDIT COPY
+[2017.12.13-04.30.28:883][853]Cmd: EDIT PASTE
+[2017.12.13-04.31.00:085][863]Cmd: EDIT COPY
+[2017.12.13-04.31.00:473][891]Cmd: EDIT PASTE
+[2017.12.13-04.31.08:903][432]Cmd: EDIT COPY
+[2017.12.13-04.31.09:246][457]Cmd: EDIT PASTE
+[2017.12.13-04.31.15:951][927]Cmd: EDIT COPY
+[2017.12.13-04.31.16:260][949]Cmd: EDIT PASTE
+[2017.12.13-04.31.26:153][595]Cmd: EDIT COPY
+[2017.12.13-04.31.27:335][683]Cmd: EDIT PASTE
+[2017.12.13-04.31.40:208][535]Cmd: EDIT COPY
+[2017.12.13-04.31.40:573][560]Cmd: EDIT PASTE
+[2017.12.13-04.31.52:292][365]Cmd: EDIT COPY
+[2017.12.13-04.31.52:710][385]Cmd: EDIT PASTE
+[2017.12.13-04.32.15:554][919]Cmd: EDIT COPY
+[2017.12.13-04.32.15:867][940]Cmd: EDIT PASTE
+[2017.12.13-04.32.26:951][694]Cmd: EDIT COPY
+[2017.12.13-04.32.27:283][717]Cmd: EDIT PASTE
+[2017.12.13-04.32.30:305][931]Cmd: EDIT COPY
+[2017.12.13-04.32.30:656][956]Cmd: EDIT PASTE
+[2017.12.13-04.32.41:279][697]Cmd: EDIT COPY
+[2017.12.13-04.32.41:622][721]Cmd: EDIT PASTE
+[2017.12.13-04.32.57:592][755]Cmd: EDIT COPY
+[2017.12.13-04.32.57:929][781]Cmd: EDIT PASTE
+[2017.12.13-04.33.04:031][163]Cmd: EDIT COPY
+[2017.12.13-04.33.04:328][182]Cmd: EDIT PASTE
+[2017.12.13-04.33.16:081][914]Cmd: EDIT COPY
+[2017.12.13-04.33.16:603][933]Cmd: EDIT PASTE
+[2017.12.13-04.34.35:115][653]Cmd: EDIT COPY
+[2017.12.13-04.34.36:418][739]Cmd: EDIT PASTE
+[2017.12.13-04.35.03:686][640]Cmd: EDIT COPY
+[2017.12.13-04.35.03:996][663]Cmd: EDIT PASTE
+[2017.12.13-04.35.15:313][452]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight46)
+[2017.12.13-04.35.20:065][776]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight48)
+[2017.12.13-04.35.30:272][416]Cmd: EDIT COPY
+[2017.12.13-04.35.30:704][440]Cmd: EDIT PASTE
+[2017.12.13-04.36.08:006][  8]Cmd: EDIT COPY
+[2017.12.13-04.36.08:435][ 27]Cmd: EDIT PASTE
+[2017.12.13-04.36.24:711][123]Cmd: EDIT COPY
+[2017.12.13-04.36.26:216][222]Cmd: EDIT PASTE
+[2017.12.13-04.36.38:987][ 67]LogEditorViewport: Clicking on Actor (context menu): PointLight (PointLight55)
+[2017.12.13-04.37.01:307][554]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight46)
+[2017.12.13-04.37.06:750][907]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight55)
+[2017.12.13-04.37.25:860][139]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.37.25:861][139]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.37.25:862][139]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.37.25:881][139]LogEditorActor: Deleted 3 Actors (0.072 secs)
+[2017.12.13-04.38.12:530][343]Cmd: EDIT COPY
+[2017.12.13-04.38.13:302][400]Cmd: EDIT PASTE
+[2017.12.13-04.40.02:347][819]LogEditorViewport: Clicking Background
+[2017.12.13-04.40.16:447][111]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Level_2)
+[2017.12.13-04.40.17:536][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.40.18:015][195]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight16)
+[2017.12.13-04.40.18:598][222]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight16)
+[2017.12.13-04.40.23:916][555]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight16)
+[2017.12.13-04.40.24:906][619]Cmd: EDIT COPY
+[2017.12.13-04.40.28:437][859]Cmd: EDIT PASTE
+[2017.12.13-04.40.29:429][923]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight16)
+[2017.12.13-04.40.43:350][786]Cmd: EDIT COPY
+[2017.12.13-04.40.44:115][844]Cmd: EDIT PASTE
+[2017.12.13-04.40.49:203][162]Cmd: EDIT COPY
+[2017.12.13-04.41.00:285][856]Cmd: EDIT PASTE
+[2017.12.13-04.41.15:604][809]Cmd: EDIT COPY
+[2017.12.13-04.41.16:135][848]Cmd: EDIT PASTE
+[2017.12.13-04.41.25:326][403]Cmd: EDIT COPY
+[2017.12.13-04.41.25:802][438]Cmd: EDIT PASTE
+[2017.12.13-04.41.40:166][323]Cmd: EDIT COPY
+[2017.12.13-04.41.40:639][355]Cmd: EDIT PASTE
+[2017.12.13-04.41.52:314][ 86]Cmd: EDIT COPY
+[2017.12.13-04.41.52:809][123]Cmd: EDIT PASTE
+[2017.12.13-04.42.04:243][818]Cmd: EDIT COPY
+[2017.12.13-04.42.04:692][851]Cmd: EDIT PASTE
+[2017.12.13-04.42.22:260][934]Cmd: EDIT COPY
+[2017.12.13-04.42.22:772][968]Cmd: EDIT PASTE
+[2017.12.13-04.42.35:608][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.43.41:655][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.44.17:705][559]Cmd: EDIT COPY
+[2017.12.13-04.44.18:693][628]Cmd: EDIT PASTE
+[2017.12.13-04.44.26:366][100]Cmd: TRANSACTION UNDO
+[2017.12.13-04.44.26:366][100]LogEditorTransaction: Undo Move Actors
+[2017.12.13-04.44.26:377][100]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight70.LightComponent0) Component already registered.
+[2017.12.13-04.44.26:379][100]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight72.LightComponent0) Component already registered.
+[2017.12.13-04.44.26:381][100]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight77.LightComponent0) Component already registered.
+[2017.12.13-04.44.26:383][100]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight79.LightComponent0) Component already registered.
+[2017.12.13-04.44.27:045][123]Cmd: TRANSACTION UNDO
+[2017.12.13-04.44.27:045][123]LogEditorTransaction: Undo Paste
+[2017.12.13-04.44.32:968][448]Cmd: EDIT COPY
+[2017.12.13-04.44.33:687][495]Cmd: EDIT PASTE
+[2017.12.13-04.45.25:438][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.45.57:908][174]Cmd: DELETE
+[2017.12.13-04.45.57:908][174]Cmd: ACTOR DELETE
+[2017.12.13-04.45.57:925][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:926][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:928][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:929][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:931][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:932][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:933][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:934][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:935][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:936][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:938][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:939][174]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.45.57:957][174]LogEditorActor: Deleted 12 Actors (0.049 secs)
+[2017.12.13-04.46.27:410][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.46.45:081][386]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight66)
+[2017.12.13-04.46.46:485][482]Cmd: EDIT COPY
+[2017.12.13-04.46.46:961][518]Cmd: EDIT PASTE
+[2017.12.13-04.47.03:429][592]Cmd: EDIT COPY
+[2017.12.13-04.47.03:720][610]Cmd: EDIT PASTE
+[2017.12.13-04.47.08:118][908]Cmd: EDIT COPY
+[2017.12.13-04.47.08:457][931]Cmd: EDIT PASTE
+[2017.12.13-04.47.20:421][677]Cmd: EDIT COPY
+[2017.12.13-04.47.20:783][703]Cmd: EDIT PASTE
+[2017.12.13-04.47.22:928][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.47.25:011][963]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight82)
+[2017.12.13-04.47.27:762][136]Cmd: EDIT COPY
+[2017.12.13-04.47.28:135][154]Cmd: EDIT PASTE
+[2017.12.13-04.47.32:047][368]Cmd: EDIT COPY
+[2017.12.13-04.47.32:391][393]Cmd: EDIT PASTE
+[2017.12.13-04.48.01:140][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.48.11:915][307]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight80)
+[2017.12.13-04.48.18:295][717]Cmd: EDIT COPY
+[2017.12.13-04.48.18:665][741]Cmd: EDIT PASTE
+[2017.12.13-04.48.27:996][319]Cmd: EDIT COPY
+[2017.12.13-04.48.28:376][345]Cmd: EDIT PASTE
+[2017.12.13-04.48.42:144][220]Cmd: EDIT COPY
+[2017.12.13-04.48.42:545][246]Cmd: EDIT PASTE
+[2017.12.13-04.48.51:888][845]Cmd: EDIT COPY
+[2017.12.13-04.48.52:293][874]Cmd: EDIT PASTE
+[2017.12.13-04.49.04:976][636]Cmd: EDIT COPY
+[2017.12.13-04.49.05:401][657]Cmd: EDIT PASTE
+[2017.12.13-04.49.50:441][952]Cmd: EDIT COPY
+[2017.12.13-04.49.51:278][ 14]Cmd: EDIT PASTE
+[2017.12.13-04.50.02:660][735]Cmd: EDIT COPY
+[2017.12.13-04.50.03:192][770]Cmd: EDIT PASTE
+[2017.12.13-04.50.13:703][416]Cmd: EDIT COPY
+[2017.12.13-04.50.14:128][445]Cmd: EDIT PASTE
+[2017.12.13-04.50.34:429][679]Cmd: EDIT COPY
+[2017.12.13-04.50.34:850][705]Cmd: EDIT PASTE
+[2017.12.13-04.50.39:041][970]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight92)
+[2017.12.13-04.50.41:506][133]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight93)
+[2017.12.13-04.51.01:607][417]Cmd: DELETE
+[2017.12.13-04.51.01:607][417]Cmd: ACTOR DELETE
+[2017.12.13-04.51.01:620][417]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.51.01:637][417]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.12.13-04.51.08:906][ 65]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight92)
+[2017.12.13-04.51.09:518][101]Cmd: EDIT COPY
+[2017.12.13-04.51.10:013][136]Cmd: EDIT PASTE
+[2017.12.13-04.51.29:347][376]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-04.51.29:369][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/FirstLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-04.51.30:273][376]LogSavePackage: Save=849.82ms
+[2017.12.13-04.51.30:273][376]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevelDCAFDC7D4988B59539D134BAF79CEA0A.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.13-04.51.30:284][376]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
