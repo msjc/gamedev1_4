@@ -442,3 +442,15 @@ LogInit: Object subsystem initialized
 [2017.12.13-00.13.44:429][641]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/AudioSingleTrigger_Auto1.uasset
 [2017.12.13-00.13.44:429][641]LogFileHelpers: Auto-saving content packages took 1.000
 [2017.12.13-00.18.12:277][217]BlueprintLog: New page: Compile AudioSingleTrigger
+[2017.12.13-00.23.44:862][ 15]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 0.051
+[2017.12.13-00.23.44:865][ 15]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/AudioSingleTrigger] ([1] browsable assets)...
+[2017.12.13-00.23.44:865][ 15]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/AudioSingleTrigger]
+[2017.12.13-00.23.44:971][ 15]LogSavePackage: Save=46.11ms
+[2017.12.13-00.23.44:971][ 15]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/AudioSingleTrigger_Auto200BDE1A049C33BD3AC327DBB537D58A2.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/AudioSingleTrigger_Auto2.uasset'
+[2017.12.13-00.23.44:974][ 15]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/FirstPersonBP/Blueprints/AudioSingleTrigger_Auto2.uasset
+[2017.12.13-00.23.45:004][ 15]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sound/defaultSound] ([1] browsable assets)...
+[2017.12.13-00.23.45:004][ 15]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sound/defaultSound]
+[2017.12.13-00.23.45:021][ 15]LogSavePackage: Save=12.66ms
+[2017.12.13-00.23.45:021][ 15]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/defaultSound_Auto2EE9208BA479ADBDE7F88ECB89AEB7A5A.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Sound/defaultSound_Auto2.uasset'
+[2017.12.13-00.23.45:022][ 15]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Sound/defaultSound_Auto2.uasset
+[2017.12.13-00.23.45:023][ 15]LogFileHelpers: Auto-saving content packages took 0.159
