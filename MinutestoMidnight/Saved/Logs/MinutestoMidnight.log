@@ -1,18 +1,20 @@
-﻿Log file open, 12/13/17 11:42:48
+﻿Log file open, 12/13/17 12:22:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MinutestoMidnight
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1113763987) SRandInit(1113763987).
+LogInit: Display: RandInit(1218914518) SRandInit(1218914518).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.104548
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.300709
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -189,408 +191,680 @@ LogInit: Compiled (64-bit): Nov 14 2017 02:05:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
-LogInit: Base directory: D:/unreal/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.13-16.42.49:519][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.13-16.42.49:519][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.13-16.42.49:534][  0]LogInit: Computer: PAAT450S
-[2017.12.13-16.42.49:534][  0]LogInit: User: paa
-[2017.12.13-16.42.49:534][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.12.13-16.42.49:534][  0]LogInit: High frequency timer resolution =2.533200 MHz
-[2017.12.13-16.42.49:534][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2017.12.13-16.42.49:534][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.13-16.42.49:534][  0]LogMemory: Process Physical Memory: 270.56 MB used, 270.56 MB peak
-[2017.12.13-16.42.49:534][  0]LogMemory: Process Virtual Memory: 265.16 MB used, 265.16 MB peak
-[2017.12.13-16.42.49:534][  0]LogMemory: Physical Memory: 3382.10 MB used,  4506.12 MB free, 7888.21 MB total
-[2017.12.13-16.42.49:534][  0]LogMemory: Virtual Memory: 615.64 MB used,  4506.12 MB free, 134217728.00 MB total
-[2017.12.13-16.42.49:646][  0]LogInit: Using OS detected language (en-US).
-[2017.12.13-16.42.49:646][  0]LogInit: Using OS detected locale (en-US).
-[2017.12.13-16.42.49:648][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.13-16.42.50:073][  0]LogInit: Setting process to per monitor DPI aware
-[2017.12.13-16.42.50:324][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.13-16.42.50:330][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2017.12.13-16.42.50:330][  0]LogD3D11RHI:       128/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.12.13-16.42.50:331][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.13-16.42.50:331][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.13-16.42.50:331][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.13-16.42.50:336][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.13-16.42.50:336][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.13-16.42.50:336][  0]LogWindows: EnumDisplayDevices:
-[2017.12.13-16.42.50:336][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2017.12.13-16.42.50:336][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2017.12.13-16.42.50:336][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2017.12.13-16.42.50:336][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.12.13-16.42.50:336][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
-[2017.12.13-16.42.50:336][  0]LogD3D11RHI:   Driver Version: 10.18.15.4285 (internal:10.18.15.4285, unified:10.18.15.4285)
-[2017.12.13-16.42.50:336][  0]LogD3D11RHI:      Driver Date: 9-11-2015
-[2017.12.13-16.42.50:336][  0]LogRHI: Texture pool is 1433 MB (70% of 2048 MB)
-[2017.12.13-16.42.50:340][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.13-16.42.50:346][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2017.12.13-16.42.50:346][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../gamedev1_4/MinutestoMidnight/Intermediate/Shaders/WorkingDirectory/6532/).
-[2017.12.13-16.42.50:346][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/paa/AppData/Local/Temp/UnrealShaderWorkingDir/DE7E06A2437189CC604046937AEAA517/'.
-[2017.12.13-16.42.50:346][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.13-16.42.51:339][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.13-16.42.51:379][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.13-16.42.51:420][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.13-16.42.51:462][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.13-16.42.51:504][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.13-16.42.51:548][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.13-16.42.51:591][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.13-16.42.51:633][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.13-16.42.51:668][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.13-16.42.51:710][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.13-16.42.51:752][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.13-16.42.51:794][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.13-16.42.51:834][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.13-16.42.51:874][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.13-16.42.51:959][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.13-16.42.51:960][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.13-16.42.52:000][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.13-16.42.52:030][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.13-16.42.52:108][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.13-16.42.52:132][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.13-16.42.52:175][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.13-16.42.52:221][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.13-16.42.52:264][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.13-16.42.52:306][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.13-16.42.52:306][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.13-16.42.52:694][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.13-16.42.52:794][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/paa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.13-16.42.52:794][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/paa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.12.13-16.42.52:794][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../gamedev1_4/MinutestoMidnight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.13-16.42.52:794][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.13-16.42.52:794][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../gamedev1_4/MinutestoMidnight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.13-16.42.52:794][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.13-16.42.52:814][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.13-16.42.52:827][  0]LogDerivedDataCache: Using Local data cache path C:/Users/paa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.13-16.42.52:838][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.13-16.42.52:838][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.13-16.42.52:839][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.13-16.42.52:839][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.13-16.42.53:229][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.13-16.42.53:523][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.13-16.42.53:553][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.13-16.42.53:553][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.13-16.42.53:553][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.13-16.42.53:553][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.13-16.42.53:553][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.13-16.42.53:580][  0]LogNetVersion: MinutestoMidnight , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2652091950)
-[2017.12.13-16.42.53:753][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2017.12.13-16.42.54:435][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.079576 seconds
-[2017.12.13-16.42.54:442][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.12.13-16.42.54:442][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2017.12.13-16.42.54:442][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.13-16.42.54:480][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.13-16.42.56:967][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.13-16.42.57:003][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.13-16.42.57:595][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.13-16.42.57:974][  0]SourceControl: Source control is disabled
-[2017.12.13-16.42.58:927][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.13-16.42.59:142][  0]LogOcInput: OculusInput pre-init called
-[2017.12.13-16.42.59:396][  0]LogEngine: Initializing Engine...
-[2017.12.13-16.42.59:398][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.12.13-16.42.59:681][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.13-16.42.59:681][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.13-16.42.59:787][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.13-16.42.59:793][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-16.42.59:817][  0]LogInit: FAudioDevice initialized.
-[2017.12.13-16.42.59:912][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/paa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.13-16.42.59:928][  0]LogInit: Texture streaming: Enabled
-[2017.12.13-16.43.00:004][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.13-16.43.00:100][  0]LogInit: Transaction tracking system initialized
-[2017.12.13-16.43.00:342][  0]BlueprintLog: New page: Editor Load
-[2017.12.13-16.43.01:017][  0]LocalizationService: Localization service is disabled
-[2017.12.13-16.43.01:598][  0]LogConsoleResponse: Display: 
-[2017.12.13-16.43.01:798][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.13-16.43.01:798][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.13-16.43.01:798][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.13-16.43.02:061][  0]LogFileCache: Scanning file cache for directory 'D:/unreal/gamedev1_4/MinutestoMidnight/Content/' took 0.02s
-[2017.12.13-16.43.02:760][  0]Cmd: MAP LOAD FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.13-16.43.02:760][  0]LightingResults: New page: Lighting Build
-[2017.12.13-16.43.02:796][  0]MapCheck: New page: Map Check
-[2017.12.13-16.43.02:796][  0]LightingResults: New page: Lighting Build
-[2017.12.13-16.43.03:200][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn1'
-[2017.12.13-16.43.03:200][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn1' while loading ../../../../gamedev1_4/MinutestoMidnight/Content/Level/Level_Assets/Lv1_map.uasset.
-[2017.12.13-16.43.03:200][  0]LoadErrors: Error: /Game/Level/Level_Assets/Lv1_map : Can't find file for asset. /Game/Level/Level_Assets/blinn1
-[2017.12.13-16.43.03:200][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn2'
-[2017.12.13-16.43.03:201][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn2' while loading ../../../../gamedev1_4/MinutestoMidnight/Content/Level/Level_Assets/Lv1_map.uasset.
-[2017.12.13-16.43.03:201][  0]LoadErrors: Error: /Game/Level/Level_Assets/Lv1_map : Can't find file for asset. /Game/Level/Level_Assets/blinn2
-[2017.12.13-16.43.03:201][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn1'
-[2017.12.13-16.43.03:201][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn1' while loading ../../../../gamedev1_4/MinutestoMidnight/Content/Level/Level_Assets/Lv1_map.uasset.
-[2017.12.13-16.43.03:201][  0]LoadErrors: Error: /Game/Level/Level_Assets/Lv1_map : Can't find file for asset. /Game/Level/Level_Assets/blinn1
-[2017.12.13-16.43.03:201][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn2'
-[2017.12.13-16.43.03:201][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn2' while loading ../../../../gamedev1_4/MinutestoMidnight/Content/Level/Level_Assets/Lv1_map.uasset.
-[2017.12.13-16.43.03:201][  0]LoadErrors: Error: /Game/Level/Level_Assets/Lv1_map : Can't find file for asset. /Game/Level/Level_Assets/blinn2
-[2017.12.13-16.43.03:325][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn2'
-[2017.12.13-16.43.03:325][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn2.blinn2 Referenced by Lv1_map
-[2017.12.13-16.43.03:325][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn2' while loading NULL.
-[2017.12.13-16.43.03:325][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn2.blinn2 Referenced by Lv1_map
-[2017.12.13-16.43.03:325][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn1'
-[2017.12.13-16.43.03:325][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn1.blinn1 Referenced by Lv1_map
-[2017.12.13-16.43.03:325][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn1' while loading NULL.
-[2017.12.13-16.43.03:325][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn1.blinn1 Referenced by Lv1_map
-[2017.12.13-16.43.03:325][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn2'
-[2017.12.13-16.43.03:326][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn2.blinn2 Referenced by Lv1_map
-[2017.12.13-16.43.03:326][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn2' while loading NULL.
-[2017.12.13-16.43.03:326][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn2.blinn2 Referenced by Lv1_map
-[2017.12.13-16.43.03:326][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn1'
-[2017.12.13-16.43.03:326][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn1.blinn1 Referenced by Lv1_map
-[2017.12.13-16.43.03:326][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn1' while loading NULL.
-[2017.12.13-16.43.03:326][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn1.blinn1 Referenced by Lv1_map
-[2017.12.13-16.43.03:615][  0]LogAIModule: Creating AISystem for world FirstLevel
-[2017.12.13-16.43.03:667][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.13-16.43.03:690][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.13-16.43.03:740][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.755ms to complete.
-[2017.12.13-16.43.03:740][  0]LogFileHelpers: Loading map 'FirstLevel' took 0.980
-[2017.12.13-16.43.03:917][  0]LogCollectionManager: Loaded 0 collections in 0.001641 seconds
-[2017.12.13-16.43.03:988][  0]LogFileCache: Scanning file cache for directory 'D:/unreal/gamedev1_4/MinutestoMidnight/Saved/Collections/' took 0.01s
-[2017.12.13-16.43.03:988][  0]LogFileCache: Scanning file cache for directory 'D:/unreal/gamedev1_4/MinutestoMidnight/Content/Developers/paa/Collections/' took 0.01s
-[2017.12.13-16.43.03:989][  0]LogFileCache: Scanning file cache for directory 'D:/unreal/gamedev1_4/MinutestoMidnight/Content/Collections/' took 0.01s
-[2017.12.13-16.43.03:989][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.12.13-16.43.03:998][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2363 classes and 519 folders.
-[2017.12.13-16.43.04:049][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.12.13-16.43.04:090][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.12.13-16.43.04:125][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.12.13-16.43.04:227][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.13-16.43.04:229][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.13-16.43.04:235][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.13-16.43.04:348][  0]LogRenderer: Reallocating scene render targets to support 808x404 Format 10 NumSamples 1 (Frame:1).
-[2017.12.13-16.43.05:001][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.12.13-16.43.05:001][  0]LogLoad: (Engine Initialization) Total time: 17.65 seconds
-[2017.12.13-16.43.05:001][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.13-16.43.05:001][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.12.13-16.43.05:001][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.12.13-16.43.05:051][  0]SourceControl: On branch master
-[2017.12.13-16.43.05:051][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
-[2017.12.13-16.43.05:051][  0]SourceControl: Changes not staged for commit:
-[2017.12.13-16.43.05:051][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.12.13-16.43.05:051][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.12.13-16.43.05:051][  0]SourceControl: 	modified:   MinutestoMidnight/Intermediate/CachedAssetRegistry.bin
-[2017.12.13-16.43.05:051][  0]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/Editor.ini
-[2017.12.13-16.43.05:051][  0]SourceControl: 	modified:   MinutestoMidnight/Saved/Logs/MinutestoMidnight.log
-[2017.12.13-16.43.05:051][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.12.13-16.43.05:052][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.13-16.43.05:143][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.13-16.43.05:176][  1]LogAssetRegistry: Asset discovery search completed in 11.4464 seconds
-[2017.12.13-16.43.05:179][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.12.13-16.43.05:179][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
-[2017.12.13-16.43.06:324][  4]LogSlate: Took 0.000444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.13-16.43.10:160][133]LogFileCache: Retrieving MD5 hashes for directory 'D:/unreal/gamedev1_4/MinutestoMidnight/Content/' took 5.13s
-[2017.12.13-16.43.14:608][242]LogBlueprint: Error: [Compiler LockdownTrigger] This blueprint (self) is not a AudioComponent, therefore ' Target ' must have a connection.
-[2017.12.13-16.43.14:609][242]LogBlueprint: Warning: [Compiler LockdownTrigger] [0027.25] Compile of LockdownTrigger failed. 1 Fatal Issue(s) 0 Warning(s) [in 62 ms] (/Game/Sound/LockdownTrigger.LockdownTrigger)
-[2017.12.13-16.43.14:620][242]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.13-16.43.15:293][242]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.13-16.43.15:361][242]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2017.12.13-16.43.16:185][242]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.12.13-16.43.16:292][243]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.12.13-16.43.31:400][ 69]BlueprintLog: New page: Compile LockdownTrigger
-[2017.12.13-16.43.33:017][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/LockdownTrigger" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset" SILENT=true
-[2017.12.13-16.43.33:082][153]LogSavePackage: Save=37.43ms
-[2017.12.13-16.43.33:082][153]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/LockdownTrigger8457D70B467BBAFE8AFF8992CB1A495C.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset'
-[2017.12.13-16.43.33:087][153]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset
-[2017.12.13-16.43.59:583][358]LogAIModule: Creating AISystem for world SecondLevel
-[2017.12.13-16.43.59:666][358]Cmd: MAP LOAD FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.13-16.43.59:666][358]LightingResults: New page: Lighting Build
-[2017.12.13-16.43.59:667][358]LoadErrors: New page: Loading map: SecondLevel.umap
-[2017.12.13-16.43.59:672][358]MapCheck: New page: Map Check
-[2017.12.13-16.43.59:672][358]LightingResults: New page: Lighting Build
-[2017.12.13-16.43.59:814][358]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.13-16.43.59:928][358]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.13-16.43.59:986][358]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.98ms to complete.
-[2017.12.13-16.43.59:986][358]LogFileHelpers: Loading map 'SecondLevel' took 0.320
-[2017.12.13-16.44.40:858][201]LogEditorViewport: Clicking on Actor (LMB): SoundTriggerVolume_C (SoundTriggerVolume2)
-[2017.12.13-16.44.42:105][226]Cmd: DELETE
-[2017.12.13-16.44.42:105][226]Cmd: ACTOR DELETE
-[2017.12.13-16.44.42:441][226]LogEditorActor: Deleted Actor: SoundTriggerVolume_C
-[2017.12.13-16.44.42:516][226]LogEditorActor: Deleted 1 Actors (0.410 secs)
-[2017.12.13-16.45.15:533][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/SecondLevel" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.12.13-16.45.16:784][887]LogSavePackage: Save=1182.24ms
-[2017.12.13-16.45.16:785][887]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/SecondLevelAA145B2A463370632BC5BDAEEF535804.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap'
-[2017.12.13-16.45.16:790][887]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap
-[2017.12.13-16.45.23:624][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/SecondLevel" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.12.13-16.45.24:916][ 19]LogSavePackage: Save=1243.47ms
-[2017.12.13-16.45.24:916][ 19]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/SecondLevelA7845F8F4263FEE23EB8C88272FCB719.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap'
-[2017.12.13-16.45.24:920][ 19]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap
-[2017.12.13-16.46.20:868][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/LockdownTrigger" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset" SILENT=true
-[2017.12.13-16.46.20:929][ 96]LogSavePackage: Save=40.04ms
-[2017.12.13-16.46.20:929][ 96]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/LockdownTriggerEE57B3C5403A086401E7079354C656F0.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset'
-[2017.12.13-16.46.20:933][ 96]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset
-[2017.12.13-16.46.21:583][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/LockdownTrigger" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset" SILENT=true
-[2017.12.13-16.46.21:630][131]LogSavePackage: Save=39.67ms
-[2017.12.13-16.46.21:630][131]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/LockdownTrigger39CC365840C515C9D6C14B8A5EA6A68A.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset'
-[2017.12.13-16.46.21:631][131]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset
-[2017.12.13-16.46.32:073][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/LockdownTrigger" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset" SILENT=true
-[2017.12.13-16.46.32:134][751]LogSavePackage: Save=41.31ms
-[2017.12.13-16.46.32:134][751]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/LockdownTriggerA13DFB8D450882B1ABD52A80266FA5F9.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset'
-[2017.12.13-16.46.32:137][751]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset
-[2017.12.13-16.46.33:198][815]BlueprintLog: New page: Compile LockdownTrigger
-[2017.12.13-16.46.34:837][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/LockdownTrigger" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset" SILENT=true
-[2017.12.13-16.46.34:885][888]LogSavePackage: Save=41.13ms
-[2017.12.13-16.46.34:885][888]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/LockdownTrigger6812CB1A484D40FEDF9F54A121E71FE5.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset'
-[2017.12.13-16.46.34:887][888]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset
-[2017.12.13-16.46.49:978][216]Cmd: DELETE
-[2017.12.13-16.46.49:978][216]Cmd: ACTOR DELETE
-[2017.12.13-16.46.49:994][216]LogEditorActor: Deleted Actor: PlayerStart
-[2017.12.13-16.46.50:035][216]LogEditorActor: Deleted 1 Actors (0.057 secs)
-[2017.12.13-16.46.54:932][318]Cmd: TRANSACTION UNDO
-[2017.12.13-16.46.54:932][318]LogEditorTransaction: Undo Create Actors
-[2017.12.13-16.47.00:431][452]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.13-16.47.06:484][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
-[2017.12.13-16.47.06:484][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.13-16.47.06:485][452]PIE: New page: PIE session: SecondLevel (Dec 13, 2017, 6:47:06 AM)
-[2017.12.13-16.47.06:485][452]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
-[2017.12.13-16.47.06:559][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074056s)
-[2017.12.13-16.47.06:560][452]LogAIModule: Creating AISystem for world SecondLevel
-[2017.12.13-16.47.06:560][452]LogPlayLevel: PIE: World Init took: (0.000778s)
-[2017.12.13-16.47.06:560][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.075219s)
-[2017.12.13-16.47.06:588][452]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-16.47.06:595][452]LogInit: FAudioDevice initialized.
-[2017.12.13-16.47.06:651][452]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/004_one_down_Cue1'
-[2017.12.13-16.47.06:651][452]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/004_one_down_Cue1' while loading ../../../../gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset.
-[2017.12.13-16.47.06:651][452]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode : Can't find file for asset. /Game/Dialogue/First_Level/004_one_down_Cue1
-[2017.12.13-16.47.06:651][452]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1'
-[2017.12.13-16.47.06:651][452]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1' while loading ../../../../gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset.
-[2017.12.13-16.47.06:651][452]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode : Can't find file for asset. /Game/Dialogue/First_Level/006_who_says_two_heads_Cue1
-[2017.12.13-16.47.06:653][452]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/004_one_down_Cue1'
-[2017.12.13-16.47.06:653][452]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/004_one_down_Cue1' while loading ../../../../gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset.
-[2017.12.13-16.47.06:653][452]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1'
-[2017.12.13-16.47.06:653][452]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1' while loading ../../../../gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset.
-[2017.12.13-16.47.06:654][452]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/004_one_down_Cue1'
-[2017.12.13-16.47.06:654][452]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/004_one_down_Cue1' while loading NULL.
-[2017.12.13-16.47.06:655][452]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1'
-[2017.12.13-16.47.06:655][452]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1' while loading NULL.
-[2017.12.13-16.47.06:655][452]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/004_one_down_Cue1'
-[2017.12.13-16.47.06:655][452]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/004_one_down_Cue1' while loading NULL.
-[2017.12.13-16.47.06:655][452]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1'
-[2017.12.13-16.47.06:655][452]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1' while loading NULL.
-[2017.12.13-16.47.06:657][452]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/004_one_down_Cue1'
-[2017.12.13-16.47.06:657][452]LoadErrors: Failed to load /Game/Dialogue/First_Level/004_one_down_Cue1.004_one_down_Cue1 Referenced by K2Node_CallFunction_22
-[2017.12.13-16.47.06:657][452]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/004_one_down_Cue1' while loading NULL.
-[2017.12.13-16.47.06:657][452]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1'
-[2017.12.13-16.47.06:657][452]LoadErrors: Failed to load /Game/Dialogue/First_Level/006_who_says_two_heads_Cue1.006_who_says_two_heads_Cue1 Referenced by K2Node_CallFunction_15
-[2017.12.13-16.47.06:657][452]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1' while loading NULL.
-[2017.12.13-16.47.06:682][452]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.13-16.47.06:691][452]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 60) at 2017.12.13-11.47.06
-[2017.12.13-16.47.06:719][452]LogWorld: Bringing up level for play took: 0.035360
-[2017.12.13-16.47.06:755][452]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2017.12.13-16.47.06:759][452]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel -0.395
-[2017.12.13-16.47.06:759][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
-[2017.12.13-16.47.10:758][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
-[2017.12.13-16.47.10:852][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
-[2017.12.13-16.47.14:142][605]LogEditorViewport: Clicking on Actor (LMB): LockdownTrigger_C (LockdownTrigger)
-[2017.12.13-16.47.55:735][786]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.13-16.47.56:069][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
-[2017.12.13-16.47.56:069][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.13-16.47.56:069][786]PIE: New page: PIE session: SecondLevel (Dec 13, 2017, 6:47:56 AM)
-[2017.12.13-16.47.56:069][786]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_SecondLevel
-[2017.12.13-16.47.56:142][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073445s)
-[2017.12.13-16.47.56:143][786]LogAIModule: Creating AISystem for world SecondLevel
-[2017.12.13-16.47.56:143][786]LogPlayLevel: PIE: World Init took: (0.000813s)
-[2017.12.13-16.47.56:144][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/SecondLevel.SecondLevel to /Game/Level/UEDPIE_0_SecondLevel.SecondLevel (0.074623s)
-[2017.12.13-16.47.56:174][786]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-16.47.56:181][786]LogInit: FAudioDevice initialized.
-[2017.12.13-16.47.56:214][786]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.13-16.47.56:222][786]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 60) at 2017.12.13-11.47.56
-[2017.12.13-16.47.56:223][786]LogWorld: Bringing up level for play took: 0.009281
-[2017.12.13-16.47.56:227][786]PIE: Play in editor start time for /Game/Level/UEDPIE_0_SecondLevel 1.073
-[2017.12.13-16.47.56:228][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
-[2017.12.13-16.48.32:878][589]LogBlueprintUserMessages: [AgentNextRoute_C_0] X=-9550.000 Y=-1600.000 Z=110.000
-[2017.12.13-16.48.36:473][663]LogBlueprintUserMessages: [AgentNextRoute_C_0] X=-9550.000 Y=-1600.000 Z=110.000
-[2017.12.13-16.48.36:825][670]LogBlueprintUserMessages: [AgentNextRoute_C_0] X=-9550.000 Y=-1600.000 Z=110.000
-[2017.12.13-16.48.37:028][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
-[2017.12.13-16.48.37:165][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/SecondLevel.SecondLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel' with GeneratedClass '/Game/Level/SecondLevel.SecondLevel_C' with ClassGeneratedBy '/Game/Level/SecondLevel.SecondLevel:PersistentLevel.SecondLevel'
-[2017.12.13-16.48.49:189][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/LockdownTrigger" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset" SILENT=true
-[2017.12.13-16.48.49:239][215]LogSavePackage: Save=39.35ms
-[2017.12.13-16.48.49:239][215]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/LockdownTriggerB1041DBD45367740D94EF4AF950884AD.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset'
-[2017.12.13-16.48.49:242][215]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Sound/LockdownTrigger.uasset
-[2017.12.13-16.50.11:910][477]LogEditorViewport: Clicking on Actor (LMB): AgentWaypoint_C (AgentWaypoint18)
-[2017.12.13-16.50.23:846][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/SecondLevel" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.12.13-16.50.25:076][725]LogSavePackage: Save=1159.67ms
-[2017.12.13-16.50.25:076][725]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/SecondLevel1A01BC884241989D522E6F909C97B48C.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap'
-[2017.12.13-16.50.25:080][725]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap
-[2017.12.13-16.51.25:851][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AgentBot/AgentCheckEnd" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset" SILENT=true
-[2017.12.13-16.51.25:945][592]LogSavePackage: Save=49.82ms
-[2017.12.13-16.51.25:945][592]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/AgentCheckEndC1AA5C374E98BC7354D1F4B849E4BE58.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset'
-[2017.12.13-16.51.25:949][592]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset
-[2017.12.13-16.51.27:118][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AgentBot/AgentCheckEnd" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset" SILENT=true
-[2017.12.13-16.51.27:174][658]LogSavePackage: Save=47.94ms
-[2017.12.13-16.51.27:174][658]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/AgentCheckEnd12D7AAFA4CCA798655A93D8A46034A64.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset'
-[2017.12.13-16.51.27:175][658]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset
-[2017.12.13-16.51.37:028][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AgentBot/AgentCheckEnd" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset" SILENT=true
-[2017.12.13-16.51.37:126][245]LogSavePackage: Save=61.70ms
-[2017.12.13-16.51.37:126][245]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/AgentCheckEndF3B30F33433B2C4F2F311584A9197BC3.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset'
-[2017.12.13-16.51.37:127][245]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset
-[2017.12.13-16.53.31:414][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AgentBot/AgentCheckEnd" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset" SILENT=true
-[2017.12.13-16.53.31:484][863]LogSavePackage: Save=53.17ms
-[2017.12.13-16.53.31:484][863]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/AgentCheckEndD7B5A1F945C1548A0BAA82A0D78652BF.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset'
-[2017.12.13-16.53.31:488][863]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset
-[2017.12.13-16.53.32:143][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AgentBot/AgentCheckEnd" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset" SILENT=true
-[2017.12.13-16.53.32:203][898]LogSavePackage: Save=51.38ms
-[2017.12.13-16.53.32:203][898]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/AgentCheckEnd998C8158443F7120CC72FCA47EAFA6A6.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset'
-[2017.12.13-16.53.32:205][898]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset
-[2017.12.13-16.53.33:515][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AgentBot/AgentCheckEnd" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset" SILENT=true
-[2017.12.13-16.53.33:572][972]LogSavePackage: Save=50.56ms
-[2017.12.13-16.53.33:572][972]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/AgentCheckEnd403ACBA049BAF984248543A3E41EFB5C.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset'
-[2017.12.13-16.53.33:573][972]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset
-[2017.12.13-16.53.34:225][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AgentBot/AgentCheckEnd" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset" SILENT=true
-[2017.12.13-16.53.34:309][  7]LogSavePackage: Save=52.34ms
-[2017.12.13-16.53.34:309][  7]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/AgentCheckEnd97CF6EF24E95A85154BA548FDA6C6DF0.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset'
-[2017.12.13-16.53.34:310][  7]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset
-[2017.12.13-16.53.37:475][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AgentBot/AgentCheckEnd" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset" SILENT=true
-[2017.12.13-16.53.37:562][193]LogSavePackage: Save=52.00ms
-[2017.12.13-16.53.37:562][193]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/AgentCheckEndD701A3014949A2362B97CEA3FCA22DE5.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset'
-[2017.12.13-16.53.37:563][193]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset
-[2017.12.13-16.53.40:911][394]BlueprintLog: New page: Compile AgentCheckEnd
-[2017.12.13-16.53.40:931][394]LogBlueprint: Error: [Compiler AgentCheckEnd] This blueprint (self) is not a BrainComponent, therefore ' Target ' must have a connection.
-[2017.12.13-16.53.41:065][394]LogBlueprint: Warning: [Compiler AgentCheckEnd] [0653.71] Compile of AgentCheckEnd failed. 1 Fatal Issue(s) 0 Warning(s) [in 154 ms] (/Game/AgentBot/AgentCheckEnd.AgentCheckEnd)
-[2017.12.13-16.53.55:039][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AgentBot/AgentCheckEnd" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset" SILENT=true
-[2017.12.13-16.53.55:121][223]LogSavePackage: Save=50.04ms
-[2017.12.13-16.53.55:121][223]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/AgentCheckEnd0635B2134B3AE868EDE76FAA3E9CFE4B.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset'
-[2017.12.13-16.53.55:126][223]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset
-[2017.12.13-16.53.55:755][261]BlueprintLog: New page: Compile AgentCheckEnd
-[2017.12.13-16.53.56:521][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AgentBot/AgentCheckEnd" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset" SILENT=true
-[2017.12.13-16.53.56:592][293]LogSavePackage: Save=53.99ms
-[2017.12.13-16.53.56:592][293]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/AgentCheckEnd7B11F8F84B08FF73DDAE4F842755A5E2.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset'
-[2017.12.13-16.53.56:593][293]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/AgentBot/AgentCheckEnd.uasset
-[2017.12.13-16.54.26:464][997]LogEditorViewport: Clicking on Actor (LMB): AgentWaypoint_C (AgentWaypoint14)
-[2017.12.13-16.54.33:992][140]LogEditorViewport: Clicking on Actor (LMB): AgentWaypoint_C (AgentWaypoint17)
-[2017.12.13-16.54.36:569][193]LogEditorViewport: Clicking on Actor (LMB): AgentWaypoint_C (AgentWaypoint18)
-[2017.12.13-16.54.39:642][254]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume24)
-[2017.12.13-16.54.40:411][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/SecondLevel" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.12.13-16.54.41:633][267]LogSavePackage: Save=1163.88ms
-[2017.12.13-16.54.41:633][267]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/SecondLevel4B83DD864D6D9B2AA97F6D857F93C3F5.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap'
-[2017.12.13-16.54.41:637][267]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap
-[2017.12.13-16.55.36:584][469]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2017.12.13-16.55.36:585][469]LogLinker: Warning: Can't find file '/Game/Dialogue/First Level/001_im_in'
-[2017.12.13-16.55.36:585][469]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2017.12.13-16.55.36:585][469]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First Level/001_im_in' while loading ../../../../gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/001_im_in_Cue1.uasset.
-[2017.12.13-16.55.36:585][469]LoadErrors: Error: /Game/Dialogue/FirstLevel/001_im_in_Cue1 : Can't find file for asset. /Game/Dialogue/First Level/001_im_in
-[2017.12.13-16.55.36:585][469]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2017.12.13-16.55.36:585][469]LogLinker: Warning: Can't find file '/Game/Dialogue/First Level/001_im_in'
-[2017.12.13-16.55.36:586][469]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2017.12.13-16.55.36:586][469]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First Level/001_im_in' while loading ../../../../gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/001_im_in_Cue1.uasset.
-[2017.12.13-16.55.36:586][469]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2017.12.13-16.55.36:587][469]LogLinker: Warning: Can't find file '/Game/Dialogue/First Level/001_im_in'
-[2017.12.13-16.55.36:587][469]LoadErrors: Failed to load /Game/Dialogue/First Level/001_im_in.001_im_in Referenced by SoundNodeWavePlayer_0
-[2017.12.13-16.55.36:587][469]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2017.12.13-16.55.36:587][469]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First Level/001_im_in' while loading NULL.
-[2017.12.13-16.55.36:587][469]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2017.12.13-16.55.36:587][469]LogLinker: Warning: Can't find file '/Game/Dialogue/First Level/001_im_in'
-[2017.12.13-16.55.36:648][469]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Dialogue/First Level/001_im_in.001_im_in'
-[2017.12.13-16.55.36:648][469]LogLinker: Error: AddRedirectList(AddKnownMissing) failed to add redirector from /Game/Dialogue/First Level/001_im_in to /Game/Dialogue/First Level/001_im_in with invalid characters!
-[2017.12.13-16.55.39:183][523]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume21)
-[2017.12.13-16.55.43:556][612]LogEditorViewport: Clicking on Actor (LMB): RecastNavMesh (RecastNavMesh-Default)
-[2017.12.13-16.55.52:664][804]LogEditorViewport: Clicking on Actor (LMB): lvl2_pt1_encounter_C (lvl2_pt1_encounter)
-[2017.12.13-16.55.54:850][850]Cmd: DELETE
-[2017.12.13-16.55.54:850][850]Cmd: ACTOR DELETE
-[2017.12.13-16.55.54:878][850]LogEditorActor: Deleted Actor: lvl2_pt1_encounter_C
-[2017.12.13-16.55.54:940][850]LogEditorActor: Deleted 1 Actors (0.089 secs)
-[2017.12.13-16.55.58:101][925]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{5cc76d70-69a3-4a8a-82aa-2e5b29310f93} was removed. Shutting down audio device.
-[2017.12.13-16.55.58:171][925]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-16.57.27:200][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/SecondLevel" FILE="../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.12.13-16.57.28:526][328]LogSavePackage: Save=1260.25ms
-[2017.12.13-16.57.28:526][328]LogSavePackage: Moving '../../../../gamedev1_4/MinutestoMidnight/Saved/SecondLevel5D78C1D942684CA2BB1D829EC4BCC0D5.tmp' to '../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap'
-[2017.12.13-16.57.28:538][328]LogSavePackage: Display: Finished SavePackage ../../../../gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap
+[2017.12.13-17.22.14:900][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.13-17.22.14:900][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.13-17.22.15:025][  0]LogInit: Computer: STAELIAM-PC
+[2017.12.13-17.22.15:025][  0]LogInit: User: Staeliam
+[2017.12.13-17.22.15:025][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.13-17.22.15:025][  0]LogInit: High frequency timer resolution =3.331488 MHz
+[2017.12.13-17.22.15:026][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.12.13-17.22.15:026][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.13-17.22.15:026][  0]LogMemory: Process Physical Memory: 271.77 MB used, 271.77 MB peak
+[2017.12.13-17.22.15:026][  0]LogMemory: Process Virtual Memory: 263.39 MB used, 263.39 MB peak
+[2017.12.13-17.22.15:026][  0]LogMemory: Physical Memory: 7024.08 MB used,  1166.04 MB free, 8190.11 MB total
+[2017.12.13-17.22.15:026][  0]LogMemory: Virtual Memory: 637.18 MB used,  1166.04 MB free, 134217728.00 MB total
+[2017.12.13-17.22.15:357][  0]LogInit: Using OS detected language (en-US).
+[2017.12.13-17.22.15:357][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.13-17.22.15:568][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.13-17.22.16:747][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.13-17.22.20:437][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.13-17.22.20:471][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 / HD 7900 Series' (Feature Level 11_0)
+[2017.12.13-17.22.20:471][  0]LogD3D11RHI:       3053/0/4095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.12.13-17.22.20:475][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.13-17.22.20:475][  0]LogD3D11RHI:       0/0/4095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.13-17.22.20:475][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.13-17.22.20:488][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.13-17.22.20:488][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.13-17.22.20:489][  0]LogWindows: EnumDisplayDevices:
+[2017.12.13-17.22.20:489][  0]LogWindows:    0. 'AMD Radeon R9 200 / HD 7900 Series' (P:1 D:1)
+[2017.12.13-17.22.20:489][  0]LogWindows:    1. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.12.13-17.22.20:489][  0]LogWindows:    2. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.12.13-17.22.20:490][  0]LogWindows:    3. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.12.13-17.22.20:490][  0]LogWindows:    4. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.12.13-17.22.20:490][  0]LogWindows:    5. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.12.13-17.22.20:492][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.12.13-17.22.20:492][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 / HD 7900 Series
+[2017.12.13-17.22.20:492][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.12.13-17.22.20:492][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.12.13-17.22.20:492][  0]LogRHI: Texture pool is 2137 MB (70% of 3053 MB)
+[2017.12.13-17.22.20:615][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.13-17.22.20:632][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.12.13-17.22.20:633][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Intermediate/Shaders/WorkingDirectory/16092/).
+[2017.12.13-17.22.20:633][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Staeliam/AppData/Local/Temp/UnrealShaderWorkingDir/EE0B1C064986CCA60F818B8966C952AE/'.
+[2017.12.13-17.22.20:633][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.13-17.22.24:638][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.13-17.22.24:729][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.13-17.22.24:807][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.13-17.22.24:873][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.13-17.22.24:949][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.13-17.22.25:028][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.13-17.22.25:104][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.13-17.22.25:196][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.13-17.22.25:256][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.13-17.22.25:332][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.13-17.22.25:409][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.13-17.22.25:484][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.13-17.22.25:559][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.13-17.22.25:633][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.13-17.22.25:795][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.13-17.22.25:795][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.13-17.22.25:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.13-17.22.25:953][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.13-17.22.26:086][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.13-17.22.26:126][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.13-17.22.26:199][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.13-17.22.26:279][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.13-17.22.26:354][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.13-17.22.26:436][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.13-17.22.26:436][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.13-17.22.27:054][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.13-17.22.27:224][  0]LogDerivedDataCache: Loaded boot cache 0.17s 78MB C:/Users/Staeliam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.13-17.22.27:224][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Staeliam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.13-17.22.27:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.13-17.22.27:224][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.13-17.22.27:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.13-17.22.27:224][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.13-17.22.27:250][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.13-17.22.27:264][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Staeliam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.13-17.22.27:282][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.13-17.22.27:283][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.13-17.22.27:317][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.13-17.22.27:317][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.13-17.22.28:390][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.13-17.22.28:891][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.13-17.22.28:949][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.13-17.22.28:949][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.13-17.22.28:949][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.13-17.22.28:949][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.13-17.22.28:949][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.13-17.22.28:989][  0]LogNetVersion: MinutestoMidnight , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2652091950)
+[2017.12.13-17.22.29:243][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
+[2017.12.13-17.22.30:465][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.295952 seconds
+[2017.12.13-17.22.30:476][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.13-17.22.30:476][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2017.12.13-17.22.30:476][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.13-17.22.30:543][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.13-17.22.40:389][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.13-17.22.40:447][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.13-17.22.41:649][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.13-17.22.42:394][  0]SourceControl: Source control is disabled
+[2017.12.13-17.22.46:630][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.13-17.22.47:027][  0]LogOcInput: OculusInput pre-init called
+[2017.12.13-17.22.47:504][  0]LogEngine: Initializing Engine...
+[2017.12.13-17.22.47:516][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.12.13-17.22.48:065][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.13-17.22.48:065][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.13-17.22.48:226][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.13-17.22.48:237][  0]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-17.22.48:254][  0]LogInit: FAudioDevice initialized.
+[2017.12.13-17.22.51:016][  0]LogDerivedDataCache: Saved boot cache 2.76s 78MB C:/Users/Staeliam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.13-17.22.51:054][  0]LogInit: Texture streaming: Enabled
+[2017.12.13-17.22.51:184][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.13-17.22.51:347][  0]LogInit: Transaction tracking system initialized
+[2017.12.13-17.22.51:746][  0]BlueprintLog: New page: Editor Load
+[2017.12.13-17.22.53:129][  0]LocalizationService: Localization service is disabled
+[2017.12.13-17.22.54:211][  0]LogConsoleResponse: Display: 
+[2017.12.13-17.22.54:738][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.13-17.22.54:738][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.13-17.22.54:739][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.13-17.22.55:782][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/' took 0.09s
+[2017.12.13-17.22.56:689][  0]Cmd: MAP LOAD FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.13-17.22.56:690][  0]LightingResults: New page: Lighting Build
+[2017.12.13-17.22.56:740][  0]MapCheck: New page: Map Check
+[2017.12.13-17.22.56:740][  0]LightingResults: New page: Lighting Build
+[2017.12.13-17.23.03:786][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn1'
+[2017.12.13-17.23.03:787][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn1' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level_Assets/Lv1_map.uasset.
+[2017.12.13-17.23.03:787][  0]LoadErrors: Error: /Game/Level/Level_Assets/Lv1_map : Can't find file for asset. /Game/Level/Level_Assets/blinn1
+[2017.12.13-17.23.03:787][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn2'
+[2017.12.13-17.23.03:787][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn2' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level_Assets/Lv1_map.uasset.
+[2017.12.13-17.23.03:787][  0]LoadErrors: Error: /Game/Level/Level_Assets/Lv1_map : Can't find file for asset. /Game/Level/Level_Assets/blinn2
+[2017.12.13-17.23.03:787][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn1'
+[2017.12.13-17.23.03:787][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn1' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level_Assets/Lv1_map.uasset.
+[2017.12.13-17.23.03:787][  0]LoadErrors: Error: /Game/Level/Level_Assets/Lv1_map : Can't find file for asset. /Game/Level/Level_Assets/blinn1
+[2017.12.13-17.23.03:788][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn2'
+[2017.12.13-17.23.03:788][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn2' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/Level_Assets/Lv1_map.uasset.
+[2017.12.13-17.23.03:788][  0]LoadErrors: Error: /Game/Level/Level_Assets/Lv1_map : Can't find file for asset. /Game/Level/Level_Assets/blinn2
+[2017.12.13-17.23.04:549][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn2'
+[2017.12.13-17.23.04:549][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn2.blinn2 Referenced by Lv1_map
+[2017.12.13-17.23.04:549][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn2' while loading NULL.
+[2017.12.13-17.23.04:549][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn2.blinn2 Referenced by Lv1_map
+[2017.12.13-17.23.04:549][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn1'
+[2017.12.13-17.23.04:549][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn1.blinn1 Referenced by Lv1_map
+[2017.12.13-17.23.04:550][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn1' while loading NULL.
+[2017.12.13-17.23.04:550][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn1.blinn1 Referenced by Lv1_map
+[2017.12.13-17.23.04:550][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn2'
+[2017.12.13-17.23.04:550][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn2.blinn2 Referenced by Lv1_map
+[2017.12.13-17.23.04:550][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn2' while loading NULL.
+[2017.12.13-17.23.04:550][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn2.blinn2 Referenced by Lv1_map
+[2017.12.13-17.23.04:550][  0]LogLinker: Warning: Can't find file '/Game/Level/Level_Assets/blinn1'
+[2017.12.13-17.23.04:550][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn1.blinn1 Referenced by Lv1_map
+[2017.12.13-17.23.04:550][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Level_Assets/blinn1' while loading NULL.
+[2017.12.13-17.23.04:551][  0]LoadErrors: Failed to load /Game/Level/Level_Assets/blinn1.blinn1 Referenced by Lv1_map
+[2017.12.13-17.23.14:805][  0]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.13-17.23.14:889][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.13-17.23.14:925][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.13-17.23.15:017][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.816ms to complete.
+[2017.12.13-17.23.15:017][  0]LogFileHelpers: Loading map 'FirstLevel' took 18.327
+[2017.12.13-17.23.15:268][  0]LogCollectionManager: Loaded 0 collections in 0.001511 seconds
+[2017.12.13-17.23.15:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Collections/' took 0.01s
+[2017.12.13-17.23.15:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Developers/Staeliam/Collections/' took 0.00s
+[2017.12.13-17.23.15:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Collections/' took 0.01s
+[2017.12.13-17.23.15:350][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.13-17.23.15:366][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2363 classes and 519 folders.
+[2017.12.13-17.23.15:452][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.12.13-17.23.16:639][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.12.13-17.23.16:719][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.13-17.23.16:818][  0]LogSlate: Took 0.000440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.13-17.23.16:821][  0]LogSlate: Took 0.000466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.13-17.23.16:847][  0]LogSlate: Took 0.014683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.13-17.23.17:243][  0]LogRenderer: Reallocating scene render targets to support 1208x404 Format 10 NumSamples 1 (Frame:1).
+[2017.12.13-17.23.17:595][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.13-17.23.17:595][  0]LogLoad: (Engine Initialization) Total time: 73.08 seconds
+[2017.12.13-17.23.17:595][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.13-17.23.17:596][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.13-17.23.17:995][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.13-17.23.18:254][  0]LogSlate: Took 0.105571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-17.23.18:757][  2]LogAssetRegistry: Asset discovery search completed in 49.5380 seconds
+[2017.12.13-17.23.18:761][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.13-17.23.18:761][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000146 seconds (updated 0 objects)
+[2017.12.13-17.23.19:051][  3]LogSlate: Took 0.000501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-17.23.27:865][ 54]AssetReimport: New page: Detailed File System Changes from 12:23:27 PM
+[2017.12.13-17.23.27:869][ 54]AssetReimport: 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG Music/horror.wav' has been created.
+[2017.12.13-17.23.32:460][ 67]AssetReimport: New page: Outstanding source content changes 7:23:32 AM
+[2017.12.13-17.23.36:563][ 68]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG Music/horror.wav)
+[2017.12.13-17.23.39:770][ 68]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/BG_Music/horror.horror.
+[2017.12.13-17.23.43:572][ 69]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-17.23.43:635][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BG_Music/horror" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG_Music/horror.uasset" SILENT=true
+[2017.12.13-17.23.44:234][ 69]LogSavePackage: Save=595.90ms
+[2017.12.13-17.23.44:234][ 69]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/horrorEE0B1114439A36305C5724B5E7B76D04.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG_Music/horror.uasset'
+[2017.12.13-17.23.44:245][ 69]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG_Music/horror.uasset
+[2017.12.13-17.23.50:570][ 70]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/' took 32.62s
+[2017.12.13-17.23.53:556][300]AssetReimport: Importing new asset /Game/BG_Music/horror.
+[2017.12.13-17.25.38:369][377]SourceControl: On branch master
+[2017.12.13-17.25.38:369][377]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.12.13-17.25.38:369][377]SourceControl: Changes not staged for commit:
+[2017.12.13-17.25.38:369][377]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.12.13-17.25.38:369][377]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.13-17.25.38:369][377]SourceControl: 	modified:   MinutestoMidnight/Intermediate/CachedAssetRegistry.bin
+[2017.12.13-17.25.38:369][377]SourceControl: 	modified:   MinutestoMidnight/Intermediate/ReimportCache/3688439234.bin
+[2017.12.13-17.25.38:369][377]SourceControl: 	modified:   MinutestoMidnight/Saved/AutoScreenshot.png
+[2017.12.13-17.25.38:369][377]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/Editor.ini
+[2017.12.13-17.25.38:369][377]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.13-17.25.38:369][377]SourceControl: 	modified:   MinutestoMidnight/Saved/Config/Windows/SourceControlSettings.ini
+[2017.12.13-17.25.38:369][377]SourceControl: 	modified:   MinutestoMidnight/Saved/Logs/MinutestoMidnight.log
+[2017.12.13-17.25.38:369][377]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.12.13-17.26.27:362][  9]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/004_one_down_Cue1'
+[2017.12.13-17.26.27:363][  9]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/004_one_down_Cue1' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset.
+[2017.12.13-17.26.27:363][  9]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode : Can't find file for asset. /Game/Dialogue/First_Level/004_one_down_Cue1
+[2017.12.13-17.26.27:363][  9]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1'
+[2017.12.13-17.26.27:363][  9]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset.
+[2017.12.13-17.26.27:364][  9]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode : Can't find file for asset. /Game/Dialogue/First_Level/006_who_says_two_heads_Cue1
+[2017.12.13-17.26.27:416][  9]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/004_one_down_Cue1'
+[2017.12.13-17.26.27:416][  9]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/004_one_down_Cue1' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset.
+[2017.12.13-17.26.27:417][  9]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1'
+[2017.12.13-17.26.27:417][  9]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset.
+[2017.12.13-17.26.27:418][  9]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/004_one_down_Cue1'
+[2017.12.13-17.26.27:419][  9]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/004_one_down_Cue1' while loading NULL.
+[2017.12.13-17.26.27:419][  9]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1'
+[2017.12.13-17.26.27:419][  9]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1' while loading NULL.
+[2017.12.13-17.26.27:419][  9]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/004_one_down_Cue1'
+[2017.12.13-17.26.27:420][  9]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/004_one_down_Cue1' while loading NULL.
+[2017.12.13-17.26.27:420][  9]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1'
+[2017.12.13-17.26.27:420][  9]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1' while loading NULL.
+[2017.12.13-17.26.27:422][  9]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/004_one_down_Cue1'
+[2017.12.13-17.26.27:423][  9]LoadErrors: Failed to load /Game/Dialogue/First_Level/004_one_down_Cue1.004_one_down_Cue1 Referenced by K2Node_CallFunction_22
+[2017.12.13-17.26.27:423][  9]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/004_one_down_Cue1' while loading NULL.
+[2017.12.13-17.26.27:423][  9]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1'
+[2017.12.13-17.26.27:423][  9]LoadErrors: Failed to load /Game/Dialogue/First_Level/006_who_says_two_heads_Cue1.006_who_says_two_heads_Cue1 Referenced by K2Node_CallFunction_15
+[2017.12.13-17.26.27:424][  9]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/006_who_says_two_heads_Cue1' while loading NULL.
+[2017.12.13-17.26.30:570][ 48]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2017.12.13-17.26.31:700][ 48]LogSlate: Took 0.012171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.13-17.26.32:118][ 49]LogSlate: Took 0.017507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.13-17.28.43:487][783]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG Music/minutes_to_midnight_theme_song.wav)
+[2017.12.13-17.28.48:892][783]LogAudioDerivedData: Display: Building compressed audio format OGG wave minutes_to_midnight_theme_song...
+[2017.12.13-17.28.54:826][783]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/BG_Music/minutes_to_midnight_theme_song.minutes_to_midnight_theme_song.
+[2017.12.13-17.32.23:762][410]LogSavePackage: Save=1692.69ms
+[2017.12.13-17.32.23:762][410]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/minutes_to_midnight_theme_songD483FAF54EB9C82CD7B6C6A591B52AAC.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG_Music/minutes_to_midnight_theme_song.uasset'
+[2017.12.13-17.32.23:774][410]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG_Music/minutes_to_midnight_theme_song.uasset
+[2017.12.13-17.32.32:179][410]LogSlate: Took 0.021921 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.13-17.33.27:503][187]LogSavePackage: Save=1077.98ms
+[2017.12.13-17.33.27:503][187]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel_Auto10F2FD723412DD41AB9EED194AD72CEC0.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/FirstLevel_Auto1.umap'
+[2017.12.13-17.33.27:506][187]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Autosaves/Game/Level/FirstLevel_Auto1.umap
+[2017.12.13-17.33.27:510][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/FirstLevel' took 1.532
+[2017.12.13-17.33.27:510][187]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.532
+[2017.12.13-17.33.50:344][381]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-17.33.50:344][381]LogLinker: Warning: Can't find file '/Game/Dialogue/First Level/001_im_in'
+[2017.12.13-17.33.50:344][381]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-17.33.50:344][381]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First Level/001_im_in' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/001_im_in_Cue1.uasset.
+[2017.12.13-17.33.50:344][381]LoadErrors: Error: /Game/Dialogue/FirstLevel/001_im_in_Cue1 : Can't find file for asset. /Game/Dialogue/First Level/001_im_in
+[2017.12.13-17.33.50:344][381]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-17.33.50:344][381]LogLinker: Warning: Can't find file '/Game/Dialogue/First Level/001_im_in'
+[2017.12.13-17.33.50:344][381]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-17.33.50:344][381]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First Level/001_im_in' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/001_im_in_Cue1.uasset.
+[2017.12.13-17.33.50:345][381]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-17.33.50:345][381]LogLinker: Warning: Can't find file '/Game/Dialogue/First Level/001_im_in'
+[2017.12.13-17.33.50:345][381]LoadErrors: Failed to load /Game/Dialogue/First Level/001_im_in.001_im_in Referenced by SoundNodeWavePlayer_0
+[2017.12.13-17.33.50:345][381]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-17.33.50:345][381]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First Level/001_im_in' while loading NULL.
+[2017.12.13-17.33.50:346][381]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Dialogue/First Level/001_im_in' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-17.33.50:346][381]LogLinker: Warning: Can't find file '/Game/Dialogue/First Level/001_im_in'
+[2017.12.13-17.33.50:356][381]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Dialogue/First Level/001_im_in.001_im_in'
+[2017.12.13-17.33.50:363][381]LogLinker: Error: AddRedirectList(AddKnownMissing) failed to add redirector from /Game/Dialogue/First Level/001_im_in to /Game/Dialogue/First Level/001_im_in with invalid characters!
+[2017.12.13-17.38.23:869][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/FirstLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-17.38.24:584][980]LogBlueprint: Warning: [Compiler PersistentLevel.FirstLevel] 'Scene Component' does not inherit from 'Pawn' ( Cast To SceneComponent  would always fail).
+[2017.12.13-17.38.24:587][980]LogBlueprint: Warning: [Compiler PersistentLevel.FirstLevel] [0980.07] Compile of PersistentLevel.FirstLevel successful, but with 1 Warning(s) [in 21 ms] (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel)
+[2017.12.13-17.38.25:812][980]LogSavePackage: Save=1255.01ms
+[2017.12.13-17.38.25:812][980]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel3530CDA84DB6C79076BA269D7C890067.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.13-17.38.25:818][980]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.13-17.38.25:972][980]LogFileHelpers: Saving map 'FirstLevel' took 3.349
+[2017.12.13-17.38.29:964][ 89]BlueprintLog: New page: Compile FirstLevel
+[2017.12.13-17.38.29:988][ 89]LogBlueprint: Warning: [Compiler PersistentLevel.FirstLevel] 'Scene Component' does not inherit from 'Pawn' ( Cast To SceneComponent  would always fail).
+[2017.12.13-17.38.30:223][ 89]LogBlueprint: Warning: [Compiler PersistentLevel.FirstLevel] [0985.71] Compile of PersistentLevel.FirstLevel successful, but with 1 Warning(s) [in 258 ms] (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel)
+[2017.12.13-17.38.49:326][ 90]BlueprintLog: New page: Compile FirstLevel
+[2017.12.13-17.38.49:347][ 90]LogBlueprint: Warning: [Compiler PersistentLevel.FirstLevel] 'Scene Component' does not inherit from 'Character' ( Cast To SceneComponent  would always fail).
+[2017.12.13-17.38.49:540][ 90]LogBlueprint: Warning: [Compiler PersistentLevel.FirstLevel] [1005.03] Compile of PersistentLevel.FirstLevel successful, but with 1 Warning(s) [in 213 ms] (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel)
+[2017.12.13-17.40.35:171][945]BlueprintLog: New page: Compile FirstLevel
+[2017.12.13-17.42.07:108][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/FirstLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-17.42.09:080][ 42]LogSavePackage: Save=1098.12ms
+[2017.12.13-17.42.09:080][ 42]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel3EBEF95D49EAAC9239E2ED83CB622767.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.13-17.42.09:086][ 42]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.13-17.42.09:281][ 42]LogFileHelpers: Saving map 'FirstLevel' took 2.986
+[2017.12.13-17.42.15:882][241]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-17.42.48:740][241]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.42.48:740][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-17.42.48:759][241]PIE: New page: PIE session: FirstLevel (Dec 13, 2017, 7:42:48 AM)
+[2017.12.13-17.42.48:759][241]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.13-17.42.55:307][241]LogPlayLevel: PIE: StaticDuplicateObject took: (6.547639s)
+[2017.12.13-17.42.55:312][241]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.13-17.42.55:313][241]LogPlayLevel: PIE: World Init took: (0.005510s)
+[2017.12.13-17.42.55:313][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (6.554441s)
+[2017.12.13-17.42.55:453][241]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-17.42.55:475][241]LogInit: FAudioDevice initialized.
+[2017.12.13-17.42.55:534][241]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.13-17.42.55:554][241]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 3) at 2017.12.13-12.42.55
+[2017.12.13-17.42.55:564][241]LogWorld: Bringing up level for play took: 0.028120
+[2017.12.13-17.42.56:587][241]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.12.13-17.42.56:603][241]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 8.736
+[2017.12.13-17.42.56:604][241]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.42.56:880][242]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.067914 > MaxSimulationTimeStep (0.050) for 'EnemyCharacter15', movement 'Walking'
+[2017.12.13-17.43.05:045][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.43.05:102][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.43.22:348][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/FirstLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-17.43.23:643][821]LogSavePackage: Save=1088.50ms
+[2017.12.13-17.43.23:643][821]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel30CDA35B41AF220275165C8B2EDAE605.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.13-17.43.23:662][821]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.13-17.43.23:731][821]LogFileHelpers: Saving map 'FirstLevel' took 1.781
+[2017.12.13-17.43.24:667][862]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-17.43.24:713][862]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.43.24:714][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-17.43.24:714][862]PIE: New page: PIE session: FirstLevel (Dec 13, 2017, 7:43:24 AM)
+[2017.12.13-17.43.24:714][862]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.13-17.43.26:155][862]LogPlayLevel: PIE: StaticDuplicateObject took: (1.440461s)
+[2017.12.13-17.43.26:156][862]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.13-17.43.26:156][862]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2017.12.13-17.43.26:156][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (1.442142s)
+[2017.12.13-17.43.26:191][862]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-17.43.26:201][862]LogInit: FAudioDevice initialized.
+[2017.12.13-17.43.26:235][862]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.13-17.43.26:252][862]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.13-12.43.26
+[2017.12.13-17.43.26:258][862]LogWorld: Bringing up level for play took: 0.021940
+[2017.12.13-17.43.26:264][862]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 2.397
+[2017.12.13-17.43.26:264][862]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.43.26:321][863]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.066423 > MaxSimulationTimeStep (0.050) for 'EnemyCharacter15', movement 'Walking'
+[2017.12.13-17.43.28:812][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.43.28:877][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.43.36:417][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/FirstLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-17.43.37:517][321]LogSavePackage: Save=1057.45ms
+[2017.12.13-17.43.37:517][321]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel61B3ADF34ACE71FF0C0E729096713FC6.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.13-17.43.37:524][321]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.13-17.43.37:597][321]LogFileHelpers: Saving map 'FirstLevel' took 1.299
+[2017.12.13-17.43.38:401][358]BlueprintLog: New page: Compile FirstLevel
+[2017.12.13-17.43.42:642][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/FirstLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-17.43.43:892][552]LogSavePackage: Save=1195.43ms
+[2017.12.13-17.43.43:894][552]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel83C228A14C7970CA5866F89A0849FF00.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.13-17.43.43:900][552]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.13-17.43.43:966][552]LogFileHelpers: Saving map 'FirstLevel' took 1.447
+[2017.12.13-17.43.44:884][598]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-17.43.44:925][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.43.44:925][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-17.43.44:925][598]PIE: New page: PIE session: FirstLevel (Dec 13, 2017, 7:43:44 AM)
+[2017.12.13-17.43.44:926][598]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.13-17.43.45:011][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085873s)
+[2017.12.13-17.43.45:013][598]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.13-17.43.45:014][598]LogPlayLevel: PIE: World Init took: (0.002161s)
+[2017.12.13-17.43.45:014][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.088752s)
+[2017.12.13-17.43.45:060][598]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-17.43.45:070][598]LogInit: FAudioDevice initialized.
+[2017.12.13-17.43.45:109][598]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.13-17.43.45:127][598]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.13-12.43.45
+[2017.12.13-17.43.45:134][598]LogWorld: Bringing up level for play took: 0.024600
+[2017.12.13-17.43.45:140][598]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel -0.726
+[2017.12.13-17.43.45:142][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.43.50:152][847]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.43.50:212][847]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.43.57:987][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/FirstLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-17.43.59:131][211]LogSavePackage: Save=1100.47ms
+[2017.12.13-17.43.59:131][211]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevelEB04BD6C43E82989D860D6AF5723A1BD.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.13-17.43.59:137][211]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.13-17.43.59:208][211]LogFileHelpers: Saving map 'FirstLevel' took 1.333
+[2017.12.13-17.44.01:648][329]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-17.44.01:685][329]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.44.01:685][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-17.44.01:685][329]PIE: New page: PIE session: FirstLevel (Dec 13, 2017, 7:44:01 AM)
+[2017.12.13-17.44.01:686][329]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.13-17.44.03:264][329]LogPlayLevel: PIE: StaticDuplicateObject took: (1.578305s)
+[2017.12.13-17.44.03:265][329]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.13-17.44.03:267][329]LogPlayLevel: PIE: World Init took: (0.002997s)
+[2017.12.13-17.44.03:268][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (1.581953s)
+[2017.12.13-17.44.03:317][329]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-17.44.03:331][329]LogInit: FAudioDevice initialized.
+[2017.12.13-17.44.03:372][329]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.13-17.44.03:390][329]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.13-12.44.03
+[2017.12.13-17.44.03:400][329]LogWorld: Bringing up level for play took: 0.026821
+[2017.12.13-17.44.03:406][329]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 1.54
+[2017.12.13-17.44.03:407][329]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.44.03:452][330]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064598 > MaxSimulationTimeStep (0.050) for 'EnemyCharacter15', movement 'Walking'
+[2017.12.13-17.44.03:453][330]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'EnemyCharacter23', movement 'Walking'
+[2017.12.13-17.44.08:216][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.44.08:272][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-17.44.30:935][913]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.13-17.44.31:256][914]Cmd: QUIT_EDITOR
+[2017.12.13-17.44.31:339][914]LogExit: Preparing to exit.
+[2017.12.13-17.44.32:062][914]LogExit: Editor shut down
+[2017.12.13-17.44.32:071][914]LogExit: Transaction tracking system shut down
+[2017.12.13-17.44.32:272][914]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.13-17.44.32:273][914]LogDirectoryWatcher: A directory notification for 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/' was aborted.
+[2017.12.13-17.44.32:273][914]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.13-17.44.32:273][914]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.12.13-17.44.32:273][914]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.12.13-17.44.32:273][914]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.13-17.44.32:273][914]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.13-17.44.32:494][914]LogExit: Object subsystem successfully closed.
+[2017.12.13-17.44.32:526][914]LogD3D11RHI: Shutdown
+[2017.12.13-17.44.32:526][914]LogD3D11RHI: CleanupD3DDevice
+[2017.12.13-17.44.32:594][914]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.13-17.44.32:607][914]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2017.12.13-17.44.32:607][914]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2017.12.13-17.44.32:607][914]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2017.12.13-17.44.32:607][914]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2017.12.13-17.44.32:607][914]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2017.12.13-17.44.32:607][914]LogDirectoryWatcher: A directory notification for 'E:/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2017.12.13-17.44.32:609][914]LogDirectoryWatcher: A directory notification for 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Collections/' was aborted.
+[2017.12.13-17.44.32:609][914]LogDirectoryWatcher: A directory notification for 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Developers/Staeliam/Collections/' was aborted.
+[2017.12.13-17.44.32:609][914]LogDirectoryWatcher: A directory notification for 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/Collections/' was aborted.
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2017.12.13-17.44.32:609][914]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2017.12.13-17.44.32:610][914]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2017.12.13-17.44.32:610][914]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2017.12.13-17.44.32:610][914]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2017.12.13-17.44.32:610][914]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2017.12.13-17.44.32:610][914]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2017.12.13-17.44.32:610][914]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2017.12.13-17.44.32:610][914]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2017.12.13-17.44.32:610][914]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2017.12.13-17.44.32:610][914]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2017.12.13-17.44.32:610][914]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2017.12.13-17.44.32:611][914]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2017.12.13-17.44.32:611][914]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2017.12.13-17.44.32:611][914]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2017.12.13-17.44.32:611][914]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2017.12.13-17.44.32:611][914]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2017.12.13-17.44.33:449][914]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2017.12.13-17.44.33:449][914]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2017.12.13-17.44.33:449][914]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2017.12.13-17.44.33:449][914]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2017.12.13-17.44.33:449][914]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2017.12.13-17.44.33:449][914]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2017.12.13-17.44.33:449][914]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2017.12.13-17.44.33:450][914]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2017.12.13-17.44.33:516][914]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2017.12.13-17.44.33:516][914]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2017.12.13-17.44.33:516][914]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2017.12.13-17.44.33:516][914]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2017.12.13-17.44.33:516][914]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2017.12.13-17.44.33:516][914]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2017.12.13-17.44.33:516][914]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2017.12.13-17.44.33:516][914]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2017.12.13-17.44.33:516][914]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2017.12.13-17.44.33:516][914]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2017.12.13-17.44.33:532][914]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2017.12.13-17.44.33:532][914]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2017.12.13-17.44.33:532][914]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2017.12.13-17.44.33:532][914]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2017.12.13-17.44.33:532][914]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2017.12.13-17.44.33:532][914]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2017.12.13-17.44.33:532][914]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2017.12.13-17.44.33:532][914]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2017.12.13-17.44.33:532][914]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2017.12.13-17.44.33:532][914]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2017.12.13-17.44.33:533][914]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2017.12.13-17.44.33:533][914]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2017.12.13-17.44.33:533][914]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2017.12.13-17.44.33:533][914]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2017.12.13-17.44.33:533][914]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2017.12.13-17.44.33:533][914]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2017.12.13-17.44.33:533][914]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2017.12.13-17.44.33:533][914]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2017.12.13-17.44.33:533][914]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2017.12.13-17.44.33:533][914]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2017.12.13-17.44.33:668][914]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2017.12.13-17.44.33:668][914]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2017.12.13-17.44.33:668][914]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2017.12.13-17.44.33:668][914]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2017.12.13-17.44.33:668][914]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2017.12.13-17.44.33:668][914]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2017.12.13-17.44.33:668][914]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2017.12.13-17.44.33:669][914]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2017.12.13-17.44.33:670][914]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2017.12.13-17.44.33:670][914]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2017.12.13-17.44.33:670][914]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2017.12.13-17.44.33:670][914]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2017.12.13-17.44.33:670][914]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2017.12.13-17.44.33:671][914]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2017.12.13-17.44.33:671][914]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2017.12.13-17.44.33:671][914]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2017.12.13-17.44.33:683][914]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2017.12.13-17.44.33:683][914]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2017.12.13-17.44.33:683][914]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2017.12.13-17.44.33:683][914]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2017.12.13-17.44.33:683][914]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2017.12.13-17.44.33:683][914]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2017.12.13-17.44.33:683][914]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2017.12.13-17.44.33:683][914]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2017.12.13-17.44.33:785][914]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2017.12.13-17.44.33:886][914]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2017.12.13-17.44.33:886][914]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2017.12.13-17.44.33:886][914]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2017.12.13-17.44.33:886][914]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2017.12.13-17.44.33:886][914]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2017.12.13-17.44.33:886][914]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2017.12.13-17.44.33:887][914]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2017.12.13-17.44.33:887][914]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2017.12.13-17.44.33:887][914]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2017.12.13-17.44.33:888][914]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2017.12.13-17.44.33:888][914]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2017.12.13-17.44.33:888][914]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2017.12.13-17.44.33:888][914]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2017.12.13-17.44.33:888][914]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2017.12.13-17.44.33:888][914]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2017.12.13-17.44.33:888][914]LogModuleManager: Shutting down and abandoning module Media (221)
+[2017.12.13-17.44.33:894][914]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.12.13-17.44.33:894][914]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.12.13-17.44.33:894][914]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2017.12.13-17.44.33:895][914]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2017.12.13-17.44.33:899][914]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2017.12.13-17.44.33:899][914]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2017.12.13-17.44.33:900][914]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2017.12.13-17.44.33:900][914]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2017.12.13-17.44.33:900][914]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2017.12.13-17.44.33:900][914]LogModuleManager: Shutting down and abandoning module Core (172)
+[2017.12.13-17.44.33:900][914]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2017.12.13-17.44.33:900][914]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2017.12.13-17.44.33:901][914]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.13-17.44.33:901][914]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.12.13-17.44.33:901][914]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.12.13-17.44.33:901][914]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.12.13-17.44.33:901][914]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.12.13-17.44.33:901][914]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.12.13-17.44.33:901][914]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.12.13-17.44.33:901][914]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.12.13-17.44.33:901][914]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2017.12.13-17.44.33:912][914]LogDerivedDataCache: Shutdown
+[2017.12.13-17.44.33:912][914]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2017.12.13-17.44.33:913][914]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.13-17.44.33:914][914]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.13-17.44.33:914][914]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.13-17.44.33:914][914]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDFE87B3D-4772-D24B-9C9B-F2AB74FFC4D5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=98e67e6f4de2214668faa2ae729109d5%7C61290f38791845dca17533c8bdaf6f37%7C9bbd44a8-3620-46bd-811b-7ccd5c022f94&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.13-17.44.33:931][914]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.13-17.44.33:933][914]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.13-17.44.33:934][914]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.13-17.44.33:934][914]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.13-17.44.33:934][914]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.13-17.44.33:967][914]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.13-17.44.33:967][914]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.13-17.44.33:967][914]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.13-17.44.33:970][914]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.13-17.44.33:974][914]LogExit: Exiting.
+[2017.12.13-17.44.34:001][914]Log file closed, 12/13/17 12:44:34
