@@ -961,3 +961,411 @@ Please see Output Log for details.
 [2017.12.13-18.05.28:685][536]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel_BuiltData.uasset
 [2017.12.13-18.06.39:856][ 24]LogEditorViewport: Clicking Background
 [2017.12.13-18.06.44:367][198]LogEditorViewport: Clicking Background
+[2017.12.13-18.07.26:920][670]LogEditorViewport: Clicking Background
+[2017.12.13-18.07.32:772][970]LogEditorViewport: Clicking Background
+[2017.12.13-18.07.36:991][ 38]LogEditorViewport: Clicking Background
+[2017.12.13-18.09.55:230][890]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.12.13-18.10.05:682][425]LogSavePackage: Save=277.92ms
+[2017.12.13-18.10.05:683][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacter26A9CB984877B2BF5C275F91D49DF176.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.12.13-18.10.05:731][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.12.13-18.10.05:748][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dialogue/FirstLevel/001_im_in" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/001_im_in.uasset" SILENT=true
+[2017.12.13-18.10.05:764][425]LogSavePackage: Save=13.75ms
+[2017.12.13-18.10.05:765][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/001_im_in8E62CB9D413D3FD088DA61B2DE9A868D.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/001_im_in.uasset'
+[2017.12.13-18.10.05:769][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/001_im_in.uasset
+[2017.12.13-18.10.06:761][425]LogSavePackage: Save=14.30ms
+[2017.12.13-18.10.06:761][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/002_be_careful651068C042FE2D1C2A2C909B352E9456.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/002_be_careful.uasset'
+[2017.12.13-18.10.06:769][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/002_be_careful.uasset
+[2017.12.13-18.10.07:980][425]LogSavePackage: Save=12.43ms
+[2017.12.13-18.10.07:980][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/003_radar_shows_a_guard9169C3DE4B745169310F038BB281BEE3.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/003_radar_shows_a_guard.uasset'
+[2017.12.13-18.10.07:984][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/003_radar_shows_a_guard.uasset
+[2017.12.13-18.10.09:001][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dialogue/FirstLevel/004_one_down" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/004_one_down.uasset" SILENT=true
+[2017.12.13-18.10.09:020][425]LogSavePackage: Save=15.01ms
+[2017.12.13-18.10.09:020][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/004_one_down0F3B8E2743C94B0D86E37BA1215EF6D4.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/004_one_down.uasset'
+[2017.12.13-18.10.09:023][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/004_one_down.uasset
+[2017.12.13-18.10.09:744][425]LogSavePackage: Save=14.71ms
+[2017.12.13-18.10.09:744][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/005_more_guards_up_ahead191C36CD429AA1A6EFFA9AA2C472ECC4.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/005_more_guards_up_ahead.uasset'
+[2017.12.13-18.10.09:749][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/005_more_guards_up_ahead.uasset
+[2017.12.13-18.10.10:558][425]LogSavePackage: Save=35.62ms
+[2017.12.13-18.10.10:559][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/006_who_says_two_headsD978F92F45689D2C83E6AD8A7D3427CA.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/006_who_says_two_heads.uasset'
+[2017.12.13-18.10.10:562][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/006_who_says_two_heads.uasset
+[2017.12.13-18.10.11:244][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dialogue/FirstLevel/009_prod_meet" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/009_prod_meet.uasset" SILENT=true
+[2017.12.13-18.10.11:294][425]LogSavePackage: Save=17.07ms
+[2017.12.13-18.10.11:294][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/009_prod_meet9E8BFDDC479E0FD3131095B5FE5B21CA.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/009_prod_meet.uasset'
+[2017.12.13-18.10.11:298][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/009_prod_meet.uasset
+[2017.12.13-18.10.11:413][425]LogSavePackage: Save=14.21ms
+[2017.12.13-18.10.11:414][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/007_alternate_route654FE23A4ABB09BB87971BBA8FC6A58C.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/007_alternate_route.uasset'
+[2017.12.13-18.10.11:417][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/007_alternate_route.uasset
+[2017.12.13-18.10.12:566][425]LogSavePackage: Save=14.95ms
+[2017.12.13-18.10.12:566][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/008_productive_meeting_-_CopyA8A4E3554F056444BA90D3BBC44310BA.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/008_productive_meeting_-_Copy.uasset'
+[2017.12.13-18.10.12:570][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/008_productive_meeting_-_Copy.uasset
+[2017.12.13-18.10.13:309][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dialogue/FirstLevel/001_im_in_Cue" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/001_im_in_Cue.uasset" SILENT=true
+[2017.12.13-18.10.13:323][425]LogSavePackage: Save=10.66ms
+[2017.12.13-18.10.13:324][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/001_im_in_CueA5DA646547FA3A00EB3AE7BB72B80C44.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/001_im_in_Cue.uasset'
+[2017.12.13-18.10.13:329][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/001_im_in_Cue.uasset
+[2017.12.13-18.10.14:093][425]LogSavePackage: Save=10.18ms
+[2017.12.13-18.10.14:094][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/002_be_careful_Cue73638D60474AA9298D72AE9763C56A2F.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/002_be_careful_Cue.uasset'
+[2017.12.13-18.10.14:098][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/002_be_careful_Cue.uasset
+[2017.12.13-18.10.14:917][425]LogSavePackage: Save=12.55ms
+[2017.12.13-18.10.14:917][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/003_radar_shows_a_guard_CueFD6C95AE4B0B9D0332EB6F9CB51FB81B.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/003_radar_shows_a_guard_Cue.uasset'
+[2017.12.13-18.10.14:922][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/003_radar_shows_a_guard_Cue.uasset
+[2017.12.13-18.10.15:649][425]LogSavePackage: Save=11.81ms
+[2017.12.13-18.10.15:649][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/004_one_down_Cue7BC742BA4F4CE72D8482429B63D15EE8.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/004_one_down_Cue.uasset'
+[2017.12.13-18.10.15:653][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/004_one_down_Cue.uasset
+[2017.12.13-18.10.16:419][425]LogSavePackage: Save=81.83ms
+[2017.12.13-18.10.16:419][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/005_more_guards_up_ahead_Cue5100E19C43037CE764F54C9987D9AA32.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/005_more_guards_up_ahead_Cue.uasset'
+[2017.12.13-18.10.16:424][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/005_more_guards_up_ahead_Cue.uasset
+[2017.12.13-18.10.17:023][425]LogSavePackage: Save=9.75ms
+[2017.12.13-18.10.17:023][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/006_who_says_two_heads_CueD6FC9F7F4E911674F22ED3B735AF82BC.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/006_who_says_two_heads_Cue.uasset'
+[2017.12.13-18.10.17:026][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/006_who_says_two_heads_Cue.uasset
+[2017.12.13-18.10.17:791][425]LogSavePackage: Save=11.79ms
+[2017.12.13-18.10.17:792][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/007_alternate_route_CueF701CA644DCC6D73BEEFFB8FEC6517EE.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/007_alternate_route_Cue.uasset'
+[2017.12.13-18.10.17:796][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/007_alternate_route_Cue.uasset
+[2017.12.13-18.10.19:253][425]LogSavePackage: Save=11.45ms
+[2017.12.13-18.10.19:254][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/008_productive_meeting_-_Copy_Cu6B888D9249AE341F03CD468C74750725.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/008_productive_meeting_-_Copy_Cue.uasset'
+[2017.12.13-18.10.19:258][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/008_productive_meeting_-_Copy_Cue.uasset
+[2017.12.13-18.10.20:071][425]LogSavePackage: Save=9.85ms
+[2017.12.13-18.10.20:071][425]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/009_prod_meet_Cue86D6AFC74E1C7B4CA7DE53B106C0A7DF.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/009_prod_meet_Cue.uasset'
+[2017.12.13-18.10.20:075][425]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Dialogue/FirstLevel/009_prod_meet_Cue.uasset
+[2017.12.13-18.10.31:854][525]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-18.10.31:894][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-18.10.31:895][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-18.10.31:895][525]PIE: New page: PIE session: FirstLevel (Dec 13, 2017, 8:10:31 AM)
+[2017.12.13-18.10.31:896][525]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.13-18.10.35:973][525]LogPlayLevel: PIE: StaticDuplicateObject took: (4.076981s)
+[2017.12.13-18.10.35:974][525]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.13-18.10.35:975][525]LogPlayLevel: PIE: World Init took: (0.002007s)
+[2017.12.13-18.10.35:976][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (4.080260s)
+[2017.12.13-18.10.36:020][525]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-18.10.36:034][525]LogInit: FAudioDevice initialized.
+[2017.12.13-18.10.36:072][525]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.13-18.10.36:090][525]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.13-13.10.36
+[2017.12.13-18.10.36:094][525]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	SoundTriggerVolume_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.SoundTriggerVolume8
+	Function /Game/Sound/SoundTriggerVolume.SoundTriggerVolume_C:ExecuteUbergraph_SoundTriggerVolume:00F2
+[2017.12.13-18.10.36:094][525]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_SoundTriggerVolume' from node: Branch in graph: EventGraph in object: SoundTriggerVolume with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.12.13-18.10.36:101][525]LogWorld: Bringing up level for play took: 0.027500
+[2017.12.13-18.10.36:107][525]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 4.241
+[2017.12.13-18.10.36:108][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-18.11.00:858][137]LogBlueprintUserMessages: [EnemyCharacter17] 70.0
+[2017.12.13-18.11.01:062][150]LogBlueprintUserMessages: [EnemyCharacter17] 40.0
+[2017.12.13-18.11.01:271][163]LogBlueprintUserMessages: [EnemyCharacter17] 10.0
+[2017.12.13-18.11.01:894][203]LogBlueprintUserMessages: [EnemyCharacter17] -20.0
+[2017.12.13-18.11.01:894][203]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter17
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.01:895][203]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.15:702][146]LogBlueprintUserMessages: [EnemyCharacter15] 70.0
+[2017.12.13-18.11.16:069][169]LogBlueprintUserMessages: [EnemyCharacter15] 40.0
+[2017.12.13-18.11.16:417][191]LogBlueprintUserMessages: [EnemyCharacter15] 10.0
+[2017.12.13-18.11.17:804][277]LogBlueprintUserMessages: [EnemyCharacter15] -20.0
+[2017.12.13-18.11.17:805][277]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter15
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.17:806][277]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.18:216][302]LogBlueprintUserMessages: [EnemyCharacter15] -50.0
+[2017.12.13-18.11.18:216][302]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter15
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.18:217][302]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.18:911][352]LogBlueprintUserMessages: [EnemyCharacter18] 70.0
+[2017.12.13-18.11.21:984][548]LogBlueprintUserMessages: [EnemyCharacter18] 40.0
+[2017.12.13-18.11.22:308][574]LogBlueprintUserMessages: [EnemyCharacter18] 10.0
+[2017.12.13-18.11.22:603][598]LogBlueprintUserMessages: [EnemyCharacter18] -20.0
+[2017.12.13-18.11.22:603][598]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter18
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.22:603][598]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.31:993][242]LogBlueprintUserMessages: [EnemyCharacter19] 70.0
+[2017.12.13-18.11.32:271][259]LogBlueprintUserMessages: [EnemyCharacter19] 40.0
+[2017.12.13-18.11.32:586][279]LogBlueprintUserMessages: [EnemyCharacter19] 10.0
+[2017.12.13-18.11.32:872][297]LogBlueprintUserMessages: [EnemyCharacter19] -20.0
+[2017.12.13-18.11.32:872][297]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter19
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.32:872][297]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.34:594][415]LogBlueprintUserMessages: [EnemyCharacter19] -50.0
+[2017.12.13-18.11.34:594][415]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter19
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.34:595][415]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.34:838][430]LogBlueprintUserMessages: [EnemyCharacter19] -80.0
+[2017.12.13-18.11.34:839][430]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter19
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.34:840][430]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.35:107][446]LogBlueprintUserMessages: [EnemyCharacter23] 70.0
+[2017.12.13-18.11.35:826][491]LogBlueprintUserMessages: [EnemyCharacter23] 40.0
+[2017.12.13-18.11.36:073][505]LogBlueprintUserMessages: [EnemyCharacter23] 10.0
+[2017.12.13-18.11.36:321][520]LogBlueprintUserMessages: [EnemyCharacter23] -20.0
+[2017.12.13-18.11.36:321][520]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter23
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.36:322][520]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.37:570][610]LogBlueprintUserMessages: [EnemyCharacter23] -50.0
+[2017.12.13-18.11.37:570][610]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter23
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.37:571][610]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.37:845][629]LogBlueprintUserMessages: [EnemyCharacter23] -80.0
+[2017.12.13-18.11.37:846][629]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter23
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.37:847][629]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.38:075][643]LogBlueprintUserMessages: [EnemyCharacter23] -110.0
+[2017.12.13-18.11.38:075][643]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter23
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.38:076][643]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.38:311][657]LogBlueprintUserMessages: [EnemyCharacter21] 70.0
+[2017.12.13-18.11.38:509][669]LogBlueprintUserMessages: [EnemyCharacter21] 40.0
+[2017.12.13-18.11.39:453][729]LogBlueprintUserMessages: [EnemyCharacter21] 10.0
+[2017.12.13-18.11.39:663][742]LogBlueprintUserMessages: [EnemyCharacter21] -20.0
+[2017.12.13-18.11.39:663][742]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter21
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.39:664][742]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.40:280][780]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+	FirstPersonProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.FirstPersonProjectile_C_37
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0035
+[2017.12.13-18.11.40:282][780]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+[2017.12.13-18.11.40:686][810]LogBlueprintUserMessages: [EnemyCharacter21] -50.0
+[2017.12.13-18.11.40:686][810]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter21
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.40:686][810]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.41:858][895]LogBlueprintUserMessages: [EnemyCharacter8_27] 70.0
+[2017.12.13-18.11.42:055][907]LogBlueprintUserMessages: [EnemyCharacter8_27] 40.0
+[2017.12.13-18.11.42:269][920]LogBlueprintUserMessages: [EnemyCharacter8_27] 10.0
+[2017.12.13-18.11.42:650][943]LogBlueprintUserMessages: [EnemyCharacter8_27] -20.0
+[2017.12.13-18.11.42:650][943]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter8_27
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.42:651][943]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.43:053][968]LogBlueprintUserMessages: [EnemyCharacter8_27] -50.0
+[2017.12.13-18.11.43:054][968]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter8_27
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.43:054][968]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.43:249][980]LogBlueprintUserMessages: [EnemyCharacter8_27] -80.0
+[2017.12.13-18.11.43:249][980]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter8_27
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.43:250][980]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.43:555][999]LogBlueprintUserMessages: [EnemyCharacter8_27] -110.0
+[2017.12.13-18.11.43:555][999]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter8_27
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.43:556][999]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.43:758][ 11]LogBlueprintUserMessages: [EnemyCharacter8_27] -140.0
+[2017.12.13-18.11.43:759][ 11]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter8_27
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.43:759][ 11]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.45:394][128]LogBlueprintUserMessages: [EnemyCharacter14] 70.0
+[2017.12.13-18.11.45:816][153]LogBlueprintUserMessages: [EnemyCharacter14] 40.0
+[2017.12.13-18.11.46:056][168]LogBlueprintUserMessages: [EnemyCharacter14] 10.0
+[2017.12.13-18.11.46:420][191]LogBlueprintUserMessages: [EnemyCharacter14] -20.0
+[2017.12.13-18.11.46:420][191]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter14
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.46:420][191]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.47:027][229]LogBlueprintUserMessages: [EnemyCharacter14] -50.0
+[2017.12.13-18.11.47:027][229]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter14
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.47:028][229]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.47:557][261]LogBlueprintUserMessages: [EnemyCharacter14] -80.0
+[2017.12.13-18.11.47:557][261]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter14
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.47:558][261]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.49:508][400]LogBlueprintUserMessages: [EnemyCharacter5_18] 70.0
+[2017.12.13-18.11.49:807][420]LogBlueprintUserMessages: [EnemyCharacter5_18] 40.0
+[2017.12.13-18.11.50:074][437]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+	EnemyProjectile_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyProjectile_C_72
+	Function /Game/FirstPersonBP/Blueprints/EnemyProjectile.EnemyProjectile_C:ExecuteUbergraph_EnemyProjectile:0035
+[2017.12.13-18.11.50:075][437]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill from function: 'ExecuteUbergraph_EnemyProjectile' from node: Branch in graph: EventGraph in object: EnemyProjectile with description: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+[2017.12.13-18.11.50:562][469]LogBlueprintUserMessages: [EnemyCharacter5_18] 10.0
+[2017.12.13-18.11.50:802][484]LogBlueprintUserMessages: [EnemyCharacter5_18] -20.0
+[2017.12.13-18.11.50:802][484]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter5_18
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.50:802][484]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.51:127][505]LogBlueprintUserMessages: [EnemyCharacter22] 70.0
+[2017.12.13-18.11.51:400][522]LogBlueprintUserMessages: [EnemyCharacter5_18] -50.0
+[2017.12.13-18.11.51:400][522]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter5_18
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.51:400][522]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.53:145][649]LogBlueprintUserMessages: [EnemyCharacter22] 40.0
+[2017.12.13-18.11.53:351][663]LogBlueprintUserMessages: [EnemyCharacter22] 10.0
+[2017.12.13-18.11.53:733][688]LogBlueprintUserMessages: [EnemyCharacter22] -20.0
+[2017.12.13-18.11.53:734][688]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter22
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.53:734][688]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.54:121][713]LogBlueprintUserMessages: [EnemyCharacter22] -50.0
+[2017.12.13-18.11.54:122][713]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter22
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.54:122][713]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.54:498][737]LogBlueprintUserMessages: [EnemyCharacter22] -80.0
+[2017.12.13-18.11.54:499][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter22
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.54:499][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.54:776][755]LogBlueprintUserMessages: [EnemyCharacter22] -110.0
+[2017.12.13-18.11.54:777][755]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter22
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.54:777][755]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.55:148][777]LogBlueprintUserMessages: [EnemyCharacter22] -140.0
+[2017.12.13-18.11.55:148][777]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter22
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.55:149][777]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.11.57:042][901]LogBlueprintUserMessages: [EnemyCharacter20] 70.0
+[2017.12.13-18.11.57:979][957]LogBlueprintUserMessages: [EnemyCharacter20] 40.0
+[2017.12.13-18.11.58:360][981]LogBlueprintUserMessages: [EnemyCharacter20] 10.0
+[2017.12.13-18.11.58:712][  3]LogBlueprintUserMessages: [EnemyCharacter20] -20.0
+[2017.12.13-18.11.58:712][  3]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter20
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.11.58:713][  3]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.10:502][812]LogBlueprintUserMessages: [EnemyCharacter16] 70.0
+[2017.12.13-18.12.10:841][840]LogBlueprintUserMessages: [EnemyCharacter16] 40.0
+[2017.12.13-18.12.11:131][864]LogBlueprintUserMessages: [EnemyCharacter16] 10.0
+[2017.12.13-18.12.11:404][884]LogBlueprintUserMessages: [EnemyCharacter16] -20.0
+[2017.12.13-18.12.11:404][884]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter16
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.11:404][884]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.26:112][930]LogBlueprintUserMessages: [EnemyCharacter4_15] 70.0
+[2017.12.13-18.12.26:406][949]LogBlueprintUserMessages: [EnemyCharacter4_15] 40.0
+[2017.12.13-18.12.26:723][969]LogBlueprintUserMessages: [EnemyCharacter4_15] 10.0
+[2017.12.13-18.12.27:558][ 24]LogBlueprintUserMessages: [EnemyCharacter4_15] -20.0
+[2017.12.13-18.12.27:559][ 24]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter4_15
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.27:559][ 24]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.28:996][116]LogBlueprintUserMessages: [EnemyCharacter2_9] 70.0
+[2017.12.13-18.12.29:640][165]LogBlueprintUserMessages: [EnemyCharacter2_9] 40.0
+[2017.12.13-18.12.30:401][210]LogBlueprintUserMessages: [EnemyCharacter2_9] 10.0
+[2017.12.13-18.12.30:772][232]LogBlueprintUserMessages: [EnemyCharacter2_9] -20.0
+[2017.12.13-18.12.30:772][232]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter2_9
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.30:773][232]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.31:856][295]LogBlueprintUserMessages: [EnemyCharacter3_12] 70.0
+[2017.12.13-18.12.32:185][315]LogBlueprintUserMessages: [EnemyCharacter3_12] 40.0
+[2017.12.13-18.12.32:473][332]LogBlueprintUserMessages: [EnemyCharacter3_12] 10.0
+[2017.12.13-18.12.32:746][354]LogBlueprintUserMessages: [EnemyCharacter3_12] -20.0
+[2017.12.13-18.12.32:746][354]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter3_12
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.32:747][354]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.33:713][426]LogBlueprintUserMessages: [EnemyCharacter3_12] -50.0
+[2017.12.13-18.12.33:714][426]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter3_12
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.33:714][426]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.34:880][501]LogBlueprintUserMessages: [EnemyCharacter7_24] 70.0
+[2017.12.13-18.12.35:276][528]LogBlueprintUserMessages: [EnemyCharacter7_24] 40.0
+[2017.12.13-18.12.35:541][545]LogBlueprintUserMessages: [EnemyCharacter7_24] 10.0
+[2017.12.13-18.12.36:430][605]LogBlueprintUserMessages: [EnemyCharacter6_21] 70.0
+[2017.12.13-18.12.36:783][634]LogBlueprintUserMessages: [EnemyCharacter6_21] 40.0
+[2017.12.13-18.12.37:087][657]LogBlueprintUserMessages: [EnemyCharacter6_21] 10.0
+[2017.12.13-18.12.38:149][720]LogBlueprintUserMessages: [EnemyCharacter6_21] -20.0
+[2017.12.13-18.12.38:149][720]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter6_21
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.38:150][720]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.39:079][778]LogBlueprintUserMessages: [EnemyCharacter7_24] -20.0
+[2017.12.13-18.12.39:079][778]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter7_24
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.39:080][778]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.46:220][283]LogBlueprintUserMessages: [EnemyCharacter24] 70.0
+[2017.12.13-18.12.46:449][298]LogBlueprintUserMessages: [EnemyCharacter24] 40.0
+[2017.12.13-18.12.46:701][314]LogBlueprintUserMessages: [EnemyCharacter24] 10.0
+[2017.12.13-18.12.47:004][334]LogBlueprintUserMessages: [EnemyCharacter24] -20.0
+[2017.12.13-18.12.47:005][334]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter24
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.47:005][334]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.47:488][369]LogBlueprintUserMessages: [EnemyCharacter24] -50.0
+[2017.12.13-18.12.47:488][369]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter24
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.47:489][369]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.47:708][387]LogBlueprintUserMessages: [EnemyCharacter24] -80.0
+[2017.12.13-18.12.47:708][387]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter24
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.47:709][387]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.51:128][626]LogBlueprintUserMessages: [EnemyCharacter25] 70.0
+[2017.12.13-18.12.51:526][660]LogBlueprintUserMessages: [EnemyCharacter25] 40.0
+[2017.12.13-18.12.51:748][679]LogBlueprintUserMessages: [EnemyCharacter25] 10.0
+[2017.12.13-18.12.52:243][715]LogBlueprintUserMessages: [EnemyCharacter25] -20.0
+[2017.12.13-18.12.52:244][715]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter25
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.52:244][715]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.12.56:955][ 40]LogBlueprintUserMessages: [EnemyCharacter26] 70.0
+[2017.12.13-18.12.57:146][ 52]LogBlueprintUserMessages: [EnemyCharacter26] 40.0
+[2017.12.13-18.12.58:275][125]LogBlueprintUserMessages: [EnemyCharacter26] 10.0
+[2017.12.13-18.12.58:638][153]LogBlueprintUserMessages: [EnemyCharacter26] -20.0
+[2017.12.13-18.12.58:638][153]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+	EnemyCharacter_C /Game/Level/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.EnemyCharacter26
+	Function /Game/Characters/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter:0135
+[2017.12.13-18.12.58:639][153]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2 from function: 'ExecuteUbergraph_EnemyCharacter' from node: Set aiDeadVar in graph: EventGraph in object: EnemyCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsEnemy_AI2
+[2017.12.13-18.13.27:252][191]LogNet: Browse: /Game/Level/SecondLevel
+[2017.12.13-18.13.27:262][191]LogLoad: LoadMap: /Game/Level/SecondLevel
+[2017.12.13-18.13.31:974][191]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/009_prod_meet_Cue'
+[2017.12.13-18.13.31:974][191]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/009_prod_meet_Cue' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Sound/lvl2_pt1_encounter.uasset.
+[2017.12.13-18.13.31:975][191]LoadErrors: Error: /Game/Sound/lvl2_pt1_encounter : Can't find file for asset. /Game/Dialogue/First_Level/009_prod_meet_Cue
+[2017.12.13-18.13.32:329][191]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/009_prod_meet_Cue'
+[2017.12.13-18.13.32:330][191]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/009_prod_meet_Cue' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Sound/lvl2_pt1_encounter.uasset.
+[2017.12.13-18.13.32:333][191]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/009_prod_meet_Cue'
+[2017.12.13-18.13.32:333][191]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/009_prod_meet_Cue' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap.
+[2017.12.13-18.13.32:333][191]LoadErrors: Error: /Game/Level/SecondLevel : Can't find file for asset. /Game/Dialogue/First_Level/009_prod_meet_Cue
+[2017.12.13-18.13.32:334][191]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/009_prod_meet_Cue'
+[2017.12.13-18.13.32:334][191]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/009_prod_meet_Cue' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap.
+[2017.12.13-18.13.32:335][191]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/009_prod_meet_Cue'
+[2017.12.13-18.13.32:336][191]LoadErrors: Failed to load /Game/Dialogue/First_Level/009_prod_meet_Cue.009_prod_meet_Cue Referenced by NODE_AddAudioComponent-0
+[2017.12.13-18.13.32:336][191]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/009_prod_meet_Cue' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap.
+[2017.12.13-18.13.32:424][191]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/BG Music/horror' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-18.13.32:424][191]LogLinker: Warning: Can't find file '/Game/BG Music/horror'
+[2017.12.13-18.13.32:425][191]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/BG Music/horror' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-18.13.32:425][191]LogLinker: Warning: Can't find file for asset '/Game/BG Music/horror' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG_Music/horror_Cue1.uasset.
+[2017.12.13-18.13.32:425][191]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/BG Music/horror' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-18.13.32:426][191]LogLinker: Warning: Can't find file '/Game/BG Music/horror'
+[2017.12.13-18.13.32:426][191]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/BG Music/horror' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-18.13.32:426][191]LogLinker: Warning: Can't find file for asset '/Game/BG Music/horror' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG_Music/horror_Cue1.uasset.
+[2017.12.13-18.13.35:071][191]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Glitching_Animation.Glitching_Animation
+[2017.12.13-18.13.35:079][191]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimationAssets/Glitching_Animation.Glitching_Animation) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2017.12.13-18.13.38:843][191]LogStaticMesh: Building static mesh Death2...
+[2017.12.13-18.13.38:918][191]LogStaticMesh: Built static mesh [0.10s] /Game/AnimationAssets/Death2.Death2
+[2017.12.13-18.13.39:065][191]LogStaticMesh: Building static mesh Death1...
+[2017.12.13-18.13.39:106][191]LogStaticMesh: Built static mesh [0.04s] /Game/AnimationAssets/Death1.Death1
+[2017.12.13-18.13.39:123][191]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2017.12.13-18.13.39:280][191]LogMaterial: Missing cached shader map for material B3, compiling. 
+[2017.12.13-18.13.39:432][191]LogMaterial: Missing cached shader map for material blinn4, compiling. 
+[2017.12.13-18.13.39:508][191]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.12.13-18.13.40:009][191]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.13-18.13.40:011][191]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.13-18.13.40:076][191]LogWorld: Bringing World /Game/Level/UEDPIE_0_SecondLevel.SecondLevel up for play (max tick rate 0) at 2017.12.13-13.13.40
+[2017.12.13-18.13.40:130][191]LogWorld: Bringing up level for play took: 0.118029
+[2017.12.13-18.13.40:158][191]LogLoad: Took 12.896165 seconds to LoadMap(/Game/Level/SecondLevel)
+[2017.12.13-18.13.44:306][326]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-18.13.44:367][326]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-18.14.46:987][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/EnemyCharacter" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset" SILENT=true
+[2017.12.13-18.14.47:162][670]LogSavePackage: Save=135.59ms
+[2017.12.13-18.14.47:165][670]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/EnemyCharacter1421236944FA2F969FE16C9802F2E328.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset'
+[2017.12.13-18.14.47:179][670]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Characters/EnemyCharacter.uasset
+[2017.12.13-18.15.04:934][719]LogEditorViewport: Clicking on Actor (LMB): SoundTriggerVolume_C (SoundTriggerVolume2)
+[2017.12.13-18.15.15:025][170]LogEditorViewport: Clicking on Actor (LMB): SoundTriggerVolume_C (SoundTriggerVolume8)
+[2017.12.13-18.15.54:501][612]LogSavePackage: Save=60.23ms
+[2017.12.13-18.15.54:501][612]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonGameMode4E60391B498A0DF69E0AFE8C35919C8E.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2017.12.13-18.15.54:508][612]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2017.12.13-18.15.56:312][670]BlueprintLog: New page: Compile FirstPersonGameMode
