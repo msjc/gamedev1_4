@@ -1369,3 +1369,44 @@ Please see Output Log for details.
 [2017.12.13-18.15.54:501][612]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonGameMode4E60391B498A0DF69E0AFE8C35919C8E.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
 [2017.12.13-18.15.54:508][612]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
 [2017.12.13-18.15.56:312][670]BlueprintLog: New page: Compile FirstPersonGameMode
+[2017.12.13-18.17.00:954][501]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/009_prod_meet_Cue'
+[2017.12.13-18.17.00:955][501]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/009_prod_meet_Cue' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Sound/lvl2_pt1_encounter.uasset.
+[2017.12.13-18.17.00:961][501]LogLinker: Warning: Can't find file '/Game/Dialogue/First_Level/009_prod_meet_Cue'
+[2017.12.13-18.17.00:961][501]LogLinker: Warning: Can't find file for asset '/Game/Dialogue/First_Level/009_prod_meet_Cue' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Sound/lvl2_pt1_encounter.uasset.
+[2017.12.13-18.17.01:018][501]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/BG Music/horror' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-18.17.01:019][501]LogLinker: Warning: Can't find file '/Game/BG Music/horror'
+[2017.12.13-18.17.01:019][501]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/BG Music/horror' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-18.17.01:019][501]LogLinker: Warning: Can't find file for asset '/Game/BG Music/horror' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG_Music/horror_Cue1.uasset.
+[2017.12.13-18.17.01:020][501]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/BG Music/horror' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-18.17.01:020][501]LogLinker: Warning: Can't find file '/Game/BG Music/horror'
+[2017.12.13-18.17.01:021][501]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/BG Music/horror' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2017.12.13-18.17.01:021][501]LogLinker: Warning: Can't find file for asset '/Game/BG Music/horror' while loading C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/BG_Music/horror_Cue1.uasset.
+[2017.12.13-18.17.01:421][501]LogAIModule: Creating AISystem for world SecondLevel
+[2017.12.13-18.17.01:528][501]Cmd: MAP LOAD FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/SecondLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.13-18.17.01:529][501]LightingResults: New page: Lighting Build
+[2017.12.13-18.17.01:530][501]LoadErrors: New page: Loading map: SecondLevel.umap
+[2017.12.13-18.17.01:638][501]MapCheck: New page: Map Check
+[2017.12.13-18.17.01:639][501]LightingResults: New page: Lighting Build
+[2017.12.13-18.17.01:783][501]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.13-18.17.01:879][501]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.13-18.17.07:332][501]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 5,452.706ms to complete.
+[2017.12.13-18.17.07:335][501]LogFileHelpers: Loading map 'SecondLevel' took 5.815
+[2017.12.13-18.17.20:276][350]LogEditorViewport: Clicking on Actor (LMB): lvl2_pt1_encounter_C (lvl2_pt1_encounter)
+[2017.12.13-18.17.24:591][581]LogEditorViewport: Clicking Background
+[2017.12.13-18.17.25:391][619]LogEditorViewport: Clicking on Actor (LMB): SoundTriggerVolume_C (SoundTriggerVolume)
+[2017.12.13-18.17.26:957][698]LogEditorViewport: Clicking Background
+[2017.12.13-18.17.29:599][878]Cmd: SELECT NONE
+[2017.12.13-18.19.31:219][405]LogEditorViewport: Clicking on Actor (LMB): IdleAgent_C (IdleAgent)
+[2017.12.13-18.19.39:954][813]Cmd: SELECT NONE
+[2017.12.13-18.19.40:485][841]Cmd: SELECT NONE
+[2017.12.13-18.23.33:261][830]LogRenderer: Reallocating scene render targets to support 1208x412 Format 10 NumSamples 1 (Frame:1).
+[2017.12.13-18.24.02:439][461]LogSavePackage: Save=284.64ms
+[2017.12.13-18.24.02:439][461]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacterB0ED8B1A4CFD3E0686AC608C4803045B.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.12.13-18.24.02:443][461]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.12.13-18.24.11:572][939]LogSavePackage: Save=268.90ms
+[2017.12.13-18.24.11:572][939]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacterA09EFF144DDF1028DEA7BB874ACED19F.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.12.13-18.24.11:579][939]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.12.13-18.24.27:630][738]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.12.13-18.24.29:683][776]LogSavePackage: Save=287.82ms
+[2017.12.13-18.24.29:683][776]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstPersonCharacter12F524004C5EC2E7BDCCFD8106336F5F.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.12.13-18.24.29:687][776]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
