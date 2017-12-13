@@ -519,3 +519,297 @@ LogInit: Object subsystem initialized
 [2017.12.13-04.51.30:273][376]LogSavePackage: Save=849.82ms
 [2017.12.13-04.51.30:273][376]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevelDCAFDC7D4988B59539D134BAF79CEA0A.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
 [2017.12.13-04.51.30:284][376]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.13-04.52.28:517][789]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight73)
+[2017.12.13-04.52.30:136][899]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight74)
+[2017.12.13-04.52.31:626][999]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.52.34:826][218]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight74)
+[2017.12.13-04.52.51:764][307]Cmd: TRANSACTION UNDO
+[2017.12.13-04.52.51:764][307]LogEditorTransaction: Undo Scale Actors
+[2017.12.13-04.52.51:770][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight74.LightComponent0) Component already registered.
+[2017.12.13-04.52.51:773][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight70.BillboardComponent_87) Component already registered.
+[2017.12.13-04.52.51:773][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight74.BillboardComponent_91) Component already registered.
+[2017.12.13-04.52.51:773][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight73.BillboardComponent_90) Component already registered.
+[2017.12.13-04.52.51:774][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight72.BillboardComponent_89) Component already registered.
+[2017.12.13-04.52.51:774][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight71.BillboardComponent_88) Component already registered.
+[2017.12.13-04.52.51:774][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight69.BillboardComponent_86) Component already registered.
+[2017.12.13-04.52.51:774][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight68.BillboardComponent_85) Component already registered.
+[2017.12.13-04.52.51:774][307]LogActorComponent: ~FComponentReregisterContext: (/Game/Level/FirstLevel.FirstLevel:PersistentLevel.PointLight67.BillboardComponent_84) Component already registered.
+[2017.12.13-04.53.01:519][911]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight76)
+[2017.12.13-04.53.03:367][ 33]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight73)
+[2017.12.13-04.53.04:956][145]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight70)
+[2017.12.13-04.53.11:334][550]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight67)
+[2017.12.13-04.53.13:412][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.53.26:661][590]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight76)
+[2017.12.13-04.53.27:777][663]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.53.29:942][813]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight73)
+[2017.12.13-04.53.32:064][962]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight70)
+[2017.12.13-04.53.33:704][ 72]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight67)
+[2017.12.13-04.53.36:134][233]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight76)
+[2017.12.13-04.53.38:590][394]Cmd: EDIT COPY
+[2017.12.13-04.53.39:094][429]Cmd: EDIT PASTE
+[2017.12.13-04.54.14:742][813]Cmd: EDIT COPY
+[2017.12.13-04.54.16:278][925]Cmd: EDIT PASTE
+[2017.12.13-04.54.40:695][514]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight98)
+[2017.12.13-04.54.42:767][661]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight99)
+[2017.12.13-04.54.44:077][751]Cmd: EDIT COPY
+[2017.12.13-04.54.44:875][805]Cmd: EDIT PASTE
+[2017.12.13-04.55.01:970][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.55.03:060][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.55.03:722][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.55.04:325][ 25]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight98)
+[2017.12.13-04.55.10:239][405]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight102)
+[2017.12.13-04.55.13:814][651]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight103)
+[2017.12.13-04.55.17:016][866]LogEditorViewport: Clicking Background
+[2017.12.13-04.55.18:844][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.55.19:857][ 98]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight99)
+[2017.12.13-04.55.23:235][332]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight100)
+[2017.12.13-04.55.25:851][510]LogEditorViewport: Clicking Background
+[2017.12.13-04.55.37:396][488]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight68)
+[2017.12.13-04.55.38:716][574]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight71)
+[2017.12.13-04.55.39:841][650]Cmd: EDIT COPY
+[2017.12.13-04.55.40:362][682]Cmd: EDIT PASTE
+[2017.12.13-04.55.50:814][348]Cmd: EDIT COPY
+[2017.12.13-04.55.51:241][375]Cmd: EDIT PASTE
+[2017.12.13-04.55.54:369][571]Cmd: DELETE
+[2017.12.13-04.55.54:369][571]Cmd: ACTOR DELETE
+[2017.12.13-04.55.54:384][571]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.55.54:386][571]LogEditorActor: Deleted Actor: PointLight
+[2017.12.13-04.55.54:409][571]LogEditorActor: Deleted 2 Actors (0.039 secs)
+[2017.12.13-04.56.03:168][255]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight68)
+[2017.12.13-04.56.04:304][330]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight69)
+[2017.12.13-04.56.05:860][431]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight67)
+[2017.12.13-04.56.06:561][471]Cmd: EDIT COPY
+[2017.12.13-04.56.07:032][504]Cmd: EDIT PASTE
+[2017.12.13-04.56.23:055][429]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight107)
+[2017.12.13-04.56.24:423][518]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight108)
+[2017.12.13-04.56.37:876][370]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight107)
+[2017.12.13-04.56.41:240][593]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight106)
+[2017.12.13-04.56.50:440][232]LogEditorViewport: Clicking Background
+[2017.12.13-04.56.52:289][368]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight106)
+[2017.12.13-04.56.57:470][719]Cmd: EDIT COPY
+[2017.12.13-04.56.57:805][731]Cmd: EDIT PASTE
+[2017.12.13-04.57.04:100][135]Cmd: EDIT COPY
+[2017.12.13-04.57.04:373][154]Cmd: EDIT PASTE
+[2017.12.13-04.57.10:422][538]Cmd: EDIT COPY
+[2017.12.13-04.57.10:684][555]Cmd: EDIT PASTE
+[2017.12.13-04.57.18:741][ 81]Cmd: EDIT COPY
+[2017.12.13-04.57.19:062][104]Cmd: EDIT PASTE
+[2017.12.13-04.57.33:805][ 41]Cmd: EDIT COPY
+[2017.12.13-04.57.34:177][ 67]Cmd: EDIT PASTE
+[2017.12.13-04.57.51:153][151]Cmd: EDIT COPY
+[2017.12.13-04.57.51:529][177]Cmd: EDIT PASTE
+[2017.12.13-04.58.16:745][870]Cmd: EDIT COPY
+[2017.12.13-04.58.17:099][884]Cmd: EDIT PASTE
+[2017.12.13-04.58.20:783][128]LogSlate: Took 0.000650 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.13-04.58.37:397][182]Cmd: EDIT COPY
+[2017.12.13-04.58.37:737][206]Cmd: EDIT PASTE
+[2017.12.13-04.58.46:487][758]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight115)
+[2017.12.13-04.58.59:528][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.59.01:336][767]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight116)
+[2017.12.13-04.59.55:652][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-04.59.58:835][357]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight102)
+[2017.12.13-05.00.47:496][690]LogEditorViewport: Clicking Background
+[2017.12.13-05.01.04:992][116]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight67)
+[2017.12.13-05.01.08:228][332]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight70)
+[2017.12.13-05.01.09:402][405]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight73)
+[2017.12.13-05.01.10:696][486]Cmd: EDIT COPY
+[2017.12.13-05.01.13:214][653]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight70)
+[2017.12.13-05.01.15:173][781]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight71)
+[2017.12.13-05.01.16:724][881]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight68)
+[2017.12.13-05.01.18:513][998]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight67)
+[2017.12.13-05.01.29:349][722]Cmd: EDIT COPY
+[2017.12.13-05.01.29:790][744]Cmd: EDIT PASTE
+[2017.12.13-05.01.57:798][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Level_2)
+[2017.12.13-05.02.03:379][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/FirstLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-05.02.04:330][805]LogSavePackage: Save=895.93ms
+[2017.12.13-05.02.04:330][805]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel06C4DE10437170AD5B0E44B7677C7859.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.13-05.02.04:336][805]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.13-05.02.14:757][507]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight120)
+[2017.12.13-05.02.18:168][704]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight119)
+[2017.12.13-05.02.19:574][798]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight117)
+[2017.12.13-05.02.20:650][869]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Level_2)
+[2017.12.13-05.02.24:096][108]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight118)
+[2017.12.13-05.02.25:300][189]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight120)
+[2017.12.13-05.02.28:460][406]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight119)
+[2017.12.13-05.02.29:917][501]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight117)
+[2017.12.13-05.02.33:587][748]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight118)
+[2017.12.13-05.02.35:352][865]LogEditorViewport: Clicking on Actor (context menu): PointLight (PointLight120)
+[2017.12.13-05.03.25:857][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/FirstLevel" FILE="C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-05.03.26:777][782]LogSavePackage: Save=882.24ms
+[2017.12.13-05.03.26:777][782]LogSavePackage: Moving 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Saved/FirstLevel8800E3B54322FFD0C3DAC08E8F7F3A7C.tmp' to 'C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap'
+[2017.12.13-05.03.26:783][782]LogSavePackage: Display: Finished SavePackage C:/Users/Staeliam/Documents/csci4520/gamedev1_4/MinutestoMidnight/Content/Level/FirstLevel.umap
+[2017.12.13-05.03.27:786][857]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-05.03.29:804][857]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.03.29:805][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-05.03.29:806][857]PIE: New page: PIE session: FirstLevel (Dec 12, 2017, 7:03:29 PM)
+[2017.12.13-05.03.29:807][857]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.13-05.03.30:161][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.353923s)
+[2017.12.13-05.03.30:163][857]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.13-05.03.30:164][857]LogPlayLevel: PIE: World Init took: (0.002547s)
+[2017.12.13-05.03.30:164][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.357175s)
+[2017.12.13-05.03.30:187][857]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-05.03.30:199][857]LogInit: FAudioDevice initialized.
+[2017.12.13-05.03.30:723][857]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.13-05.03.30:739][857]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.13-00.03.30
+[2017.12.13-05.03.30:744][857]LogWorld: Bringing up level for play took: 0.018655
+[2017.12.13-05.03.30:796][857]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2017.12.13-05.03.30:812][857]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 0.944
+[2017.12.13-05.03.30:813][857]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.03.37:963][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.03.38:009][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.03.50:452][491]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.12.13-05.03.59:743][ 40]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.12.13-05.04.01:858][161]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.12.13-05.04.03:138][249]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.12.13-05.04.09:772][650]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.12.13-05.04.10:384][692]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-05.04.10:410][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.04.10:410][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-05.04.10:410][692]PIE: New page: PIE session: FirstLevel (Dec 12, 2017, 7:04:10 PM)
+[2017.12.13-05.04.10:411][692]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.13-05.04.10:490][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079147s)
+[2017.12.13-05.04.10:491][692]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.13-05.04.10:491][692]LogPlayLevel: PIE: World Init took: (0.001311s)
+[2017.12.13-05.04.10:492][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.081154s)
+[2017.12.13-05.04.10:518][692]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-05.04.10:529][692]LogInit: FAudioDevice initialized.
+[2017.12.13-05.04.10:566][692]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.13-05.04.10:580][692]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.13-00.04.10
+[2017.12.13-05.04.10:584][692]LogWorld: Bringing up level for play took: 0.017877
+[2017.12.13-05.04.10:594][692]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel 0.726
+[2017.12.13-05.04.10:595][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.04.26:047][979]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.04.26:090][979]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.04.32:490][516]MapCheck: New page: Map Check
+[2017.12.13-05.04.32:522][516]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.13-05.04.32:522][516]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.13-05.04.33:337][516]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.13-05.04.33:374][516]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Tiles, compiling. 
+[2017.12.13-05.04.33:384][516]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock_Slate, compiling. 
+[2017.12.13-05.04.33:394][516]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Floor, compiling. 
+[2017.12.13-05.04.33:403][516]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2017.12.13-05.04.33:411][516]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy phongE1, compiling. 
+[2017.12.13-05.04.33:421][516]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_161, compiling. 
+[2017.12.13-05.04.33:434][516]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.12.13-05.04.35:794][516]TextureStreamingBuild: Display: Compiling optional shaders took 2.473 seconds.
+[2017.12.13-05.04.35:916][516]LogLevel: Display: Export Material TexCoord Scales took 0.122 seconds.
+[2017.12.13-05.04.36:013][516]TextureStreamingBuild: Display: Build Texture Streaming took 0.096 seconds.
+[2017.12.13-05.04.36:031][516]LightingResults: New page: Lighting Build - Dec 12, 2017, 7:04:36 PM
+[2017.12.13-05.04.36:613][516]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.13-05.04.37:167][516]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.13-05.04.37:255][516]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.13-05.04.39:962][516]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.12.13-05.04.40:089][516]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.12.13-05.04.46:547][516]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.13-05.04.46:547][516]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13972
+[2017.12.13-05.05.02:659][516]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.13-05.05.02:659][516]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.13-05.05.02:659][516]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.13-05.05.02:659][516]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.13-05.05.02:659][516]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.13-05.05.03:932][516]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.13-05.05.03:932][516]MapCheck: New page: FirstLevel - Dec 12, 2017, 7:05:03 PM
+[2017.12.13-05.05.03:945][516]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2017.12.13-05.05.04:047][516]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 115.43ms to complete.
+[2017.12.13-05.05.04:070][516]LogEditorBuildUtils: Build time 0:31
+[2017.12.13-05.05.04:102][516]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2017.12.13-05.05.04:126][516]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2017.12.13-05.05.04:231][517]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2017.12.13-05.05.04:252][517]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2017.12.13-05.05.04:313][518]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phongE1, compiling. 
+[2017.12.13-05.05.04:325][518]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phongE1, compiling. 
+[2017.12.13-05.05.04:374][519]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.12.13-05.05.04:392][519]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.12.13-05.05.04:431][520]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2017.12.13-05.05.04:482][520]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2017.12.13-05.05.04:524][521]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Slate, compiling. 
+[2017.12.13-05.05.04:533][521]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Slate, compiling. 
+[2017.12.13-05.05.45:437][306]LightingResults: Warning: Level_1 Object has overlapping UVs.
+[2017.12.13-05.05.45:437][306]LightingResults: Level_1 Lightmap UV are overlapping by 27.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.12.13-05.05.45:771][307]LightingResults: Warning: Level_2 Object has overlapping UVs.
+[2017.12.13-05.05.45:771][307]LightingResults: Level_2 Lightmap UV are overlapping by 6.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.12.13-05.05.53:117][329]Job is a success!
+[2017.12.13-05.05.53:782][330]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.281s
+[2017.12.13-05.05.53:782][330]LogVolumetricLightmapImport:      Indirection Texture 80x80x80 = 2.0Mb
+[2017.12.13-05.05.53:782][330]LogVolumetricLightmapImport:      BrickData 1280x15x5 = 2.7Mb
+[2017.12.13-05.05.53:782][330]LogVolumetricLightmapImport:      Bricks at Level
+[2017.12.13-05.05.53:782][330]LogVolumetricLightmapImport:          0: 18.7% covering 100.0% of volume
+[2017.12.13-05.05.53:782][330]LogVolumetricLightmapImport:          1: 10.0% covering 0.8% of volume
+[2017.12.13-05.05.53:782][330]LogVolumetricLightmapImport:          2: 71.2% covering 0.1% of volume
+[2017.12.13-05.05.55:898][330]LogMaterial: Warning: Material /Game/Geometry/Import/phongE1.phongE1 needed to have new flag set bUsedWithStaticLighting !
+[2017.12.13-05.05.55:901][330]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2017.12.13-05.05.56:001][330]LightingResults: Error: PointLight50 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:001][330]LightingResults: Error: PointLight54 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:001][330]LightingResults: Error: PointLight51 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:001][330]LightingResults: Error: PointLight57_36 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:001][330]LightingResults: Error: PointLight72 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight70 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight75 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight48 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight56_35 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight77 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight25 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight29 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight105 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight67 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight44 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:002][330]LightingResults: Error: PointLight85_96 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:003][330]LightingResults: Error: PointLight109 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.56:003][330]LightingResults: Error: PointLight117 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.12.13-05.05.58:404][330]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2017.12.13-05.05.58:404][330]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2017.12.13-05.05.58:404][330]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2017.12.13-05.05.58:404][330]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2017.12.13-05.05.58:404][330]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2017.12.13-05.05.58:404][330]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2017.12.13-05.05.58:404][330]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2017.12.13-05.05.58:404][330]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2017.12.13-05.05.59:591][330]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2017.12.13-05.05.59:592][330]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 64X64)
+[2017.12.13-05.05.59:592][330]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 64X64)
+[2017.12.13-05.05.59:592][330]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2017.12.13-05.05.59:592][330]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2017.12.13-05.06.01:498][330]Lightmass on STAELIAM-PC: 47.5 sec total, 272 ms importing, 62 ms setup, 3.51 sec photons, 42.6 sec processing, 0 ms extra exporting [212/212 mappings]. Threads: 2:50 min total, 1:20 min processing.
+[2017.12.13-05.06.02:058][330]LogStaticLightingSystem: Illumination: 1:25 min (2.39 sec encoding lightmaps, 1.18 sec encoding shadowmaps)
+[2017.12.13-05.06.02:058][330]LogStaticLightingSystem: Lightmap texture memory:  16.1 MB (0.1 MB streaming, 16.0 MB non-streaming), 8 textures
+[2017.12.13-05.06.02:058][330]LogStaticLightingSystem: Shadowmap texture memory: 16.0 MB (0.0 MB streaming, 16.0 MB non-streaming), 5 textures
+[2017.12.13-05.06.02:690][330]DumpUnbuiltLightIteractions
+[2017.12.13-05.06.02:690][330]Lights with unbuilt interactions: 0
+[2017.12.13-05.06.02:690][330]
+[2017.12.13-05.06.02:690][330]Primitives with unbuilt interactions: 0
+[2017.12.13-05.06.02:702][331]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.13-05.06.02:702][331]MapCheck: New page: FirstLevel - Dec 12, 2017, 7:06:02 PM
+[2017.12.13-05.06.02:801][331]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 98.579ms to complete.
+[2017.12.13-05.06.07:028][583]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-05.06.07:056][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.06.07:057][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-05.06.07:057][583]PIE: New page: PIE session: FirstLevel (Dec 12, 2017, 7:06:07 PM)
+[2017.12.13-05.06.07:057][583]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_FirstLevel
+[2017.12.13-05.06.07:133][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076106s)
+[2017.12.13-05.06.07:134][583]LogAIModule: Creating AISystem for world FirstLevel
+[2017.12.13-05.06.07:135][583]LogPlayLevel: PIE: World Init took: (0.001502s)
+[2017.12.13-05.06.07:135][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/FirstLevel.FirstLevel to /Game/Level/UEDPIE_0_FirstLevel.FirstLevel (0.078442s)
+[2017.12.13-05.06.07:224][583]LogInit: XAudio2 using '1 - VX2753 SERIES (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-05.06.07:235][583]LogInit: FAudioDevice initialized.
+[2017.12.13-05.06.07:281][583]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.13-05.06.07:295][583]LogWorld: Bringing World /Game/Level/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2017.12.13-00.06.07
+[2017.12.13-05.06.07:299][583]LogWorld: Bringing up level for play took: 0.017968
+[2017.12.13-05.06.07:308][583]PIE: Play in editor start time for /Game/Level/UEDPIE_0_FirstLevel -0.56
+[2017.12.13-05.06.07:308][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.06.37:354][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2017.12.13-05.06.37:403][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Level/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Level/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
